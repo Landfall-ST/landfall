@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T02:08:09.689Z",
+  "generatedAt": "2026-09-13T07:53:06.531Z",
   "note": "Which on-chain accounts each tracked anchor declares as its own, and how that was established. Attribution comes from the anchor's own SEP-1 stellar.toml — the permissionless standard the operator controls — and any account cited there only as a currency issuer is included solely when the issuer account's own home_domain confirms the claim. Every published scan is checked for an account claimed by two anchors before it can go out; see packages/indexer/src/invariants.ts.",
   "anchors": [
     {
@@ -71,6 +71,13 @@
       "accounts": 4,
       "profile": "/api/v1/anchors/cowrie.exchange/profile.json",
       "page": "/anchor/cowrie.exchange"
+    },
+    {
+      "anchorId": "dcm.systems",
+      "resolved": true,
+      "accounts": 1,
+      "profile": "/api/v1/anchors/dcm.systems/profile.json",
+      "page": "/anchor/dcm.systems"
     },
     {
       "anchorId": "funtracker.site",
