@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-12T23:42:59.921Z",
+  "generatedAt": "2026-09-13T02:09:55.752Z",
   "stpVersion": "1",
   "window": {
-    "since": "2026-08-13T23:41:57.580Z",
+    "since": "2026-08-14T02:08:52.890Z",
     "days": 30,
     "maxRecordsPerAccount": 200
   },
@@ -252,16 +252,6 @@
     },
     {
       "anchorId": "clpx.finance",
-      "evidence": {
-        "PROVEN": 0,
-        "ATTESTED": 0,
-        "DERIVED": 0
-      },
-      "tierMix": "PROVEN 0 · ATTESTED 0 · DERIVED 0",
-      "rationale": "No evidence yet: 7 chain(s) have no address curated."
-    },
-    {
-      "anchorId": "dcm.systems",
       "evidence": {
         "PROVEN": 0,
         "ATTESTED": 0,
@@ -890,28 +880,28 @@
             "byAsset": [
               {
                 "asset": "APSEURM",
-                "count": 130,
-                "volume": "1472049.69"
+                "count": 121,
+                "volume": "1471950.09"
               },
               {
                 "asset": "APSUSDM",
-                "count": 56,
-                "volume": "345211.97"
+                "count": 57,
+                "volume": "350638.77"
               },
               {
                 "asset": "APSBPIUSD",
-                "count": 30,
-                "volume": "833.267"
-              },
-              {
-                "asset": "APSBPOUSD",
-                "count": 17,
-                "volume": "662.63"
+                "count": 29,
+                "volume": "2627.51"
               },
               {
                 "asset": "APSBPIEUR",
-                "count": 16,
-                "volume": "699.34"
+                "count": 22,
+                "volume": "773.37"
+              },
+              {
+                "asset": "APSBPOUSD",
+                "count": 20,
+                "volume": "4607.96"
               },
               {
                 "asset": "APSSARM",
@@ -1956,117 +1946,6 @@
       ]
     },
     {
-      "anchorId": "dcm.systems",
-      "identitySource": "sep1",
-      "stellarAccounts": [
-        "GCJI3CP2NL6NWSCHM36XBQYCBHOTVVZWEXZALWON34KAYUGF6GEVNRTS",
-        "GBQNCBNQ7RSZZ5YN4OMFWBMSLLUMLARLS4BUG5BQCTKMOQHUCWSZGXN3"
-      ],
-      "summary": {
-        "anchorId": "dcm.systems",
-        "tiers": [
-          {
-            "tier": "PROVEN",
-            "events": 0,
-            "byAsset": []
-          },
-          {
-            "tier": "ATTESTED",
-            "events": 0,
-            "byAsset": []
-          },
-          {
-            "tier": "DERIVED",
-            "events": 0,
-            "byAsset": []
-          }
-        ],
-        "chains": [
-          {
-            "chain": "stellar",
-            "maxTier": "PROVEN",
-            "state": "empty",
-            "events": 0,
-            "sourcesScanned": 2,
-            "sourcesFailed": 1,
-            "note": "1 of 2 address scans failed — this count is incomplete: Horizon 404 for https://horizon.stellar.org/accounts/GBQNCBNQ7RSZZ5YN4OMFWBMSLLUMLARLS4BUG5BQCTKMOQHUCWSZGXN3/payments?limit=200&order=desc"
-          },
-          {
-            "chain": "ethereum",
-            "maxTier": "ATTESTED",
-            "state": "unresolved",
-            "events": 0,
-            "sourcesScanned": 0,
-            "sourcesFailed": 0,
-            "note": "no ethereum address curated for this anchor in registry/anchors.registry.json"
-          },
-          {
-            "chain": "base",
-            "maxTier": "ATTESTED",
-            "state": "unresolved",
-            "events": 0,
-            "sourcesScanned": 0,
-            "sourcesFailed": 0,
-            "note": "no base address curated for this anchor in registry/anchors.registry.json"
-          },
-          {
-            "chain": "arbitrum",
-            "maxTier": "ATTESTED",
-            "state": "unresolved",
-            "events": 0,
-            "sourcesScanned": 0,
-            "sourcesFailed": 0,
-            "note": "no arbitrum address curated for this anchor in registry/anchors.registry.json"
-          },
-          {
-            "chain": "optimism",
-            "maxTier": "ATTESTED",
-            "state": "unresolved",
-            "events": 0,
-            "sourcesScanned": 0,
-            "sourcesFailed": 0,
-            "note": "no optimism address curated for this anchor in registry/anchors.registry.json"
-          },
-          {
-            "chain": "polygon",
-            "maxTier": "ATTESTED",
-            "state": "unresolved",
-            "events": 0,
-            "sourcesScanned": 0,
-            "sourcesFailed": 0,
-            "note": "no polygon address curated for this anchor in registry/anchors.registry.json"
-          },
-          {
-            "chain": "tron",
-            "maxTier": "DERIVED",
-            "state": "unresolved",
-            "events": 0,
-            "sourcesScanned": 0,
-            "sourcesFailed": 0,
-            "note": "no tron address curated for this anchor in registry/anchors.registry.json"
-          },
-          {
-            "chain": "solana",
-            "maxTier": "DERIVED",
-            "state": "unresolved",
-            "events": 0,
-            "sourcesScanned": 0,
-            "sourcesFailed": 0,
-            "note": "no solana address curated for this anchor in registry/anchors.registry.json"
-          }
-        ],
-        "totalEvents": 0,
-        "tierMix": "PROVEN 0 · ATTESTED 0 · DERIVED 0"
-      },
-      "failures": [
-        {
-          "chain": "stellar",
-          "error": "Horizon 404 for https://horizon.stellar.org/accounts/GBQNCBNQ7RSZZ5YN4OMFWBMSLLUMLARLS4BUG5BQCTKMOQHUCWSZGXN3/payments?limit=200&order=desc"
-        }
-      ],
-      "sampleAttestations": []
-    },
-    {
       "anchorId": "funtracker.site",
       "identitySource": "sep1",
       "stellarAccounts": [
@@ -2571,7 +2450,7 @@
               {
                 "asset": "XTAR",
                 "count": 191,
-                "volume": "0.0229156"
+                "volume": "0.0229159"
               },
               {
                 "asset": "AQUA",
@@ -2720,15 +2599,15 @@
             "asset": "XTAR",
             "direction": "deposit",
             "amount": "0.0001642",
-            "onchain_ref": "fed5e2e893fc2e6471eea5a65d76aa2271146c6493c00108f835cc0425b4e92d",
+            "onchain_ref": "3398004ae94292faa0759d82e8b29fc8537618c8fb4887839fb18e02d4361dcb",
             "fiat_leg_ref": null,
             "evidence_tier": "PROVEN",
             "evidence_detail": "stellar_ledger",
             "keystone_ref": null,
-            "observed_at": "2026-09-12T23:01:14Z",
+            "observed_at": "2026-09-13T02:00:47Z",
             "signer": "landfall-attester-dev"
           },
-          "digest": "40cf13236102665bf407487efa50a345e0e48385cb13f374c8b44d5d8af8293f",
+          "digest": "63fad5bb7ec239b7f02ccef420e9938773148fe835db193e0c656905b8ebcc18",
           "signed": false
         }
       ]
