@@ -1,10 +1,10 @@
 {
   "anchorId": "audd.digital",
   "name": "AUDC PTY LTD",
-  "asOf": "2026-09-14T02:19:51.477Z",
+  "asOf": "2026-09-14T08:17:03.383Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-14T02:19:51.477Z",
+    "checkedAt": "2026-09-14T08:17:03.383Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -19,11 +19,11 @@
   },
   "summary": {
     "accounts": 2,
-    "live": 0,
-    "slow": 1,
+    "live": 1,
+    "slow": 0,
     "dark": 1,
     "noActivity": 0,
-    "inbound": 237,
+    "inbound": 238,
     "outbound": 5
   },
   "accounts": [
@@ -31,13 +31,13 @@
       "account": "GDC7X2MXTYSAKUUGAIQ7J7RPEIM7GXSAIWFYWWH4GLNFECQVJJLB2EEU",
       "domain": "audd.digital",
       "name": "AUDC PTY LTD",
-      "state": "slow",
-      "inbound": 235,
+      "state": "live",
+      "inbound": 236,
       "outbound": 3,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 73.45,
-      "topCounterpartyShare": 0.9541
+      "hoursSinceActivity": 1.28,
+      "topCounterpartyShare": 0.9465
     },
     {
       "account": "GCUIIJ6J6KIOOYOICVFOEVH6XRY3WX4NUZDYGPUCJQZM6R3OFJE2QGY2",
@@ -48,7 +48,7 @@
       "outbound": 2,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 2319.72,
+      "hoursSinceActivity": 2325.67,
       "topCounterpartyShare": 0.6667
     }
   ],
@@ -424,6 +424,13 @@
         "in": 235,
         "out": 3,
         "hours": 73.45
+      },
+      {
+        "t": "2026-09-14T08:17:03.383Z",
+        "state": "live",
+        "in": 236,
+        "out": 3,
+        "hours": 1.28
       }
     ],
     "GCUIIJ6J6KIOOYOICVFOEVH6XRY3WX4NUZDYGPUCJQZM6R3OFJE2QGY2": [
@@ -797,6 +804,13 @@
         "in": 2,
         "out": 2,
         "hours": 2319.72
+      },
+      {
+        "t": "2026-09-14T08:17:03.383Z",
+        "state": "dark",
+        "in": 2,
+        "out": 2,
+        "hours": 2325.67
       }
     ]
   },
