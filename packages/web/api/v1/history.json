@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T08:21:47.198Z",
+  "generatedAt": "2026-09-14T15:30:21.046Z",
   "note": "One observation per hourly scan: how many tracked accounts were settling, slow, dark, or without payment history. Counts only — per-account detail lives in each anchor profile. Points are appended, never rewritten; a scan that could not be published leaves a gap rather than an interpolated value.",
   "points": [
     {
@@ -3491,6 +3491,15 @@
       "domains": 27,
       "live": 23,
       "slow": 19,
+      "dark": 65,
+      "no_activity": 1
+    },
+    {
+      "asOf": "2026-09-14T15:25:29.776Z",
+      "accounts": 108,
+      "domains": 27,
+      "live": 22,
+      "slow": 20,
       "dark": 65,
       "no_activity": 1
     }
