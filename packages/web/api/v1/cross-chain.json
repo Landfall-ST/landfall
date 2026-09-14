@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-13T23:53:07.104Z",
+  "generatedAt": "2026-09-14T02:28:13.461Z",
   "stpVersion": "1",
   "window": {
-    "since": "2026-08-14T23:52:24.260Z",
+    "since": "2026-08-15T02:27:23.811Z",
     "days": 30,
     "maxRecordsPerAccount": 200
   },
@@ -55,7 +55,7 @@
     }
   ],
   "totals": {
-    "PROVEN": 1760,
+    "PROVEN": 1763,
     "ATTESTED": 0,
     "DERIVED": 0
   },
@@ -83,12 +83,12 @@
     {
       "anchorId": "aqua.network",
       "evidence": {
-        "PROVEN": 247,
+        "PROVEN": 250,
         "ATTESTED": 0,
         "DERIVED": 0
       },
-      "tierMix": "PROVEN 247 · ATTESTED 0 · DERIVED 0",
-      "rationale": "Ranked on 247 ledger-proven settlement(s)."
+      "tierMix": "PROVEN 250 · ATTESTED 0 · DERIVED 0",
+      "rationale": "Ranked on 250 ledger-proven settlement(s)."
     },
     {
       "anchorId": "ultracapital.xyz",
@@ -890,23 +890,23 @@
             "byAsset": [
               {
                 "asset": "APSUSDM",
-                "count": 109,
-                "volume": "364417.84"
+                "count": 100,
+                "volume": "368169.83"
               },
               {
                 "asset": "APSBPIUSD",
-                "count": 77,
-                "volume": "15220.23"
+                "count": 61,
+                "volume": "7545.37"
               },
               {
                 "asset": "APSEURM",
-                "count": 43,
-                "volume": "1169556.93"
+                "count": 55,
+                "volume": "1169879.47"
               },
               {
                 "asset": "APSBPOUSD",
-                "count": 14,
-                "volume": "4309.19"
+                "count": 28,
+                "volume": "16902.55"
               },
               {
                 "asset": "APSSARM",
@@ -916,12 +916,7 @@
               {
                 "asset": "APSBPIEUR",
                 "count": 2,
-                "volume": "60"
-              },
-              {
-                "asset": "APSBPIGBP",
-                "count": 1,
-                "volume": "20.5900000"
+                "volume": "74.05"
               }
             ]
           },
@@ -1085,37 +1080,37 @@
         "tiers": [
           {
             "tier": "PROVEN",
-            "events": 247,
+            "events": 250,
             "byAsset": [
               {
                 "asset": "AQUA",
-                "count": 47,
-                "volume": "2006318.9520012"
-              },
-              {
-                "asset": "upvoteICE",
-                "count": 41,
-                "volume": "29147864.0670455"
-              },
-              {
-                "asset": "governICE",
-                "count": 41,
-                "volume": "29147864.0670455"
-              },
-              {
-                "asset": "ICE",
-                "count": 41,
-                "volume": "29147864.0670455"
+                "count": 50,
+                "volume": "2006318.9522424"
               },
               {
                 "asset": "gdICE",
-                "count": 39,
-                "volume": "592756551.260722"
+                "count": 42,
+                "volume": "616174482.8281411"
               },
               {
                 "asset": "dICE",
-                "count": 38,
-                "volume": "597117700.0874673"
+                "count": 40,
+                "volume": "615544396.4957354"
+              },
+              {
+                "asset": "upvoteICE",
+                "count": 40,
+                "volume": "178546263.2247734"
+              },
+              {
+                "asset": "governICE",
+                "count": 39,
+                "volume": "178543263.2247734"
+              },
+              {
+                "asset": "ICE",
+                "count": 39,
+                "volume": "178543263.2247734"
               }
             ]
           },
@@ -1135,7 +1130,7 @@
             "chain": "stellar",
             "maxTier": "PROVEN",
             "state": "observed",
-            "events": 247,
+            "events": 250,
             "sourcesScanned": 2,
             "sourcesFailed": 0
           },
@@ -1203,8 +1198,8 @@
             "note": "no solana address curated for this anchor in registry/anchors.registry.json"
           }
         ],
-        "totalEvents": 247,
-        "tierMix": "PROVEN 247 · ATTESTED 0 · DERIVED 0"
+        "totalEvents": 250,
+        "tierMix": "PROVEN 250 · ATTESTED 0 · DERIVED 0"
       },
       "failures": [],
       "sampleAttestations": [
@@ -1215,16 +1210,16 @@
             "chain": "stellar",
             "asset": "AQUA",
             "direction": "deposit",
-            "amount": "2.4344733",
-            "onchain_ref": "d27f6f24ad52f3c493ce51dd22fd10a132cb6629445a8f2554488a31412f97f1",
+            "amount": "0.0000872",
+            "onchain_ref": "8ce7dbac90da1159d152d08fcd355ab064c48b493017431a9a8633fd1c7da838",
             "fiat_leg_ref": null,
             "evidence_tier": "PROVEN",
             "evidence_detail": "stellar_ledger",
             "keystone_ref": null,
-            "observed_at": "2026-09-12T05:41:51Z",
+            "observed_at": "2026-09-14T01:29:20Z",
             "signer": "landfall-attester-dev"
           },
-          "digest": "b3eab9eef50e168b523cb964ecf94e0e0b3f65bfb1b883820c2abd7b18157163",
+          "digest": "55b70b1bf8596fd3dc09da22da5248b05193b2db5fa517fc099153c6b8ff9c72",
           "signed": false
         },
         {
@@ -1234,16 +1229,16 @@
             "chain": "stellar",
             "asset": "AQUA",
             "direction": "deposit",
-            "amount": "0.0000860",
-            "onchain_ref": "611836cd45d5d144b7a0ddc3edf51caa24bdad9eaa3ab0ce8e0e87e76c7009a0",
+            "amount": "0.0000890",
+            "onchain_ref": "5ab98bc1c8b4e300b90ec3e6a75d56ed77f465191fe5ad4ed4f20bd88047ea94",
             "fiat_leg_ref": null,
             "evidence_tier": "PROVEN",
             "evidence_detail": "stellar_ledger",
             "keystone_ref": null,
-            "observed_at": "2026-09-12T05:40:06Z",
+            "observed_at": "2026-09-14T01:20:41Z",
             "signer": "landfall-attester-dev"
           },
-          "digest": "1198ecde7285ad917ad490c02e7e28fb92e399338720f4354e0624eca4986880",
+          "digest": "81be20bcb5e3a6ebc02bc7f4ba5cc507c21f45da107257c818b331e2b0673c41",
           "signed": false
         },
         {
@@ -1253,16 +1248,16 @@
             "chain": "stellar",
             "asset": "AQUA",
             "direction": "deposit",
-            "amount": "0.0000485",
-            "onchain_ref": "d6a6d114f7332df806479c09b1b0ac15a39efa57327dc36f8c47a62a107282f4",
+            "amount": "0.0000650",
+            "onchain_ref": "308dad6cb1b8061f8802b6405d3fd9d38724017d95fea1fd791b57f14f36a9c3",
             "fiat_leg_ref": null,
             "evidence_tier": "PROVEN",
             "evidence_detail": "stellar_ledger",
             "keystone_ref": null,
-            "observed_at": "2026-09-12T03:38:23Z",
+            "observed_at": "2026-09-14T01:11:24Z",
             "signer": "landfall-attester-dev"
           },
-          "digest": "53801991f46f3625b247968d8de70bd6bad09818b3806fd1970abbb32372ea09",
+          "digest": "abc3416e4ab121efbb107b0931ccf9d142748f8b3957d9d7e3777ca6e82e3e99",
           "signed": false
         }
       ]
@@ -2749,15 +2744,15 @@
             "asset": "XTAR",
             "direction": "deposit",
             "amount": "0.0001642",
-            "onchain_ref": "0b5fd5624ceed93f86732186341dff22c4296bca7c37c2a9bea4aaaafa8f994f",
+            "onchain_ref": "25a8519f81b20e90588971b0bb1ef7d111acdaa97ee708e1b39618c77a824fa3",
             "fiat_leg_ref": null,
             "evidence_tier": "PROVEN",
             "evidence_detail": "stellar_ledger",
             "keystone_ref": null,
-            "observed_at": "2026-09-13T23:01:30Z",
+            "observed_at": "2026-09-14T02:01:53Z",
             "signer": "landfall-attester-dev"
           },
-          "digest": "5a3a1640a328e6e734cece1884c6cfb69d58e908990061340a00d8e36726f76e",
+          "digest": "d9c4d2628aaad95f5e4aaf7a9012d47c1480b1c4e5dd28f92178156a3cc8f93f",
           "signed": false
         }
       ]
