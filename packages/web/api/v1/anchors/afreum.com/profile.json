@@ -1,10 +1,10 @@
 {
   "anchorId": "afreum.com",
   "name": "Afreum DAO",
-  "asOf": "2026-09-15T13:58:26.902Z",
+  "asOf": "2026-09-15T17:56:10.856Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-15T13:58:26.902Z",
+    "checkedAt": "2026-09-15T17:56:10.856Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -35,11 +35,11 @@
   },
   "summary": {
     "accounts": 6,
-    "live": 2,
-    "slow": 2,
+    "live": 3,
+    "slow": 1,
     "dark": 2,
     "noActivity": 0,
-    "inbound": 693,
+    "inbound": 694,
     "outbound": 0
   },
   "accounts": [
@@ -48,11 +48,11 @@
       "domain": "afreum.com",
       "name": "Afreum DAO",
       "state": "live",
-      "inbound": 346,
+      "inbound": 347,
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 20.35,
+      "hoursSinceActivity": 1.55,
       "topCounterpartyShare": 0.4886
     },
     {
@@ -64,19 +64,19 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 215.91,
+      "hoursSinceActivity": 219.87,
       "topCounterpartyShare": 0.9565
     },
     {
       "account": "GBDTAQDRSX3QOEAQQKYWRGOTFE5FHQTLIH5YAF2HGUY3PBKRXWDKBLHN",
       "domain": "afreum.com",
       "name": "Afreum DAO",
-      "state": "slow",
+      "state": "live",
       "inbound": 7,
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 713.93,
+      "hoursSinceActivity": 2.93,
       "topCounterpartyShare": 0.8236
     },
     {
@@ -88,7 +88,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 2.87,
+      "hoursSinceActivity": 3.94,
       "topCounterpartyShare": 0.5508
     },
     {
@@ -100,7 +100,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 1658.33,
+      "hoursSinceActivity": 1662.3,
       "topCounterpartyShare": null
     },
     {
@@ -112,7 +112,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 8605.15,
+      "hoursSinceActivity": 8609.11,
       "topCounterpartyShare": null
     }
   ],
@@ -551,6 +551,13 @@
         "in": 346,
         "out": 0,
         "hours": 20.35
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "live",
+        "in": 347,
+        "out": 0,
+        "hours": 1.55
       }
     ],
     "GDNUVPUOMWOF2ML5FA5E4HQDX7EHV3VCJTLLTO563PUMZKMHJUJIJSYI": [
@@ -987,6 +994,13 @@
         "in": 97,
         "out": 0,
         "hours": 215.91
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "slow",
+        "in": 97,
+        "out": 0,
+        "hours": 219.87
       }
     ],
     "GBDTAQDRSX3QOEAQQKYWRGOTFE5FHQTLIH5YAF2HGUY3PBKRXWDKBLHN": [
@@ -1423,6 +1437,13 @@
         "in": 7,
         "out": 0,
         "hours": 713.93
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "live",
+        "in": 7,
+        "out": 0,
+        "hours": 2.93
       }
     ],
     "GCJFH6HI5UPQVTUUOAS7JPOEPCQZCNGM63GWMBL6ULGUL4XUXRIXXIEQ": [
@@ -1859,6 +1880,13 @@
         "in": 243,
         "out": 0,
         "hours": 2.87
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "live",
+        "in": 243,
+        "out": 0,
+        "hours": 3.94
       }
     ],
     "GDDGTHJFW66SQYV2GRWRNL3AFWEHLI2IO7LTY7X743U4TUFI7VLKKZFG": [
@@ -2295,6 +2323,13 @@
         "in": 0,
         "out": 0,
         "hours": 1658.33
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "dark",
+        "in": 0,
+        "out": 0,
+        "hours": 1662.3
       }
     ],
     "GAGCE4AKZ55YGF4OHIODN7M3HXKZLHUDZLTLWHCGSUNWUBO7LX7UKKQY": [
@@ -2731,6 +2766,13 @@
         "in": 0,
         "out": 0,
         "hours": 8605.15
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "dark",
+        "in": 0,
+        "out": 0,
+        "hours": 8609.11
       }
     ]
   },

@@ -1,10 +1,10 @@
 {
   "anchorId": "mgusd.moneygram.com",
   "name": "MoneyGram Payment Systems, Inc.",
-  "asOf": "2026-09-15T13:58:26.902Z",
+  "asOf": "2026-09-15T17:56:10.856Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-15T13:58:26.902Z",
+    "checkedAt": "2026-09-15T17:56:10.856Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -27,9 +27,9 @@
   },
   "summary": {
     "accounts": 4,
-    "live": 0,
+    "live": 1,
     "slow": 0,
-    "dark": 4,
+    "dark": 3,
     "noActivity": 0,
     "inbound": 14,
     "outbound": 3
@@ -39,12 +39,12 @@
       "account": "GCQLUTKZ373IUGE7Z33JKH5VLRRRLH2LKTU3WEBAGH2MD6AWNYPHUU2Q",
       "domain": "mgusd.moneygram.com",
       "name": "MoneyGram Payment Systems, Inc.",
-      "state": "dark",
+      "state": "live",
       "inbound": 6,
       "outbound": 1,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 2584.25,
+      "hoursSinceActivity": 3.06,
       "topCounterpartyShare": 0.6301
     },
     {
@@ -56,7 +56,7 @@
       "outbound": 2,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 2632.6,
+      "hoursSinceActivity": 2636.56,
       "topCounterpartyShare": 0.9174
     },
     {
@@ -68,7 +68,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 7733.93,
+      "hoursSinceActivity": 7737.89,
       "topCounterpartyShare": 0.8333
     },
     {
@@ -80,7 +80,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 1642.57,
+      "hoursSinceActivity": 1646.53,
       "topCounterpartyShare": 1
     }
   ],
@@ -519,6 +519,13 @@
         "in": 6,
         "out": 1,
         "hours": 2584.25
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "live",
+        "in": 6,
+        "out": 1,
+        "hours": 3.06
       }
     ],
     "GDYC7FS3JIBLYIJGDARQXJKM5VQBVM4ZCBB7IMAJJ7BJ3ARQRTHCTIA3": [
@@ -955,6 +962,13 @@
         "in": 5,
         "out": 2,
         "hours": 2632.6
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "dark",
+        "in": 5,
+        "out": 2,
+        "hours": 2636.56
       }
     ],
     "GC4SAAHODFMZPNGLGAYC7RQ6GDD65DTSONZ6TCSYRCZQJDEN7HOIHVNS": [
@@ -1391,6 +1405,13 @@
         "in": 2,
         "out": 0,
         "hours": 7733.93
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "dark",
+        "in": 2,
+        "out": 0,
+        "hours": 7737.89
       }
     ],
     "GAIUGZZZSL47BKH27SUDZESZELFJDPE2UM52RACOSFJ7BIVBGKUEJSUZ": [
@@ -1827,6 +1848,13 @@
         "in": 1,
         "out": 0,
         "hours": 1642.57
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "dark",
+        "in": 1,
+        "out": 0,
+        "hours": 1646.53
       }
     ]
   },

@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VNX Global Ltd. — settlement record | Landfall</title>
-<meta name="description" content="Independent, ledger-derived settlement record for vnx.io: 4 declared Stellar account(s), 0 settling, 4 dark. Every figure traces to a transaction hash.">
+<meta name="description" content="Independent, ledger-derived settlement record for vnx.io: 4 declared Stellar account(s), 1 settling, 3 dark. Every figure traces to a transaction hash.">
 <link rel="canonical" href="https://landfall-chi.vercel.app/anchor/vnx.io">
 <meta property="og:title" content="VNX Global Ltd. — settlement record">
-<meta property="og:description" content="0 of 4 accounts settling. Read from the public Stellar ledger, not self-reported.">
+<meta property="og:description" content="1 of 4 accounts settling. Read from the public Stellar ledger, not self-reported.">
 <meta property="og:type" content="website">
 <link rel="stylesheet" href="../dashboard.css">
 <link rel="stylesheet" href="../anchor.css">
@@ -34,8 +34,8 @@
 
   <div class="anchor-summary">
     <div class="sum"><b>4</b><span>declared accounts</span></div>
-    <div class="sum"><b>0</b><span>settling now</span></div>
-    <div class="sum"><b class="is-dark">4</b><span>dark &gt; 30 days</span></div>
+    <div class="sum"><b>1</b><span>settling now</span></div>
+    <div class="sum"><b class="is-dark">3</b><span>dark &gt; 30 days</span></div>
     <div class="sum"><b>70</b><span>inbound indexed</span></div>
     <div class="sum"><b>29</b><span>outbound indexed</span></div>
   </div>
@@ -51,7 +51,7 @@
       domain's own is how a shared stablecoin issuer once got credited to a single business here.
     </p>
     <ul class="verify-list"><li class="mono">GDXLSLCOPP…EWXIZN — <strong>declared</strong></li><li class="mono">GAYTNWDWDI…2SGX74 — <strong>declared</strong></li><li class="mono">GDYKVJVWRT…KXSEVA — <strong>declared</strong></li><li class="mono">GA5TCQVISV…K36442 — <strong>declared</strong></li></ul>
-    <p class="muted small">SEP-1 resolved successfully at 2026-09-15T13:58:26.902Z.</p>
+    <p class="muted small">SEP-1 resolved successfully at 2026-09-15T17:56:10.856Z.</p>
   </section>
 
   <section class="anchor-block">
@@ -64,32 +64,32 @@
         <td><span class="state state--dark">dark</span></td>
         <td class="num">56</td>
         <td class="num">18</td>
-        <td class="num">64.2d</td>
-        <td class="num">62 obs</td>
+        <td class="num">64.3d</td>
+        <td class="num">63 obs</td>
       </tr>
       <tr>
         <td class="mono"><a href="https://stellar.expert/explorer/public/account/GAYTNWDWDIKMN7JXSSO4MXDLQTVJ4A7UZVW7XWECAPBUNXRMEA2SGX74" target="_blank" rel="noopener">GAYTNWDW…2SGX74</a></td>
         <td><span class="state state--dark">dark</span></td>
         <td class="num">11</td>
         <td class="num">11</td>
-        <td class="num">82.9d</td>
-        <td class="num">62 obs</td>
+        <td class="num">83.0d</td>
+        <td class="num">63 obs</td>
       </tr>
       <tr>
         <td class="mono"><a href="https://stellar.expert/explorer/public/account/GDYKVJVWRTERUUOU6Z4ZN3LFMNOI7YGJNATNLPGF6R5YFYGMCRKXSEVA" target="_blank" rel="noopener">GDYKVJVW…KXSEVA</a></td>
-        <td><span class="state state--dark">dark</span></td>
+        <td><span class="state state--live">live</span></td>
         <td class="num">1</td>
         <td class="num">0</td>
-        <td class="num">123.0d</td>
-        <td class="num">62 obs</td>
+        <td class="num">3.2h</td>
+        <td class="num">63 obs</td>
       </tr>
       <tr>
         <td class="mono"><a href="https://stellar.expert/explorer/public/account/GA5TCQVISVBFKLEVHEXPOTDUHZMDOF4TJM7NEJC3RE45OB2QZBK36442" target="_blank" rel="noopener">GA5TCQVI…K36442</a></td>
         <td><span class="state state--dark">dark</span></td>
         <td class="num">2</td>
         <td class="num">0</td>
-        <td class="num">56.2d</td>
-        <td class="num">62 obs</td>
+        <td class="num">56.3d</td>
+        <td class="num">63 obs</td>
       </tr></tbody>
     </table>
     <p class="muted small">
@@ -103,10 +103,19 @@
   <section class="anchor-block">
     <h2>Trend</h2>
     <p class="muted small">
-      No state change has been observed on any of this anchor's accounts across
-      62 recorded scans, the longest unchanged run being <strong>dark</strong> for 10.5 day(s).
-      That is stability as far as this record goes, and it is bounded by how long
-      the record is — observation began 12 August 2026.
+      1 state change(s) observed across this anchor's accounts,
+      0 of them to a weaker state.
+    </p>
+    <ul class="trend-list"><li>
+        <span class="mono">GDYKVJVW…KXSEVA</span>
+        went <strong class="trend-up">dark → live</strong>
+        on 2026-09-15
+      </li></ul>
+    <p class="muted small">
+      Observed, not predicted. A change is only visible if two scans straddle it, and
+      no account anywhere in this dataset has yet been seen entering the dark state —
+      every dark account was already dark when first observed. There is therefore no
+      basis for forecasting one, and none is offered.
     </p>
   </section>
 
@@ -123,7 +132,7 @@
   </section>
 
   <p class="muted small asof">
-    Scan of 2026-09-15T13:58:26.902Z · verified against stellar.expert · <a href="../docs.html">methodology</a> ·
+    Scan of 2026-09-15T17:56:10.856Z · verified against stellar.expert · <a href="../docs.html">methodology</a> ·
     <a href="https://github.com/ibochivincent-lang/landfall/blob/main/DISPUTES.md">dispute a figure on this page</a>
   </p>
 </main>

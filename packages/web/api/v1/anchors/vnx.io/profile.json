@@ -1,10 +1,10 @@
 {
   "anchorId": "vnx.io",
   "name": "VNX Global Ltd.",
-  "asOf": "2026-09-15T13:58:26.902Z",
+  "asOf": "2026-09-15T17:56:10.856Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-15T13:58:26.902Z",
+    "checkedAt": "2026-09-15T17:56:10.856Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -27,9 +27,9 @@
   },
   "summary": {
     "accounts": 4,
-    "live": 0,
+    "live": 1,
     "slow": 0,
-    "dark": 4,
+    "dark": 3,
     "noActivity": 0,
     "inbound": 70,
     "outbound": 29
@@ -44,7 +44,7 @@
       "outbound": 18,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 1540.13,
+      "hoursSinceActivity": 1544.09,
       "topCounterpartyShare": 1
     },
     {
@@ -56,19 +56,19 @@
       "outbound": 11,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 1989,
+      "hoursSinceActivity": 1992.97,
       "topCounterpartyShare": 1
     },
     {
       "account": "GDYKVJVWRTERUUOU6Z4ZN3LFMNOI7YGJNATNLPGF6R5YFYGMCRKXSEVA",
       "domain": "vnx.io",
       "name": "VNX Global Ltd.",
-      "state": "dark",
+      "state": "live",
       "inbound": 1,
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 2952.37,
+      "hoursSinceActivity": 3.21,
       "topCounterpartyShare": 1
     },
     {
@@ -80,7 +80,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 1347.87,
+      "hoursSinceActivity": 1351.84,
       "topCounterpartyShare": 0.9963
     }
   ],
@@ -519,6 +519,13 @@
         "in": 56,
         "out": 18,
         "hours": 1540.13
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "dark",
+        "in": 56,
+        "out": 18,
+        "hours": 1544.09
       }
     ],
     "GAYTNWDWDIKMN7JXSSO4MXDLQTVJ4A7UZVW7XWECAPBUNXRMEA2SGX74": [
@@ -955,6 +962,13 @@
         "in": 11,
         "out": 11,
         "hours": 1989
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "dark",
+        "in": 11,
+        "out": 11,
+        "hours": 1992.97
       }
     ],
     "GDYKVJVWRTERUUOU6Z4ZN3LFMNOI7YGJNATNLPGF6R5YFYGMCRKXSEVA": [
@@ -1391,6 +1405,13 @@
         "in": 1,
         "out": 0,
         "hours": 2952.37
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "live",
+        "in": 1,
+        "out": 0,
+        "hours": 3.21
       }
     ],
     "GA5TCQVISVBFKLEVHEXPOTDUHZMDOF4TJM7NEJC3RE45OB2QZBK36442": [
@@ -1827,6 +1848,13 @@
         "in": 2,
         "out": 0,
         "hours": 1347.87
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "dark",
+        "in": 2,
+        "out": 0,
+        "hours": 1351.84
       }
     ]
   },

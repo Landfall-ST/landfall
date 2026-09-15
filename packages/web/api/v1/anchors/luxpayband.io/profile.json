@@ -1,10 +1,10 @@
 {
   "anchorId": "luxpayband.io",
   "name": "LUX Payband, LLC",
-  "asOf": "2026-09-15T13:58:26.902Z",
+  "asOf": "2026-09-15T17:56:10.856Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-15T13:58:26.902Z",
+    "checkedAt": "2026-09-15T17:56:10.856Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -31,11 +31,11 @@
   },
   "summary": {
     "accounts": 5,
-    "live": 1,
-    "slow": 1,
-    "dark": 3,
+    "live": 3,
+    "slow": 0,
+    "dark": 2,
     "noActivity": 0,
-    "inbound": 24,
+    "inbound": 25,
     "outbound": 1
   },
   "accounts": [
@@ -43,24 +43,24 @@
       "account": "GBVB43NLVIP2USHXSKI7QQCZKZU2Z6U6A5PAHMIW7LLNVMQJTOX2BZI5",
       "domain": "luxpayband.io",
       "name": "LUX Payband, LLC",
-      "state": "slow",
+      "state": "live",
       "inbound": 6,
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 244.76,
+      "hoursSinceActivity": 0.19,
       "topCounterpartyShare": 0.584
     },
     {
       "account": "GDTEQF6YGCKLIBD37RJZE5GTL3ZY6CBQIKH7COAW654SYEBE6XJJOLOW",
       "domain": "luxpayband.io",
       "name": "LUX Payband, LLC",
-      "state": "dark",
+      "state": "live",
       "inbound": 0,
       "outbound": 1,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 1619.74,
+      "hoursSinceActivity": 2.36,
       "topCounterpartyShare": null
     },
     {
@@ -72,7 +72,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 1641.32,
+      "hoursSinceActivity": 1645.28,
       "topCounterpartyShare": null
     },
     {
@@ -84,7 +84,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 1641.98,
+      "hoursSinceActivity": 1645.94,
       "topCounterpartyShare": null
     },
     {
@@ -92,11 +92,11 @@
       "domain": "luxpayband.io",
       "name": "LUX Payband, LLC",
       "state": "live",
-      "inbound": 18,
+      "inbound": 19,
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 0.17,
+      "hoursSinceActivity": 0.91,
       "topCounterpartyShare": 1
     }
   ],
@@ -535,6 +535,13 @@
         "in": 6,
         "out": 0,
         "hours": 244.76
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "live",
+        "in": 6,
+        "out": 0,
+        "hours": 0.19
       }
     ],
     "GDTEQF6YGCKLIBD37RJZE5GTL3ZY6CBQIKH7COAW654SYEBE6XJJOLOW": [
@@ -971,6 +978,13 @@
         "in": 0,
         "out": 1,
         "hours": 1619.74
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "live",
+        "in": 0,
+        "out": 1,
+        "hours": 2.36
       }
     ],
     "GDARCVAHFMA7GCCULAPCRAV7VXSFFMNOP3X6ZONDJU4SCJULZ6IJ77QD": [
@@ -1407,6 +1421,13 @@
         "in": 0,
         "out": 0,
         "hours": 1641.32
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "dark",
+        "in": 0,
+        "out": 0,
+        "hours": 1645.28
       }
     ],
     "GBYYKQYUY2XWVMM4VFCBJJVCCQC3QJ3BCLV4276DWHY4BQ7V5AB4U5VA": [
@@ -1843,6 +1864,13 @@
         "in": 0,
         "out": 0,
         "hours": 1641.98
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "dark",
+        "in": 0,
+        "out": 0,
+        "hours": 1645.94
       }
     ],
     "GDIU57QSVCGU7MTRC53RUWAADKIE75GFNG27C26URMU7CKHNXOQ5RDME": [
@@ -2279,6 +2307,13 @@
         "in": 18,
         "out": 0,
         "hours": 0.17
+      },
+      {
+        "t": "2026-09-15T17:56:10.856Z",
+        "state": "live",
+        "in": 19,
+        "out": 0,
+        "hours": 0.91
       }
     ]
   },
