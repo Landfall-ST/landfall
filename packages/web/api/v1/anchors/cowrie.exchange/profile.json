@@ -1,10 +1,10 @@
 {
   "anchorId": "cowrie.exchange",
   "name": "Cowrie Integrated Systems",
-  "asOf": "2026-09-15T08:09:25.549Z",
+  "asOf": "2026-09-15T13:58:26.902Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-15T08:09:25.549Z",
+    "checkedAt": "2026-09-15T13:58:26.902Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -27,9 +27,9 @@
   },
   "summary": {
     "accounts": 4,
-    "live": 0,
-    "slow": 1,
-    "dark": 3,
+    "live": 2,
+    "slow": 0,
+    "dark": 2,
     "noActivity": 0,
     "inbound": 30,
     "outbound": 23
@@ -39,12 +39,12 @@
       "account": "GAWODAROMJ33V5YDFY3NPYTHVYQG7MJXVJ2ND3AOGIHYRWINES6ACCPD",
       "domain": "cowrie.exchange",
       "name": "Cowrie Integrated Systems",
-      "state": "slow",
+      "state": "live",
       "inbound": 24,
       "outbound": 1,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 529.88,
+      "hoursSinceActivity": 1.09,
       "topCounterpartyShare": 0.9176
     },
     {
@@ -56,19 +56,19 @@
       "outbound": 20,
       "returns": 1,
       "returnRate": 0.1667,
-      "hoursSinceActivity": 1634.59,
+      "hoursSinceActivity": 1640.41,
       "topCounterpartyShare": 0.8898
     },
     {
       "account": "GDI5EK4HNMBHJJQGP3GUXQJIIOHU2CJO3LABPWD6WYSPJZP5NP67TMNN",
       "domain": "cowrie.exchange",
       "name": "Cowrie Integrated Systems",
-      "state": "dark",
+      "state": "live",
       "inbound": 0,
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 2569.18,
+      "hoursSinceActivity": 1.38,
       "topCounterpartyShare": null
     },
     {
@@ -80,7 +80,7 @@
       "outbound": 2,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 2177.52,
+      "hoursSinceActivity": 2183.34,
       "topCounterpartyShare": null
     }
   ],
@@ -2850,6 +2850,13 @@
         "in": 24,
         "out": 1,
         "hours": 529.88
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "live",
+        "in": 24,
+        "out": 1,
+        "hours": 1.09
       }
     ],
     "GBQZOJE2GWJU5VBT6NBLD2F3IOVOYUBDAXYUU32XMHDF4RMDOURWV3GT": [
@@ -5617,6 +5624,13 @@
         "in": 6,
         "out": 20,
         "hours": 1634.59
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "dark",
+        "in": 6,
+        "out": 20,
+        "hours": 1640.41
       }
     ],
     "GDI5EK4HNMBHJJQGP3GUXQJIIOHU2CJO3LABPWD6WYSPJZP5NP67TMNN": [
@@ -8384,6 +8398,13 @@
         "in": 0,
         "out": 0,
         "hours": 2569.18
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "live",
+        "in": 0,
+        "out": 0,
+        "hours": 1.38
       }
     ],
     "GBSKKRM7RRDHC33O6KFNLUSPS3577F7GYSFFVBVV5J5PDWGY4XWERE3W": [
@@ -11151,6 +11172,13 @@
         "in": 0,
         "out": 2,
         "hours": 2177.52
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "dark",
+        "in": 0,
+        "out": 2,
+        "hours": 2183.34
       }
     ]
   },

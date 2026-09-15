@@ -1,10 +1,10 @@
 {
   "anchorId": "ntokens.com",
   "name": "nTokens Serviços Digitais Ltda",
-  "asOf": "2026-09-15T08:09:25.549Z",
+  "asOf": "2026-09-15T13:58:26.902Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-15T08:09:25.549Z",
+    "checkedAt": "2026-09-15T13:58:26.902Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -23,9 +23,9 @@
   },
   "summary": {
     "accounts": 3,
-    "live": 0,
+    "live": 1,
     "slow": 1,
-    "dark": 1,
+    "dark": 0,
     "noActivity": 1,
     "inbound": 59,
     "outbound": 474
@@ -47,12 +47,12 @@
       "account": "GCVVC4SL7G6SCK6AZAHE72RFHZWUFIMAWGAFSKR5VG46GQK6MAFIKX6P",
       "domain": "ntokens.com",
       "name": "nTokens Serviços Digitais Ltda",
-      "state": "dark",
+      "state": "live",
       "inbound": 1,
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 1635.43,
+      "hoursSinceActivity": 0.11,
       "topCounterpartyShare": 1
     },
     {
@@ -64,7 +64,7 @@
       "outbound": 474,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 517.77,
+      "hoursSinceActivity": 523.59,
       "topCounterpartyShare": 0.3213
     }
   ],
@@ -2837,6 +2837,13 @@
       },
       {
         "t": "2026-09-15T08:09:25.549Z",
+        "state": "no_activity",
+        "in": 0,
+        "out": 0,
+        "hours": null
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
         "state": "no_activity",
         "in": 0,
         "out": 0,
@@ -5615,6 +5622,13 @@
         "in": 1,
         "out": 0,
         "hours": 1635.43
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "live",
+        "in": 1,
+        "out": 0,
+        "hours": 0.11
       }
     ],
     "GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP": [
@@ -8368,6 +8382,13 @@
         "in": 58,
         "out": 474,
         "hours": 517.77
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "slow",
+        "in": 58,
+        "out": 474,
+        "hours": 523.59
       }
     ]
   },

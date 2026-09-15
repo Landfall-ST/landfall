@@ -1,10 +1,10 @@
 {
   "anchorId": "afreum.com",
   "name": "Afreum DAO",
-  "asOf": "2026-09-15T08:09:25.549Z",
+  "asOf": "2026-09-15T13:58:26.902Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-15T08:09:25.549Z",
+    "checkedAt": "2026-09-15T13:58:26.902Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -35,8 +35,8 @@
   },
   "summary": {
     "accounts": 6,
-    "live": 1,
-    "slow": 3,
+    "live": 2,
+    "slow": 2,
     "dark": 2,
     "noActivity": 0,
     "inbound": 693,
@@ -52,7 +52,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 14.53,
+      "hoursSinceActivity": 20.35,
       "topCounterpartyShare": 0.4886
     },
     {
@@ -64,7 +64,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 210.09,
+      "hoursSinceActivity": 215.91,
       "topCounterpartyShare": 0.9565
     },
     {
@@ -76,19 +76,19 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 708.11,
+      "hoursSinceActivity": 713.93,
       "topCounterpartyShare": 0.8236
     },
     {
       "account": "GCJFH6HI5UPQVTUUOAS7JPOEPCQZCNGM63GWMBL6ULGUL4XUXRIXXIEQ",
       "domain": "afreum.com",
       "name": "Afreum DAO",
-      "state": "slow",
+      "state": "live",
       "inbound": 243,
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 113.51,
+      "hoursSinceActivity": 2.87,
       "topCounterpartyShare": 0.5508
     },
     {
@@ -100,7 +100,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 1652.52,
+      "hoursSinceActivity": 1658.33,
       "topCounterpartyShare": null
     },
     {
@@ -112,7 +112,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 8599.34,
+      "hoursSinceActivity": 8605.15,
       "topCounterpartyShare": null
     }
   ],
@@ -544,6 +544,13 @@
         "in": 346,
         "out": 0,
         "hours": 14.53
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "live",
+        "in": 346,
+        "out": 0,
+        "hours": 20.35
       }
     ],
     "GDNUVPUOMWOF2ML5FA5E4HQDX7EHV3VCJTLLTO563PUMZKMHJUJIJSYI": [
@@ -973,6 +980,13 @@
         "in": 97,
         "out": 0,
         "hours": 210.09
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "slow",
+        "in": 97,
+        "out": 0,
+        "hours": 215.91
       }
     ],
     "GBDTAQDRSX3QOEAQQKYWRGOTFE5FHQTLIH5YAF2HGUY3PBKRXWDKBLHN": [
@@ -1402,6 +1416,13 @@
         "in": 7,
         "out": 0,
         "hours": 708.11
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "slow",
+        "in": 7,
+        "out": 0,
+        "hours": 713.93
       }
     ],
     "GCJFH6HI5UPQVTUUOAS7JPOEPCQZCNGM63GWMBL6ULGUL4XUXRIXXIEQ": [
@@ -1831,6 +1852,13 @@
         "in": 243,
         "out": 0,
         "hours": 113.51
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "live",
+        "in": 243,
+        "out": 0,
+        "hours": 2.87
       }
     ],
     "GDDGTHJFW66SQYV2GRWRNL3AFWEHLI2IO7LTY7X743U4TUFI7VLKKZFG": [
@@ -2260,6 +2288,13 @@
         "in": 0,
         "out": 0,
         "hours": 1652.52
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "dark",
+        "in": 0,
+        "out": 0,
+        "hours": 1658.33
       }
     ],
     "GAGCE4AKZ55YGF4OHIODN7M3HXKZLHUDZLTLWHCGSUNWUBO7LX7UKKQY": [
@@ -2689,6 +2724,13 @@
         "in": 0,
         "out": 0,
         "hours": 8599.34
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "dark",
+        "in": 0,
+        "out": 0,
+        "hours": 8605.15
       }
     ]
   },

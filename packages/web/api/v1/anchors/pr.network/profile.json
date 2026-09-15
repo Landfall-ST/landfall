@@ -1,10 +1,10 @@
 {
   "anchorId": "pr.network",
   "name": "PR.network LLC",
-  "asOf": "2026-09-15T08:09:25.549Z",
+  "asOf": "2026-09-15T13:58:26.902Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-15T08:09:25.549Z",
+    "checkedAt": "2026-09-15T13:58:26.902Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -31,9 +31,9 @@
   },
   "summary": {
     "accounts": 5,
-    "live": 0,
+    "live": 1,
     "slow": 0,
-    "dark": 5,
+    "dark": 4,
     "noActivity": 0,
     "inbound": 2,
     "outbound": 321
@@ -48,7 +48,7 @@
       "outbound": 321,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 838.03,
+      "hoursSinceActivity": 843.84,
       "topCounterpartyShare": 1
     },
     {
@@ -60,7 +60,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 2570.36,
+      "hoursSinceActivity": 2576.17,
       "topCounterpartyShare": null
     },
     {
@@ -72,19 +72,19 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 2570.36,
+      "hoursSinceActivity": 2576.17,
       "topCounterpartyShare": null
     },
     {
       "account": "GCUVU7CV2KR4IGQBKOPBABJW5KFZJETRHMJFORGSOYLP66UAXGLRMMDD",
       "domain": "pr.network",
       "name": "PR.network LLC",
-      "state": "dark",
+      "state": "live",
       "inbound": 0,
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 2581.69,
+      "hoursSinceActivity": 0.51,
       "topCounterpartyShare": null
     },
     {
@@ -96,7 +96,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 2570.36,
+      "hoursSinceActivity": 2576.17,
       "topCounterpartyShare": null
     }
   ],
@@ -528,6 +528,13 @@
         "in": 2,
         "out": 321,
         "hours": 838.03
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "dark",
+        "in": 2,
+        "out": 321,
+        "hours": 843.84
       }
     ],
     "GBFZPR7KNYNZEJXWBENA5TSDG4V7SHZV4S6Z4AWURAQ6PRNUYPYZZLLP": [
@@ -957,6 +964,13 @@
         "in": 0,
         "out": 0,
         "hours": 2570.36
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "dark",
+        "in": 0,
+        "out": 0,
+        "hours": 2576.17
       }
     ],
     "GAHQAIM35LLAJWBPGP5M2ZHQPZG3FKJS35N3WZ44EQ4NMQWCH25INJ4V": [
@@ -1386,6 +1400,13 @@
         "in": 0,
         "out": 0,
         "hours": 2570.36
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "dark",
+        "in": 0,
+        "out": 0,
+        "hours": 2576.17
       }
     ],
     "GCUVU7CV2KR4IGQBKOPBABJW5KFZJETRHMJFORGSOYLP66UAXGLRMMDD": [
@@ -1815,6 +1836,13 @@
         "in": 0,
         "out": 0,
         "hours": 2581.69
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "live",
+        "in": 0,
+        "out": 0,
+        "hours": 0.51
       }
     ],
     "GB6OFQHDM5PT75DU5PTRZBCJOUKR62IQKBZ7KAA5JWJKIE45V5KXBRSL": [
@@ -2244,6 +2272,13 @@
         "in": 0,
         "out": 0,
         "hours": 2570.36
+      },
+      {
+        "t": "2026-09-15T13:58:26.902Z",
+        "state": "dark",
+        "in": 0,
+        "out": 0,
+        "hours": 2576.17
       }
     ]
   },
