@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-15T23:26:52.477Z",
-  "scanFile": "scan-2026-09-15T23-18-53-978Z.json",
+  "generatedAt": "2026-09-16T02:25:42.739Z",
+  "scanFile": "scan-2026-09-16T02-19-03-977Z.json",
   "note": "Settlement broken down by asset rather than rolled up per anchor. An anchor can be busy in one asset and silent in another, and a single per-anchor verdict hides that — a payment agent routing naira should not be reassured by euro traffic.",
   "limits": "Counts, volumes and counterparty spread are measured. Per-asset liveness is INFERRED from the account carrying the asset, because the scan timestamps last activity per account rather than per asset. Every liveness object says so in its `basis` field. Measuring it properly is a change to the indexer, not to this artifact.",
   "totals": {
-    "anchors": 27,
-    "distinctAssets": 152,
-    "anchorsWithMixedHealth": 4
+    "anchors": 26,
+    "distinctAssets": 151,
+    "anchorsWithMixedHealth": 3
   },
   "byAnchor": [
     {
@@ -32,7 +32,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 6.9,
+            "hoursSinceActivity": 9.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -54,7 +54,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -76,7 +76,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -98,7 +98,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -120,7 +120,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -142,7 +142,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -164,7 +164,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -186,7 +186,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -208,7 +208,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -230,7 +230,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -252,7 +252,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -274,7 +274,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -296,7 +296,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -318,7 +318,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -340,7 +340,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -362,7 +362,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -384,7 +384,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.3,
+            "hoursSinceActivity": 11.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -406,7 +406,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -428,7 +428,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -450,7 +450,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -472,7 +472,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -494,7 +494,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -516,7 +516,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -538,7 +538,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -560,7 +560,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -582,7 +582,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -604,7 +604,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -626,7 +626,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -648,7 +648,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -670,7 +670,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -692,7 +692,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -714,7 +714,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -736,7 +736,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -758,7 +758,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -780,7 +780,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -802,7 +802,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -824,7 +824,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -846,7 +846,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -868,7 +868,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -890,7 +890,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -912,7 +912,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -934,7 +934,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -956,7 +956,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -978,7 +978,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1000,7 +1000,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1022,7 +1022,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1044,7 +1044,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1066,7 +1066,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1088,7 +1088,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1110,7 +1110,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1132,7 +1132,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1154,7 +1154,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1176,7 +1176,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1198,7 +1198,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1220,7 +1220,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1242,7 +1242,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1264,7 +1264,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1286,7 +1286,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1308,7 +1308,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1330,7 +1330,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1352,7 +1352,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1374,7 +1374,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1396,7 +1396,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1418,7 +1418,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1440,7 +1440,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1462,7 +1462,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1484,7 +1484,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1506,7 +1506,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1528,7 +1528,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1550,7 +1550,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1572,7 +1572,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1594,7 +1594,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1616,7 +1616,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1638,7 +1638,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1660,7 +1660,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1682,7 +1682,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1704,7 +1704,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1726,7 +1726,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1748,7 +1748,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1770,7 +1770,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1792,7 +1792,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1814,7 +1814,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1836,7 +1836,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1858,7 +1858,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1880,7 +1880,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1902,7 +1902,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1924,7 +1924,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1946,7 +1946,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1968,7 +1968,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -1998,7 +1998,7 @@
           "accounts": 2,
           "liveness": {
             "state": "slow",
-            "hoursSinceActivity": 276.9,
+            "hoursSinceActivity": 279.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2020,7 +2020,7 @@
           "accounts": 2,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 2027,
+            "hoursSinceActivity": 2030,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2042,7 +2042,7 @@
           "accounts": 1,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 1622.3,
+            "hoursSinceActivity": 1625.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2064,7 +2064,7 @@
           "accounts": 1,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 3805.4,
+            "hoursSinceActivity": 3808.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2084,7 +2084,7 @@
           "accounts": 8,
           "liveness": {
             "state": "slow",
-            "hoursSinceActivity": 297.1,
+            "hoursSinceActivity": 300.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2106,7 +2106,7 @@
           "accounts": 1,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 2632,
+            "hoursSinceActivity": 2635,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2128,7 +2128,7 @@
           "accounts": 1,
           "liveness": {
             "state": "slow",
-            "hoursSinceActivity": 297.1,
+            "hoursSinceActivity": 300.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2150,7 +2150,7 @@
           "accounts": 2,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 8616,
+            "hoursSinceActivity": 8619,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2172,7 +2172,7 @@
           "accounts": 1,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 10021.1,
+            "hoursSinceActivity": 10024.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2194,7 +2194,7 @@
           "accounts": 1,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 5247.3,
+            "hoursSinceActivity": 5250.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2205,7 +2205,7 @@
       "anchor": "aps.money",
       "corridorCount": 8,
       "mixedHealth": false,
-      "spread": "APSEURM carries 12443 payments; APSGBPM carries 4.",
+      "spread": "APSEURM carries 12681 payments; APSGBPM carries 4.",
       "corridors": [
         {
           "asset": "APSEURM",
@@ -2213,14 +2213,14 @@
             "GB7OUO5NY5WQKXJJ7PFFZEJOKN4BA7IOEN3Z6SWAY26LGTREJJYZH2ZT"
           ],
           "inbound": {
-            "count": 121,
-            "volume": "13035929.91"
+            "count": 123,
+            "volume": "13036647.89"
           },
           "outbound": {
-            "count": 12322,
-            "volume": "19586326.095"
+            "count": 12558,
+            "volume": "19592812.415"
           },
-          "totalPayments": 12443,
+          "totalPayments": 12681,
           "accounts": 2,
           "liveness": {
             "state": "settling",
@@ -2235,14 +2235,14 @@
             "GB7OUO5NY5WQKXJJ7PFFZEJOKN4BA7IOEN3Z6SWAY26LGTREJJYZH2ZT"
           ],
           "inbound": {
-            "count": 4312,
-            "volume": "2846958.18"
+            "count": 4347,
+            "volume": "2862172.44"
           },
           "outbound": {
-            "count": 6159,
-            "volume": "28253209.27"
+            "count": 6236,
+            "volume": "28259338.76"
           },
-          "totalPayments": 10471,
+          "totalPayments": 10583,
           "accounts": 2,
           "liveness": {
             "state": "settling",
@@ -2261,10 +2261,10 @@
             "volume": "1325.94"
           },
           "outbound": {
-            "count": 5336,
-            "volume": "703182.29"
+            "count": 5406,
+            "volume": "708733.65"
           },
-          "totalPayments": 5389,
+          "totalPayments": 5459,
           "accounts": 1,
           "liveness": {
             "state": "settling",
@@ -2279,14 +2279,14 @@
             "GADYGHULIQ35Z53MQ5UFKNVFRTWN2GE4SBEGN4BOBECNWSURX352IV42"
           ],
           "inbound": {
-            "count": 4093,
-            "volume": "1801978.01"
+            "count": 4127,
+            "volume": "1816968.64"
           },
           "outbound": {
             "count": 10,
             "volume": "410.82"
           },
-          "totalPayments": 4103,
+          "totalPayments": 4137,
           "accounts": 1,
           "liveness": {
             "state": "settling",
@@ -2305,10 +2305,10 @@
             "volume": "0"
           },
           "outbound": {
-            "count": 2180,
-            "volume": "100120.76"
+            "count": 2222,
+            "volume": "101940.3"
           },
-          "totalPayments": 2180,
+          "totalPayments": 2222,
           "accounts": 1,
           "liveness": {
             "state": "settling",
@@ -2327,10 +2327,10 @@
             "volume": "0"
           },
           "outbound": {
-            "count": 191,
-            "volume": "9166.89"
+            "count": 193,
+            "volume": "9239.05"
           },
-          "totalPayments": 191,
+          "totalPayments": 193,
           "accounts": 1,
           "liveness": {
             "state": "settling",
@@ -2345,14 +2345,14 @@
             "GB7OUO5NY5WQKXJJ7PFFZEJOKN4BA7IOEN3Z6SWAY26LGTREJJYZH2ZT"
           ],
           "inbound": {
-            "count": 60,
-            "volume": "1084558.27"
+            "count": 61,
+            "volume": "1085511.34"
           },
           "outbound": {
             "count": 32,
             "volume": "27192732.88"
           },
-          "totalPayments": 92,
+          "totalPayments": 93,
           "accounts": 2,
           "liveness": {
             "state": "settling",
@@ -2408,7 +2408,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.3,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2430,7 +2430,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.3,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2452,7 +2452,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.3,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2467,14 +2467,14 @@
             "volume": "0"
           },
           "outbound": {
-            "count": 371,
-            "volume": "6080349596.7358966"
+            "count": 374,
+            "volume": "6082094287.3330233"
           },
-          "totalPayments": 371,
+          "totalPayments": 374,
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.3,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2489,14 +2489,14 @@
             "volume": "0"
           },
           "outbound": {
-            "count": 335,
-            "volume": "4634825168.7778956"
+            "count": 338,
+            "volume": "4636571181.7076322"
           },
-          "totalPayments": 335,
+          "totalPayments": 338,
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.3,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2518,7 +2518,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.8,
+            "hoursSinceActivity": 1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2538,7 +2538,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.8,
+            "hoursSinceActivity": 1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2549,7 +2549,7 @@
       "anchor": "ultracapital.xyz",
       "corridorCount": 7,
       "mixedHealth": false,
-      "spread": "yXLM carries 7108 payments; yETH carries 31.",
+      "spread": "yXLM carries 7140 payments; yETH carries 31.",
       "corridors": [
         {
           "asset": "yXLM",
@@ -2561,14 +2561,14 @@
             "volume": "42405030.0742603"
           },
           "outbound": {
-            "count": 6797,
-            "volume": "40249582.9241502"
+            "count": 6829,
+            "volume": "40249588.501171"
           },
-          "totalPayments": 7108,
+          "totalPayments": 7140,
           "accounts": 4,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.6,
+            "hoursSinceActivity": 4.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2590,7 +2590,7 @@
           "accounts": 4,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.6,
+            "hoursSinceActivity": 4.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2612,7 +2612,7 @@
           "accounts": 3,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.4,
+            "hoursSinceActivity": 5.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2632,7 +2632,7 @@
           "accounts": 4,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.7,
+            "hoursSinceActivity": 4.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2654,7 +2654,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.4,
+            "hoursSinceActivity": 5.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2676,7 +2676,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.7,
+            "hoursSinceActivity": 4.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2698,7 +2698,7 @@
           "accounts": 3,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.8,
+            "hoursSinceActivity": 4.8,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2726,7 +2726,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.1,
+            "hoursSinceActivity": 5.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2748,7 +2748,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.1,
+            "hoursSinceActivity": 5.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2770,7 +2770,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.1,
+            "hoursSinceActivity": 5.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2792,7 +2792,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.1,
+            "hoursSinceActivity": 5.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2814,7 +2814,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.1,
+            "hoursSinceActivity": 5.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2825,7 +2825,7 @@
       "anchor": "audd.digital",
       "corridorCount": 4,
       "mixedHealth": false,
-      "spread": "AUDD carries 241 payments; XLM carries 1.",
+      "spread": "AUDD carries 243 payments; XLM carries 1.",
       "corridors": [
         {
           "asset": "AUDD",
@@ -2833,18 +2833,18 @@
             "GDC7X2MXTYSAKUUGAIQ7J7RPEIM7GXSAIWFYWWH4GLNFECQVJJLB2EEU"
           ],
           "inbound": {
-            "count": 238,
-            "volume": "150350129.4105059"
+            "count": 240,
+            "volume": "151756783.6505059"
           },
           "outbound": {
             "count": 3,
             "volume": "724035"
           },
-          "totalPayments": 241,
+          "totalPayments": 243,
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.5,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2866,7 +2866,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.7,
+            "hoursSinceActivity": 10.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2888,7 +2888,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.7,
+            "hoursSinceActivity": 10.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2908,7 +2908,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.7,
+            "hoursSinceActivity": 10.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2938,7 +2938,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 11.1,
+            "hoursSinceActivity": 14.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2960,7 +2960,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.5,
+            "hoursSinceActivity": 10.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -2982,7 +2982,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.5,
+            "hoursSinceActivity": 10.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3004,7 +3004,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.5,
+            "hoursSinceActivity": 10.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3015,7 +3015,7 @@
       "anchor": "centre.io",
       "corridorCount": 3,
       "mixedHealth": false,
-      "spread": "USDC carries 3110 payments; XLM carries 15.",
+      "spread": "USDC carries 3111 payments; XLM carries 15.",
       "corridors": [
         {
           "asset": "USDC",
@@ -3027,14 +3027,14 @@
             "volume": "5301340612.3313714"
           },
           "outbound": {
-            "count": 613,
-            "volume": "1327876145.5807456"
+            "count": 614,
+            "volume": "1327969954.4907456"
           },
-          "totalPayments": 3110,
+          "totalPayments": 3111,
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.6,
+            "hoursSinceActivity": 0.8,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3056,7 +3056,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.6,
+            "hoursSinceActivity": 0.8,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3076,7 +3076,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.6,
+            "hoursSinceActivity": 0.8,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3104,7 +3104,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.6,
+            "hoursSinceActivity": 5.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3126,7 +3126,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.3,
+            "hoursSinceActivity": 5.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3148,7 +3148,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.3,
+            "hoursSinceActivity": 5.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3200,7 +3200,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 5.6,
+            "hoursSinceActivity": 8.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3220,7 +3220,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.9,
+            "hoursSinceActivity": 4.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3250,7 +3250,7 @@
           "accounts": 3,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.4,
+            "hoursSinceActivity": 11.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3273,7 +3273,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.4,
+            "hoursSinceActivity": 11.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3293,80 +3293,7 @@
           "accounts": 4,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.8,
-            "basis": "inferred",
-            "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
-          }
-        }
-      ]
-    },
-    {
-      "anchor": "mykobo.co",
-      "corridorCount": 3,
-      "mixedHealth": true,
-      "spread": "EURC carries 1820 payments; USDC carries 2.",
-      "corridors": [
-        {
-          "asset": "EURC",
-          "issuers": [
-            "GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM",
-            "GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2"
-          ],
-          "inbound": {
-            "count": 864,
-            "volume": "378258.7563778"
-          },
-          "outbound": {
-            "count": 956,
-            "volume": "400641.940258"
-          },
-          "totalPayments": 1820,
-          "accounts": 2,
-          "liveness": {
-            "state": "settling",
-            "hoursSinceActivity": 2.6,
-            "basis": "inferred",
-            "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
-          }
-        },
-        {
-          "asset": "XLM",
-          "issuers": [],
-          "inbound": {
-            "count": 1,
-            "volume": "1"
-          },
-          "outbound": {
-            "count": 5,
-            "volume": "66.8"
-          },
-          "totalPayments": 6,
-          "accounts": 2,
-          "liveness": {
-            "state": "settling",
-            "hoursSinceActivity": 2.6,
-            "basis": "inferred",
-            "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
-          }
-        },
-        {
-          "asset": "USDC",
-          "issuers": [
-            "GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN"
-          ],
-          "inbound": {
-            "count": 0,
-            "volume": "0"
-          },
-          "outbound": {
-            "count": 2,
-            "volume": "0.4049104"
-          },
-          "totalPayments": 2,
-          "accounts": 1,
-          "liveness": {
-            "state": "dark",
-            "hoursSinceActivity": 857.4,
+            "hoursSinceActivity": 4.8,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3396,7 +3323,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.5,
+            "hoursSinceActivity": 6.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3418,7 +3345,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.5,
+            "hoursSinceActivity": 6.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3438,7 +3365,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.5,
+            "hoursSinceActivity": 6.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3468,7 +3395,7 @@
           "accounts": 3,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 1357.2,
+            "hoursSinceActivity": 1360.2,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3490,7 +3417,7 @@
           "accounts": 1,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 1549.5,
+            "hoursSinceActivity": 1552.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3510,7 +3437,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.6,
+            "hoursSinceActivity": 11.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3540,7 +3467,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.4,
+            "hoursSinceActivity": 4.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3562,7 +3489,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.4,
+            "hoursSinceActivity": 4.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3592,7 +3519,7 @@
           "accounts": 3,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 10.4,
+            "hoursSinceActivity": 13.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3612,7 +3539,7 @@
           "accounts": 3,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 10.4,
+            "hoursSinceActivity": 13.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3642,7 +3569,7 @@
           "accounts": 9,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.4,
+            "hoursSinceActivity": 6.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3662,7 +3589,7 @@
           "accounts": 8,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 6.6,
+            "hoursSinceActivity": 9.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3692,7 +3619,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.3,
+            "hoursSinceActivity": 10.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3714,7 +3641,7 @@
           "accounts": 1,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 5304.4,
+            "hoursSinceActivity": 5307.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3742,7 +3669,7 @@
           "accounts": 2,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.1,
+            "hoursSinceActivity": 11.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3764,7 +3691,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.1,
+            "hoursSinceActivity": 11.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3794,7 +3721,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.9,
+            "hoursSinceActivity": 6.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3816,7 +3743,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.9,
+            "hoursSinceActivity": 6.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3846,7 +3773,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 6.7,
+            "hoursSinceActivity": 9.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3876,7 +3803,7 @@
           "accounts": 1,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 1478.4,
+            "hoursSinceActivity": 1481.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3906,7 +3833,7 @@
           "accounts": 1,
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 1448.7,
+            "hoursSinceActivity": 1451.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3936,7 +3863,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 6.9,
+            "hoursSinceActivity": 9.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3966,7 +3893,7 @@
           "accounts": 1,
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 50.3,
+            "hoursSinceActivity": 53.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -3987,14 +3914,14 @@
       "anchors": [
         {
           "anchor": "aps.money",
-          "totalPayments": 12443,
+          "totalPayments": 12681,
           "inbound": {
-            "count": 121,
-            "volume": "13035929.91"
+            "count": 123,
+            "volume": "13036647.89"
           },
           "outbound": {
-            "count": 12322,
-            "volume": "19586326.095"
+            "count": 12558,
+            "volume": "19592812.415"
           },
           "liveness": {
             "state": "settling",
@@ -4004,21 +3931,21 @@
           }
         }
       ],
-      "totalPayments": 12443
+      "totalPayments": 12681
     },
     {
       "asset": "APSUSDM",
       "anchors": [
         {
           "anchor": "aps.money",
-          "totalPayments": 10471,
+          "totalPayments": 10583,
           "inbound": {
-            "count": 4312,
-            "volume": "2846958.18"
+            "count": 4347,
+            "volume": "2862172.44"
           },
           "outbound": {
-            "count": 6159,
-            "volume": "28253209.27"
+            "count": 6236,
+            "volume": "28259338.76"
           },
           "liveness": {
             "state": "settling",
@@ -4028,45 +3955,45 @@
           }
         }
       ],
-      "totalPayments": 10471
+      "totalPayments": 10583
     },
     {
       "asset": "yXLM",
       "anchors": [
         {
           "anchor": "ultracapital.xyz",
-          "totalPayments": 7108,
+          "totalPayments": 7140,
           "inbound": {
             "count": 311,
             "volume": "42405030.0742603"
           },
           "outbound": {
-            "count": 6797,
-            "volume": "40249582.9241502"
+            "count": 6829,
+            "volume": "40249588.501171"
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.6,
+            "hoursSinceActivity": 4.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
         }
       ],
-      "totalPayments": 7108
+      "totalPayments": 7140
     },
     {
       "asset": "APSBPIUSD",
       "anchors": [
         {
           "anchor": "aps.money",
-          "totalPayments": 5389,
+          "totalPayments": 5459,
           "inbound": {
             "count": 53,
             "volume": "1325.94"
           },
           "outbound": {
-            "count": 5336,
-            "volume": "703182.29"
+            "count": 5406,
+            "volume": "708733.65"
           },
           "liveness": {
             "state": "settling",
@@ -4076,17 +4003,17 @@
           }
         }
       ],
-      "totalPayments": 5389
+      "totalPayments": 5459
     },
     {
       "asset": "APSBPOUSD",
       "anchors": [
         {
           "anchor": "aps.money",
-          "totalPayments": 4103,
+          "totalPayments": 4137,
           "inbound": {
-            "count": 4093,
-            "volume": "1801978.01"
+            "count": 4127,
+            "volume": "1816968.64"
           },
           "outbound": {
             "count": 10,
@@ -4100,25 +4027,25 @@
           }
         }
       ],
-      "totalPayments": 4103
+      "totalPayments": 4137
     },
     {
       "asset": "USDC",
       "anchors": [
         {
           "anchor": "centre.io",
-          "totalPayments": 3110,
+          "totalPayments": 3111,
           "inbound": {
             "count": 2497,
             "volume": "5301340612.3313714"
           },
           "outbound": {
-            "count": 613,
-            "volume": "1327876145.5807456"
+            "count": 614,
+            "volume": "1327969954.4907456"
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.6,
+            "hoursSinceActivity": 0.8,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4136,7 +4063,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 3805.4,
+            "hoursSinceActivity": 3808.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4154,45 +4081,27 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.4,
-            "basis": "inferred",
-            "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
-          }
-        },
-        {
-          "anchor": "mykobo.co",
-          "totalPayments": 2,
-          "inbound": {
-            "count": 0,
-            "volume": "0"
-          },
-          "outbound": {
-            "count": 2,
-            "volume": "0.4049104"
-          },
-          "liveness": {
-            "state": "dark",
-            "hoursSinceActivity": 857.4,
+            "hoursSinceActivity": 11.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
         }
       ],
-      "totalPayments": 3133
+      "totalPayments": 3132
     },
     {
       "asset": "APSBPIEUR",
       "anchors": [
         {
           "anchor": "aps.money",
-          "totalPayments": 2180,
+          "totalPayments": 2222,
           "inbound": {
             "count": 0,
             "volume": "0"
           },
           "outbound": {
-            "count": 2180,
-            "volume": "100120.76"
+            "count": 2222,
+            "volume": "101940.3"
           },
           "liveness": {
             "state": "settling",
@@ -4202,7 +4111,7 @@
           }
         }
       ],
-      "totalPayments": 2180
+      "totalPayments": 2222
     },
     {
       "asset": "ARS",
@@ -4220,37 +4129,13 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.4,
+            "hoursSinceActivity": 4.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
         }
       ],
       "totalPayments": 1988
-    },
-    {
-      "asset": "EURC",
-      "anchors": [
-        {
-          "anchor": "mykobo.co",
-          "totalPayments": 1820,
-          "inbound": {
-            "count": 864,
-            "volume": "378258.7563778"
-          },
-          "outbound": {
-            "count": 956,
-            "volume": "400641.940258"
-          },
-          "liveness": {
-            "state": "settling",
-            "hoursSinceActivity": 2.6,
-            "basis": "inferred",
-            "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
-          }
-        }
-      ],
-      "totalPayments": 1820
     },
     {
       "asset": "yUSDC",
@@ -4268,7 +4153,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.6,
+            "hoursSinceActivity": 4.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4292,7 +4177,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.1,
+            "hoursSinceActivity": 11.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4310,7 +4195,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.7,
+            "hoursSinceActivity": 4.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4328,7 +4213,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 6.6,
+            "hoursSinceActivity": 9.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4346,7 +4231,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.6,
+            "hoursSinceActivity": 0.8,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4364,7 +4249,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.1,
+            "hoursSinceActivity": 5.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4382,7 +4267,7 @@
           },
           "liveness": {
             "state": "slow",
-            "hoursSinceActivity": 297.1,
+            "hoursSinceActivity": 300.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4400,25 +4285,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.6,
-            "basis": "inferred",
-            "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
-          }
-        },
-        {
-          "anchor": "mykobo.co",
-          "totalPayments": 6,
-          "inbound": {
-            "count": 1,
-            "volume": "1"
-          },
-          "outbound": {
-            "count": 5,
-            "volume": "66.8"
-          },
-          "liveness": {
-            "state": "settling",
-            "hoursSinceActivity": 2.6,
+            "hoursSinceActivity": 5.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4436,7 +4303,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 10.4,
+            "hoursSinceActivity": 13.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4454,7 +4321,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.8,
+            "hoursSinceActivity": 4.8,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4472,7 +4339,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.8,
+            "hoursSinceActivity": 1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4490,7 +4357,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.6,
+            "hoursSinceActivity": 11.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4508,7 +4375,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.7,
+            "hoursSinceActivity": 10.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4526,7 +4393,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.9,
+            "hoursSinceActivity": 4.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4544,13 +4411,13 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.5,
+            "hoursSinceActivity": 6.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
         }
       ],
-      "totalPayments": 622
+      "totalPayments": 616
     },
     {
       "asset": "governICE",
@@ -4568,7 +4435,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.3,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4592,7 +4459,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.3,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4616,7 +4483,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.3,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4629,24 +4496,24 @@
       "anchors": [
         {
           "anchor": "aqua.network",
-          "totalPayments": 371,
+          "totalPayments": 374,
           "inbound": {
             "count": 0,
             "volume": "0"
           },
           "outbound": {
-            "count": 371,
-            "volume": "6080349596.7358966"
+            "count": 374,
+            "volume": "6082094287.3330233"
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.3,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
         }
       ],
-      "totalPayments": 371
+      "totalPayments": 374
     },
     {
       "asset": "AFR",
@@ -4664,7 +4531,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 6.9,
+            "hoursSinceActivity": 9.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4677,24 +4544,24 @@
       "anchors": [
         {
           "anchor": "aqua.network",
-          "totalPayments": 335,
+          "totalPayments": 338,
           "inbound": {
             "count": 0,
             "volume": "0"
           },
           "outbound": {
-            "count": 335,
-            "volume": "4634825168.7778956"
+            "count": 338,
+            "volume": "4636571181.7076322"
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 0.3,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
         }
       ],
-      "totalPayments": 335
+      "totalPayments": 338
     },
     {
       "asset": "XPR",
@@ -4712,7 +4579,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.9,
+            "hoursSinceActivity": 6.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4736,7 +4603,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.8,
+            "hoursSinceActivity": 1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4767,10 +4634,10 @@
       "anchors": [
         {
           "anchor": "audd.digital",
-          "totalPayments": 241,
+          "totalPayments": 243,
           "inbound": {
-            "count": 238,
-            "volume": "150350129.4105059"
+            "count": 240,
+            "volume": "151756783.6505059"
           },
           "outbound": {
             "count": 3,
@@ -4778,27 +4645,27 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.5,
+            "hoursSinceActivity": 0.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
         }
       ],
-      "totalPayments": 241
+      "totalPayments": 243
     },
     {
       "asset": "APSBPIGBP",
       "anchors": [
         {
           "anchor": "aps.money",
-          "totalPayments": 191,
+          "totalPayments": 193,
           "inbound": {
             "count": 0,
             "volume": "0"
           },
           "outbound": {
-            "count": 191,
-            "volume": "9166.89"
+            "count": 193,
+            "volume": "9239.05"
           },
           "liveness": {
             "state": "settling",
@@ -4808,7 +4675,7 @@
           }
         }
       ],
-      "totalPayments": 191
+      "totalPayments": 193
     },
     {
       "asset": "ZARZ",
@@ -4826,7 +4693,7 @@
           },
           "liveness": {
             "state": "slow",
-            "hoursSinceActivity": 276.9,
+            "hoursSinceActivity": 279.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4850,7 +4717,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 11.1,
+            "hoursSinceActivity": 14.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4874,7 +4741,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 1448.7,
+            "hoursSinceActivity": 1451.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4887,10 +4754,10 @@
       "anchors": [
         {
           "anchor": "aps.money",
-          "totalPayments": 92,
+          "totalPayments": 93,
           "inbound": {
-            "count": 60,
-            "volume": "1084558.27"
+            "count": 61,
+            "volume": "1085511.34"
           },
           "outbound": {
             "count": 32,
@@ -4904,7 +4771,7 @@
           }
         }
       ],
-      "totalPayments": 92
+      "totalPayments": 93
     },
     {
       "asset": "XXA",
@@ -4922,7 +4789,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 6.9,
+            "hoursSinceActivity": 9.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4946,7 +4813,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 1357.2,
+            "hoursSinceActivity": 1360.2,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4970,7 +4837,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.4,
+            "hoursSinceActivity": 5.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -4994,7 +4861,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 10.4,
+            "hoursSinceActivity": 13.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5018,7 +4885,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.4,
+            "hoursSinceActivity": 5.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5036,7 +4903,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.1,
+            "hoursSinceActivity": 5.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5060,7 +4927,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.1,
+            "hoursSinceActivity": 11.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5084,7 +4951,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.7,
+            "hoursSinceActivity": 4.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5102,7 +4969,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.1,
+            "hoursSinceActivity": 5.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5126,7 +4993,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 2027,
+            "hoursSinceActivity": 2030,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5150,7 +5017,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 1549.5,
+            "hoursSinceActivity": 1552.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5174,7 +5041,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 50.3,
+            "hoursSinceActivity": 53.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5198,7 +5065,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.8,
+            "hoursSinceActivity": 4.8,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5222,7 +5089,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.4,
+            "hoursSinceActivity": 6.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5246,7 +5113,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.6,
+            "hoursSinceActivity": 0.8,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5270,7 +5137,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5294,7 +5161,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5318,7 +5185,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5342,7 +5209,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5366,7 +5233,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5390,7 +5257,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 1622.3,
+            "hoursSinceActivity": 1625.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5414,7 +5281,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5438,7 +5305,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5462,7 +5329,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5486,7 +5353,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5510,7 +5377,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.5,
+            "hoursSinceActivity": 6.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5534,7 +5401,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5558,7 +5425,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5582,7 +5449,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5606,7 +5473,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.1,
+            "hoursSinceActivity": 5.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5630,7 +5497,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 1.4,
+            "hoursSinceActivity": 4.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5654,7 +5521,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5678,7 +5545,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5702,7 +5569,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5726,7 +5593,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.3,
+            "hoursSinceActivity": 11.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5750,7 +5617,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 2632,
+            "hoursSinceActivity": 2635,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5774,7 +5641,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 1478.4,
+            "hoursSinceActivity": 1481.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5798,7 +5665,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5822,7 +5689,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5846,7 +5713,7 @@
           },
           "liveness": {
             "state": "slow",
-            "hoursSinceActivity": 297.1,
+            "hoursSinceActivity": 300.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5870,7 +5737,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 8.4,
+            "hoursSinceActivity": 11.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5894,7 +5761,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 5.6,
+            "hoursSinceActivity": 8.6,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5918,7 +5785,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 8616,
+            "hoursSinceActivity": 8619,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5942,7 +5809,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5966,7 +5833,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -5990,7 +5857,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6014,7 +5881,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6038,7 +5905,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6062,7 +5929,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6086,7 +5953,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6134,7 +6001,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.5,
+            "hoursSinceActivity": 10.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6158,7 +6025,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 10021.1,
+            "hoursSinceActivity": 10024.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6182,7 +6049,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.5,
+            "hoursSinceActivity": 6.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6206,7 +6073,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6230,7 +6097,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6254,7 +6121,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6278,7 +6145,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6302,7 +6169,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6326,7 +6193,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6350,7 +6217,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6374,7 +6241,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6398,7 +6265,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6422,7 +6289,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.3,
+            "hoursSinceActivity": 10.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6446,7 +6313,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6470,7 +6337,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6494,7 +6361,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6518,7 +6385,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6542,7 +6409,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6566,7 +6433,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6590,7 +6457,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6614,7 +6481,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6638,7 +6505,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6662,7 +6529,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6686,7 +6553,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.5,
+            "hoursSinceActivity": 10.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6710,7 +6577,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6734,7 +6601,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6758,7 +6625,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6782,7 +6649,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6806,7 +6673,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6830,7 +6697,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6854,7 +6721,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6878,7 +6745,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6902,7 +6769,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6926,7 +6793,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.3,
+            "hoursSinceActivity": 5.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6950,7 +6817,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.5,
+            "hoursSinceActivity": 10.5,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6974,7 +6841,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.7,
+            "hoursSinceActivity": 10.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -6998,7 +6865,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.3,
+            "hoursSinceActivity": 5.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7022,7 +6889,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7046,7 +6913,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7070,7 +6937,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7094,7 +6961,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7118,7 +6985,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7142,7 +7009,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7166,7 +7033,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7190,7 +7057,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7214,7 +7081,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7238,7 +7105,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7262,7 +7129,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7286,7 +7153,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7310,7 +7177,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7334,7 +7201,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7358,7 +7225,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7382,7 +7249,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7406,7 +7273,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7430,7 +7297,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7454,7 +7321,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7478,7 +7345,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7502,7 +7369,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7526,7 +7393,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7550,7 +7417,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7574,7 +7441,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7598,7 +7465,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7622,7 +7489,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7646,7 +7513,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7670,7 +7537,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7694,7 +7561,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7718,7 +7585,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7742,7 +7609,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7766,7 +7633,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7790,7 +7657,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7814,7 +7681,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 9.3,
+            "hoursSinceActivity": 12.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7838,7 +7705,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 4,
+            "hoursSinceActivity": 7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7862,7 +7729,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 2.1,
+            "hoursSinceActivity": 5.1,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7886,7 +7753,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 5304.4,
+            "hoursSinceActivity": 5307.4,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7910,7 +7777,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 7.7,
+            "hoursSinceActivity": 10.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7934,7 +7801,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 6.7,
+            "hoursSinceActivity": 9.7,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7958,7 +7825,7 @@
           },
           "liveness": {
             "state": "dark",
-            "hoursSinceActivity": 5247.3,
+            "hoursSinceActivity": 5250.3,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }
@@ -7982,7 +7849,7 @@
           },
           "liveness": {
             "state": "settling",
-            "hoursSinceActivity": 3.9,
+            "hoursSinceActivity": 6.9,
             "basis": "inferred",
             "note": "Taken from the last activity of the account carrying this asset, not from the asset itself — the scan timestamps per account, not per asset."
           }

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-15T23:26:27.375Z",
+  "generatedAt": "2026-09-16T02:25:17.835Z",
   "note": "Live indicative FX rates from each anchor's own SEP-38 quote server, sampled at $100 once an hour. Replaces the hardcoded rateSpread catalogue in packages/web/compare.js wherever an anchor runs SEP-38 and declares the asset pair — see docs.html and README for which anchors that is today.",
   "caveat": "GET /price is indicative, not firm — an anchor can quote differently at execution time, and its price can vary with amount (fee tiers), so this is a $100 sample, not a guarantee. Anchors with no ANCHOR_QUOTE_SERVER, or whose /info does not list a corridor Route Scout shows, still fall back to the catalogue rateSpread — status distinguishes exactly why per anchor.",
   "counts": {
     "anchorsWithALiveQuote": 0,
-    "noSep38Server": 13,
-    "unreachable": 1
+    "noSep38Server": 14,
+    "unreachable": 0
   },
   "anchors": {
     "cowrie.exchange": {
@@ -40,8 +40,8 @@
     },
     "clickpesa.com": {
       "domain": "clickpesa.com",
-      "status": "unreachable",
-      "reason": "stellar.toml: HTTP 404",
+      "status": "no-sep38",
+      "reason": "stellar.toml declares no ANCHOR_QUOTE_SERVER",
       "corridors": {}
     },
     "zeam.money": {
