@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T02:25:00.992Z",
+  "generatedAt": "2026-09-16T08:10:16.881Z",
   "note": "Which on-chain accounts each tracked anchor declares as its own, and how that was established. Attribution comes from the anchor's own SEP-1 stellar.toml — the permissionless standard the operator controls — and any account cited there only as a currency issuer is included solely when the issuer account's own home_domain confirms the claim. Every published scan is checked for an account claimed by two anchors before it can go out; see packages/indexer/src/invariants.ts.",
   "anchors": [
     {
@@ -120,6 +120,13 @@
       "accounts": 2,
       "profile": "/api/v1/anchors/mobius.network/profile.json",
       "page": "/anchor/mobius.network"
+    },
+    {
+      "anchorId": "mykobo.co",
+      "resolved": true,
+      "accounts": 2,
+      "profile": "/api/v1/anchors/mykobo.co/profile.json",
+      "page": "/anchor/mykobo.co"
     },
     {
       "anchorId": "nafuloo.com",
