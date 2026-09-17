@@ -1,17 +1,24 @@
 {
-  "checkedAt": "2026-09-17T14:01:44.963Z",
-  "scanFile": "scan-2026-09-17T13-56-00-677Z.json",
-  "accountsChecked": 108,
+  "checkedAt": "2026-09-17T17:59:46.058Z",
+  "scanFile": "scan-2026-09-17T17-52-10-422Z.json",
+  "accountsChecked": 107,
   "comparedAgainst": {
     "publishedAccounts": 108
   },
-  "outcome": "clean",
+  "outcome": "published-with-warnings",
   "published": true,
   "counts": {
     "errors": 0,
-    "warnings": 0
+    "warnings": 1
   },
-  "findings": [],
-  "note": "Published. Every invariant held.",
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "account-dropped",
+      "message": "1 account(s) were published last scan and are absent now, while their anchor is still covered.",
+      "detail": "zeam.money:GDZBAWPUGAJI4CQTO53O6Y33WEZ4IRVDBLDYUY6EKGICP7OK53OYZARZ"
+    }
+  ],
+  "note": "Published. Warnings are real changes worth a human look, but they are visible on the site itself, so withholding the whole update would trade a visible change for silent staleness.",
   "checksApplied": "See packages/indexer/src/invariants.ts — one on-chain account claimed by two anchors, rows attributed to no anchor, duplicate rows that double-count, and payment counts moving implausibly in either direction between scans."
 }

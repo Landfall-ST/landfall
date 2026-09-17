@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T14:01:45.192Z",
+  "generatedAt": "2026-09-17T17:59:46.233Z",
   "note": "Which on-chain accounts each tracked anchor declares as its own, and how that was established. Attribution comes from the anchor's own SEP-1 stellar.toml — the permissionless standard the operator controls — and any account cited there only as a currency issuer is included solely when the issuer account's own home_domain confirms the claim. Every published scan is checked for an account claimed by two anchors before it can go out; see packages/indexer/src/invariants.ts.",
   "anchors": [
     {
@@ -187,7 +187,7 @@
     {
       "anchorId": "zeam.money",
       "resolved": true,
-      "accounts": 15,
+      "accounts": 14,
       "profile": "/api/v1/anchors/zeam.money/profile.json",
       "page": "/anchor/zeam.money"
     }
