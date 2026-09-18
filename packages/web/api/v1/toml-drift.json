@@ -1,94 +1,11 @@
 {
-  "generatedAt": "2026-09-18T12:38:54.282Z",
+  "generatedAt": "2026-09-18T16:55:37.617Z",
   "note": "Changes to each anchor's SEP-1 declaration over time. A stellar.toml is mutable and unsigned: an anchor can rotate declared accounts, repoint a transfer server, or change the issuer behind a currency code at any time, and wallets follow by design. Nothing else records that it changed.",
   "limits": "A diff cannot tell a legitimate rotation from a hostile one, and this file never claims to. It records what changed and what the ledger says about the new values. Severity reflects what a change could cost a user who follows it, not a judgement about the operator. An unreachable domain keeps its previous snapshot rather than being recorded as having withdrawn everything.",
   "watchedDomains": 31,
   "eventsThisRun": 0,
   "eventsRetained": 2,
   "events": [
-    {
-      "domain": "mykobo.co",
-      "detectedAt": "2026-09-16T02:25:30.804Z",
-      "findings": [
-        {
-          "severity": "high",
-          "code": "account-withdrawn",
-          "account": "GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM",
-          "message": "No longer declares account GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM.",
-          "why": "Anything already routed to this account may now be unattended. Value held there does not move because the declaration changed.",
-          "ledger": {
-            "exists": true,
-            "homeDomain": "mykobo.co",
-            "firstPaymentAt": "2025-07-25T18:13:05Z",
-            "note": "Exists, with payment history since 2025-07-25."
-          }
-        },
-        {
-          "severity": "high",
-          "code": "account-withdrawn",
-          "account": "GCY37QZUH2P24CMCTGT2XNMRFSHVQF2DKL4N5VCY22TQ52DFUNEUTKBD",
-          "message": "No longer declares account GCY37QZUH2P24CMCTGT2XNMRFSHVQF2DKL4N5VCY22TQ52DFUNEUTKBD.",
-          "why": "Anything already routed to this account may now be unattended. Value held there does not move because the declaration changed.",
-          "ledger": {
-            "exists": false,
-            "note": "This account does not exist on the ledger. Funds sent to it would fail."
-          }
-        },
-        {
-          "severity": "high",
-          "code": "signing-key-rotated",
-          "message": "SEP-10 signing key changed from GAHNDAOJ7IB6KKMGKBGI5JWJHCTFXOVGY4U2N57C2CUZPK3SPEPCLU76 to (none).",
-          "why": "This key authenticates the anchor to wallets. A rotation is routine operationally and is also exactly what a takeover would do."
-        },
-        {
-          "severity": "medium",
-          "code": "endpoint-changed",
-          "field": "TRANSFER_SERVER",
-          "message": "TRANSFER_SERVER changed from https://stellar.mykobo.co/sep6 to (absent).",
-          "why": "This is the address a wallet hands the user to for deposit or withdrawal. A changed host is a different party serving that flow."
-        },
-        {
-          "severity": "medium",
-          "code": "endpoint-changed",
-          "field": "TRANSFER_SERVER_SEP0024",
-          "message": "TRANSFER_SERVER_SEP0024 changed from https://stellar.mykobo.co/sep24 to (absent).",
-          "why": "This is the address a wallet hands the user to for deposit or withdrawal. A changed host is a different party serving that flow."
-        },
-        {
-          "severity": "medium",
-          "code": "endpoint-changed",
-          "field": "DIRECT_PAYMENT_SERVER",
-          "message": "DIRECT_PAYMENT_SERVER changed from https://stellar.mykobo.co/sep31 to (absent).",
-          "why": "This is the address a wallet hands the user to for deposit or withdrawal. A changed host is a different party serving that flow."
-        },
-        {
-          "severity": "medium",
-          "code": "endpoint-changed",
-          "field": "WEB_AUTH_ENDPOINT",
-          "message": "WEB_AUTH_ENDPOINT changed from https://stellar.mykobo.co/auth to (absent).",
-          "why": "This is the address a wallet hands the user to for deposit or withdrawal. A changed host is a different party serving that flow."
-        },
-        {
-          "severity": "medium",
-          "code": "endpoint-changed",
-          "field": "KYC_SERVER",
-          "message": "KYC_SERVER changed from https://stellar.mykobo.co/kyc to (absent).",
-          "why": "This is the address a wallet hands the user to for deposit or withdrawal. A changed host is a different party serving that flow."
-        },
-        {
-          "severity": "info",
-          "code": "currency-removed",
-          "asset": "EURC",
-          "message": "No longer declares EURC."
-        },
-        {
-          "severity": "medium",
-          "code": "org-name-changed",
-          "message": "ORG_NAME changed from \"MYKOBO\" to null.",
-          "why": "The organisation claiming this domain now describes itself differently."
-        }
-      ]
-    },
     {
       "domain": "mykobo.co",
       "detectedAt": "2026-09-16T08:10:48.164Z",
@@ -168,6 +85,89 @@
           "severity": "medium",
           "code": "org-name-changed",
           "message": "ORG_NAME changed from null to \"MYKOBO\".",
+          "why": "The organisation claiming this domain now describes itself differently."
+        }
+      ]
+    },
+    {
+      "domain": "mykobo.co",
+      "detectedAt": "2026-09-16T02:25:30.804Z",
+      "findings": [
+        {
+          "severity": "high",
+          "code": "account-withdrawn",
+          "account": "GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM",
+          "message": "No longer declares account GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM.",
+          "why": "Anything already routed to this account may now be unattended. Value held there does not move because the declaration changed.",
+          "ledger": {
+            "exists": true,
+            "homeDomain": "mykobo.co",
+            "firstPaymentAt": "2025-07-25T18:13:05Z",
+            "note": "Exists, with payment history since 2025-07-25."
+          }
+        },
+        {
+          "severity": "high",
+          "code": "account-withdrawn",
+          "account": "GCY37QZUH2P24CMCTGT2XNMRFSHVQF2DKL4N5VCY22TQ52DFUNEUTKBD",
+          "message": "No longer declares account GCY37QZUH2P24CMCTGT2XNMRFSHVQF2DKL4N5VCY22TQ52DFUNEUTKBD.",
+          "why": "Anything already routed to this account may now be unattended. Value held there does not move because the declaration changed.",
+          "ledger": {
+            "exists": false,
+            "note": "This account does not exist on the ledger. Funds sent to it would fail."
+          }
+        },
+        {
+          "severity": "high",
+          "code": "signing-key-rotated",
+          "message": "SEP-10 signing key changed from GAHNDAOJ7IB6KKMGKBGI5JWJHCTFXOVGY4U2N57C2CUZPK3SPEPCLU76 to (none).",
+          "why": "This key authenticates the anchor to wallets. A rotation is routine operationally and is also exactly what a takeover would do."
+        },
+        {
+          "severity": "medium",
+          "code": "endpoint-changed",
+          "field": "TRANSFER_SERVER",
+          "message": "TRANSFER_SERVER changed from https://stellar.mykobo.co/sep6 to (absent).",
+          "why": "This is the address a wallet hands the user to for deposit or withdrawal. A changed host is a different party serving that flow."
+        },
+        {
+          "severity": "medium",
+          "code": "endpoint-changed",
+          "field": "TRANSFER_SERVER_SEP0024",
+          "message": "TRANSFER_SERVER_SEP0024 changed from https://stellar.mykobo.co/sep24 to (absent).",
+          "why": "This is the address a wallet hands the user to for deposit or withdrawal. A changed host is a different party serving that flow."
+        },
+        {
+          "severity": "medium",
+          "code": "endpoint-changed",
+          "field": "DIRECT_PAYMENT_SERVER",
+          "message": "DIRECT_PAYMENT_SERVER changed from https://stellar.mykobo.co/sep31 to (absent).",
+          "why": "This is the address a wallet hands the user to for deposit or withdrawal. A changed host is a different party serving that flow."
+        },
+        {
+          "severity": "medium",
+          "code": "endpoint-changed",
+          "field": "WEB_AUTH_ENDPOINT",
+          "message": "WEB_AUTH_ENDPOINT changed from https://stellar.mykobo.co/auth to (absent).",
+          "why": "This is the address a wallet hands the user to for deposit or withdrawal. A changed host is a different party serving that flow."
+        },
+        {
+          "severity": "medium",
+          "code": "endpoint-changed",
+          "field": "KYC_SERVER",
+          "message": "KYC_SERVER changed from https://stellar.mykobo.co/kyc to (absent).",
+          "why": "This is the address a wallet hands the user to for deposit or withdrawal. A changed host is a different party serving that flow."
+        },
+        {
+          "severity": "info",
+          "code": "currency-removed",
+          "asset": "EURC",
+          "message": "No longer declares EURC."
+        },
+        {
+          "severity": "medium",
+          "code": "org-name-changed",
+          "message": "ORG_NAME changed from \"MYKOBO\" to null.",
           "why": "The organisation claiming this domain now describes itself differently."
         }
       ]
@@ -348,7 +348,7 @@
         },
         "orgName": "Afreum DAO"
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.479Z"
+      "lastCheckedAt": "2026-09-18T16:55:25.821Z"
     },
     "anclap.com": {
       "fingerprint": {
@@ -370,7 +370,7 @@
         },
         "orgName": "Grupo Anchor S.A."
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.284Z"
+      "lastCheckedAt": "2026-09-18T16:55:25.653Z"
     },
     "app.phoenix-hub.io": {
       "fingerprint": {
@@ -384,7 +384,7 @@
         },
         "orgName": "Phoenix Protocol Group"
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.648Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.101Z"
     },
     "aps.money": {
       "fingerprint": {
@@ -411,7 +411,7 @@
         },
         "orgName": "Advanced Payment Solutions Ltd."
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.600Z"
+      "lastCheckedAt": "2026-09-18T16:55:25.895Z"
     },
     "aqua.network": {
       "fingerprint": {
@@ -429,7 +429,7 @@
         },
         "orgName": "Aquarius"
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.620Z"
+      "lastCheckedAt": "2026-09-18T16:55:25.942Z"
     },
     "audd.digital": {
       "fingerprint": {
@@ -444,7 +444,7 @@
         },
         "orgName": "AUDC PTY LTD"
       },
-      "lastCheckedAt": "2026-09-18T12:38:44.473Z"
+      "lastCheckedAt": "2026-09-18T16:55:27.779Z"
     },
     "bitbondsto.com": {
       "fingerprint": {
@@ -459,7 +459,7 @@
         },
         "orgName": "Bitbond Finance GmbH"
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.812Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.399Z"
     },
     "centre.io": {
       "fingerprint": {
@@ -474,7 +474,7 @@
         },
         "orgName": "Centre Consortium LLC"
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.775Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.118Z"
     },
     "clickpesa.com": {
       "fingerprint": {
@@ -504,7 +504,7 @@
         },
         "orgName": "CLPX S.A."
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.997Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.124Z"
     },
     "cowrie.exchange": {
       "fingerprint": {
@@ -526,7 +526,7 @@
         },
         "orgName": "Cowrie Integrated Systems"
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.280Z"
+      "lastCheckedAt": "2026-09-18T16:55:25.540Z"
     },
     "dcm.systems": {
       "fingerprint": {
@@ -541,7 +541,7 @@
         },
         "orgName": "Transparent Network"
       },
-      "lastCheckedAt": "2026-09-18T12:38:44.189Z"
+      "lastCheckedAt": "2026-09-18T16:55:27.305Z"
     },
     "finclusive.com": {
       "fingerprint": {
@@ -560,7 +560,7 @@
         },
         "orgName": "FinClusive Capital, Inc."
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.371Z"
+      "lastCheckedAt": "2026-09-18T16:55:25.760Z"
     },
     "funtracker.site": {
       "fingerprint": {
@@ -578,7 +578,7 @@
         },
         "orgName": null
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.203Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.796Z"
     },
     "gratz.io": {
       "fingerprint": {
@@ -601,7 +601,7 @@
         },
         "orgName": "Gratz"
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.871Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.226Z"
     },
     "ixinium.io": {
       "fingerprint": {
@@ -625,7 +625,7 @@
         },
         "orgName": "Baltic Representative Office"
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.239Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.449Z"
     },
     "luxpayband.io": {
       "fingerprint": {
@@ -647,7 +647,7 @@
         },
         "orgName": "LUX Payband, LLC"
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.133Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.396Z"
     },
     "mgusd.moneygram.com": {
       "fingerprint": {
@@ -663,7 +663,7 @@
         },
         "orgName": "MoneyGram Payment Systems, Inc."
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.187Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.490Z"
     },
     "mobius.network": {
       "fingerprint": {
@@ -678,7 +678,7 @@
         },
         "orgName": "Mochi, Inc."
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.388Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.590Z"
     },
     "mykobo.co": {
       "fingerprint": {
@@ -699,7 +699,7 @@
         },
         "orgName": "MYKOBO"
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.206Z"
+      "lastCheckedAt": "2026-09-18T16:55:25.672Z"
     },
     "nafuloo.com": {
       "fingerprint": {
@@ -717,7 +717,7 @@
         },
         "orgName": "No one person or group owns or controls Nafuloo, and anyone can participate."
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.358Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.522Z"
     },
     "ngnc.online": {
       "fingerprint": {
@@ -737,7 +737,7 @@
         },
         "orgName": "LINK.IO LTD."
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.285Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.572Z"
     },
     "ntokens.com": {
       "fingerprint": {
@@ -758,7 +758,7 @@
         },
         "orgName": "nTokens Serviços Digitais Ltda"
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.419Z"
+      "lastCheckedAt": "2026-09-18T16:55:25.747Z"
     },
     "pr.network": {
       "fingerprint": {
@@ -840,7 +840,7 @@
         },
         "orgName": "PR.network LLC"
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.882Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.838Z"
     },
     "stablecoin.z.com": {
       "fingerprint": {
@@ -862,7 +862,7 @@
         },
         "orgName": "GMO-Z.com Trust Company, Inc."
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.617Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.907Z"
     },
     "stellar.moneygram.com": {
       "fingerprint": {
@@ -877,7 +877,7 @@
         },
         "orgName": "MoneyGram"
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.210Z"
+      "lastCheckedAt": "2026-09-18T16:55:25.588Z"
     },
     "stellarport.io": {
       "fingerprint": {
@@ -900,7 +900,7 @@
         },
         "orgName": "Stellarport"
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.401Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.812Z"
     },
     "ultracapital.xyz": {
       "fingerprint": {
@@ -933,7 +933,7 @@
         },
         "orgName": "Ultra Capital LLC"
       },
-      "lastCheckedAt": "2026-09-18T12:38:44.584Z"
+      "lastCheckedAt": "2026-09-18T16:55:27.170Z"
     },
     "vibrantapp.com": {
       "fingerprint": {
@@ -943,7 +943,7 @@
         "currencies": {},
         "orgName": null
       },
-      "lastCheckedAt": "2026-09-18T12:38:42.353Z"
+      "lastCheckedAt": "2026-09-18T16:55:25.615Z"
     },
     "vnx.io": {
       "fingerprint": {
@@ -960,7 +960,7 @@
         },
         "orgName": "VNX Global Ltd."
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.671Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.983Z"
     },
     "zeam.money": {
       "fingerprint": {
@@ -997,7 +997,7 @@
         },
         "orgName": "ZEAM LIMITED"
       },
-      "lastCheckedAt": "2026-09-18T12:38:43.493Z"
+      "lastCheckedAt": "2026-09-18T16:55:26.860Z"
     }
   }
 }
