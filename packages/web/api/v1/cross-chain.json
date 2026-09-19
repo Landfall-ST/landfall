@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-19T00:56:24.497Z",
+  "generatedAt": "2026-09-19T05:24:39.050Z",
   "stpVersion": "1",
   "window": {
-    "since": "2026-08-20T00:55:29.762Z",
+    "since": "2026-08-20T05:23:36.100Z",
     "days": 30,
     "maxRecordsPerAccount": 200
   },
@@ -55,7 +55,7 @@
     }
   ],
   "totals": {
-    "PROVEN": 1930,
+    "PROVEN": 1929,
     "ATTESTED": 0,
     "DERIVED": 0
   },
@@ -91,6 +91,16 @@
       "rationale": "Ranked on 270 ledger-proven settlement(s)."
     },
     {
+      "anchorId": "aqua.network",
+      "evidence": {
+        "PROVEN": 261,
+        "ATTESTED": 0,
+        "DERIVED": 0
+      },
+      "tierMix": "PROVEN 261 · ATTESTED 0 · DERIVED 0",
+      "rationale": "Ranked on 261 ledger-proven settlement(s)."
+    },
+    {
       "anchorId": "luxpayband.io",
       "evidence": {
         "PROVEN": 225,
@@ -99,16 +109,6 @@
       },
       "tierMix": "PROVEN 225 · ATTESTED 0 · DERIVED 0",
       "rationale": "Ranked on 225 ledger-proven settlement(s)."
-    },
-    {
-      "anchorId": "ntokens.com",
-      "evidence": {
-        "PROVEN": 206,
-        "ATTESTED": 0,
-        "DERIVED": 0
-      },
-      "tierMix": "PROVEN 206 · ATTESTED 0 · DERIVED 0",
-      "rationale": "Ranked on 206 ledger-proven settlement(s)."
     },
     {
       "anchorId": "ixinium.io",
@@ -141,16 +141,6 @@
       "rationale": "Ranked on 62 ledger-proven settlement(s)."
     },
     {
-      "anchorId": "aqua.network",
-      "evidence": {
-        "PROVEN": 61,
-        "ATTESTED": 0,
-        "DERIVED": 0
-      },
-      "tierMix": "PROVEN 61 · ATTESTED 0 · DERIVED 0",
-      "rationale": "Ranked on 61 ledger-proven settlement(s)."
-    },
-    {
       "anchorId": "afreum.com",
       "evidence": {
         "PROVEN": 46,
@@ -163,12 +153,12 @@
     {
       "anchorId": "ngnc.online",
       "evidence": {
-        "PROVEN": 37,
+        "PROVEN": 36,
         "ATTESTED": 0,
         "DERIVED": 0
       },
-      "tierMix": "PROVEN 37 · ATTESTED 0 · DERIVED 0",
-      "rationale": "Ranked on 37 ledger-proven settlement(s)."
+      "tierMix": "PROVEN 36 · ATTESTED 0 · DERIVED 0",
+      "rationale": "Ranked on 36 ledger-proven settlement(s)."
     },
     {
       "anchorId": "stellarport.io",
@@ -272,6 +262,16 @@
     },
     {
       "anchorId": "app.phoenix-hub.io",
+      "evidence": {
+        "PROVEN": 6,
+        "ATTESTED": 0,
+        "DERIVED": 0
+      },
+      "tierMix": "PROVEN 6 · ATTESTED 0 · DERIVED 0",
+      "rationale": "Ranked on 6 ledger-proven settlement(s)."
+    },
+    {
+      "anchorId": "ntokens.com",
       "evidence": {
         "PROVEN": 6,
         "ATTESTED": 0,
@@ -908,24 +908,24 @@
             "events": 270,
             "byAsset": [
               {
-                "asset": "APSEURM",
-                "count": 93,
-                "volume": "1453183.58"
-              },
-              {
                 "asset": "APSUSDM",
-                "count": 90,
-                "volume": "5335121.09"
+                "count": 93,
+                "volume": "5341281.42"
               },
               {
-                "asset": "APSBPIUSD",
-                "count": 42,
-                "volume": "3788.397"
+                "asset": "APSEURM",
+                "count": 86,
+                "volume": "1452562.06"
               },
               {
                 "asset": "APSBPOUSD",
-                "count": 25,
-                "volume": "5553.32"
+                "count": 40,
+                "volume": "9337.49"
+              },
+              {
+                "asset": "APSBPIUSD",
+                "count": 32,
+                "volume": "8160.6"
               },
               {
                 "asset": "APSSARM",
@@ -933,9 +933,9 @@
                 "volume": "8675663.9"
               },
               {
-                "asset": "APSBPIGBP",
-                "count": 5,
-                "volume": "185.56"
+                "asset": "APSBPIEUR",
+                "count": 6,
+                "volume": "221.27"
               },
               {
                 "asset": "XLM",
@@ -944,13 +944,8 @@
               },
               {
                 "asset": "APSBPOEUR",
-                "count": 3,
-                "volume": "1329.92"
-              },
-              {
-                "asset": "APSBPIEUR",
-                "count": 1,
-                "volume": "100.0000000"
+                "count": 2,
+                "volume": "356.51"
               }
             ]
           },
@@ -1114,7 +1109,7 @@
         "tiers": [
           {
             "tier": "PROVEN",
-            "events": 61,
+            "events": 261,
             "byAsset": [
               {
                 "asset": "AQUA",
@@ -1122,9 +1117,34 @@
                 "volume": "2006318.9529337"
               },
               {
+                "asset": "upvoteICE",
+                "count": 45,
+                "volume": "76345672.7977689"
+              },
+              {
+                "asset": "governICE",
+                "count": 45,
+                "volume": "76345672.7977689"
+              },
+              {
+                "asset": "ICE",
+                "count": 45,
+                "volume": "76345672.7977689"
+              },
+              {
+                "asset": "dICE",
+                "count": 32,
+                "volume": "951907915.7905333"
+              },
+              {
+                "asset": "gdICE",
+                "count": 31,
+                "volume": "939992785.7979815"
+              },
+              {
                 "asset": "XLM",
-                "count": 6,
-                "volume": "0.0000006"
+                "count": 8,
+                "volume": "0.0000008"
               }
             ]
           },
@@ -1144,10 +1164,9 @@
             "chain": "stellar",
             "maxTier": "PROVEN",
             "state": "observed",
-            "events": 61,
+            "events": 261,
             "sourcesScanned": 2,
-            "sourcesFailed": 1,
-            "note": "1 of 2 address scans failed — this count is incomplete: Horizon 503 for https://horizon.stellar.org/accounts/GAXSGZ2JM3LNWOO4WRGADISNMWO4HQLG4QBGUZRKH5ZHL3EQBGX73ICE/payments?limit=200&order=desc"
+            "sourcesFailed": 0
           },
           {
             "chain": "ethereum",
@@ -1213,15 +1232,10 @@
             "note": "no solana address curated for this anchor in registry/anchors.registry.json"
           }
         ],
-        "totalEvents": 61,
-        "tierMix": "PROVEN 61 · ATTESTED 0 · DERIVED 0"
+        "totalEvents": 261,
+        "tierMix": "PROVEN 261 · ATTESTED 0 · DERIVED 0"
       },
-      "failures": [
-        {
-          "chain": "stellar",
-          "error": "Horizon 503 for https://horizon.stellar.org/accounts/GAXSGZ2JM3LNWOO4WRGADISNMWO4HQLG4QBGUZRKH5ZHL3EQBGX73ICE/payments?limit=200&order=desc"
-        }
-      ],
+      "failures": [],
       "sampleAttestations": [
         {
           "attestation": {
@@ -2774,7 +2788,7 @@
               {
                 "asset": "XTAR",
                 "count": 176,
-                "volume": "0.0211389"
+                "volume": "0.0211419"
               },
               {
                 "asset": "XLM",
@@ -3660,17 +3674,17 @@
         "tiers": [
           {
             "tier": "PROVEN",
-            "events": 37,
+            "events": 36,
             "byAsset": [
               {
                 "asset": "yXLM",
                 "count": 25,
-                "volume": "0.004194"
+                "volume": "0.0041942"
               },
               {
                 "asset": "XLM",
-                "count": 12,
-                "volume": "0.000021"
+                "count": 11,
+                "volume": "0.000011"
               }
             ]
           },
@@ -3690,7 +3704,7 @@
             "chain": "stellar",
             "maxTier": "PROVEN",
             "state": "observed",
-            "events": 37,
+            "events": 36,
             "sourcesScanned": 2,
             "sourcesFailed": 0
           },
@@ -3758,8 +3772,8 @@
             "note": "no solana address curated for this anchor in registry/anchors.registry.json"
           }
         ],
-        "totalEvents": 37,
-        "tierMix": "PROVEN 37 · ATTESTED 0 · DERIVED 0"
+        "totalEvents": 36,
+        "tierMix": "PROVEN 36 · ATTESTED 0 · DERIVED 0"
       },
       "failures": [],
       "sampleAttestations": [
@@ -3835,17 +3849,12 @@
         "tiers": [
           {
             "tier": "PROVEN",
-            "events": 206,
+            "events": 6,
             "byAsset": [
               {
                 "asset": "XLM",
-                "count": 203,
-                "volume": "301363.676301"
-              },
-              {
-                "asset": "BRL",
-                "count": 3,
-                "volume": "0.0016"
+                "count": 6,
+                "volume": "0.0000006"
               }
             ]
           },
@@ -3865,9 +3874,10 @@
             "chain": "stellar",
             "maxTier": "PROVEN",
             "state": "observed",
-            "events": 206,
+            "events": 6,
             "sourcesScanned": 3,
-            "sourcesFailed": 0
+            "sourcesFailed": 1,
+            "note": "1 of 3 address scans failed — this count is incomplete: Horizon 503 for https://horizon.stellar.org/accounts/GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP/payments?limit=200&order=desc"
           },
           {
             "chain": "ethereum",
@@ -3933,10 +3943,15 @@
             "note": "no solana address curated for this anchor in registry/anchors.registry.json"
           }
         ],
-        "totalEvents": 206,
-        "tierMix": "PROVEN 206 · ATTESTED 0 · DERIVED 0"
+        "totalEvents": 6,
+        "tierMix": "PROVEN 6 · ATTESTED 0 · DERIVED 0"
       },
-      "failures": [],
+      "failures": [
+        {
+          "chain": "stellar",
+          "error": "Horizon 503 for https://horizon.stellar.org/accounts/GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP/payments?limit=200&order=desc"
+        }
+      ],
       "sampleAttestations": [
         {
           "attestation": {
@@ -4597,8 +4612,8 @@
             "byAsset": [
               {
                 "asset": "yXLM",
-                "count": 211,
-                "volume": "3674834.1238596"
+                "count": 212,
+                "volume": "3674888.8752493"
               },
               {
                 "asset": "XLM",
@@ -4612,8 +4627,8 @@
               },
               {
                 "asset": "yUSDC",
-                "count": 5,
-                "volume": "1091216.800444"
+                "count": 4,
+                "volume": "1091216.800242"
               },
               {
                 "asset": "yBTC",
