@@ -1,10 +1,10 @@
 {
   "anchorId": "anclap.com",
   "name": "Grupo Anchor S.A.",
-  "asOf": "2026-09-20T08:03:20.788Z",
+  "asOf": "2026-09-20T13:18:46.012Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-20T08:03:20.788Z",
+    "checkedAt": "2026-09-20T13:18:46.012Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -27,7 +27,7 @@
     "slow": 0,
     "dark": 1,
     "noActivity": 0,
-    "inbound": 1301,
+    "inbound": 1302,
     "outbound": 701
   },
   "accounts": [
@@ -40,7 +40,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 8.71,
+      "hoursSinceActivity": 13.96,
       "topCounterpartyShare": 0.904
     },
     {
@@ -52,7 +52,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 2326,
+      "hoursSinceActivity": 2331.26,
       "topCounterpartyShare": 0.9999
     },
     {
@@ -60,11 +60,11 @@
       "domain": "anclap.com",
       "name": "Grupo Anchor S.A.",
       "state": "live",
-      "inbound": 1286,
+      "inbound": 1287,
       "outbound": 701,
       "returns": 1,
       "returnRate": 0.0008,
-      "hoursSinceActivity": 0.79,
+      "hoursSinceActivity": 0.81,
       "topCounterpartyShare": 0.1003
     }
   ],
@@ -3051,6 +3051,13 @@
         "in": 10,
         "out": 0,
         "hours": 8.71
+      },
+      {
+        "t": "2026-09-20T13:18:46.012Z",
+        "state": "live",
+        "in": 10,
+        "out": 0,
+        "hours": 13.96
       }
     ],
     "GA4TDPNUCZPTOHB3TKUYMDCRVATXKEADH7ZEYEBWJKQKE2UBFCYNBPEN": [
@@ -6035,6 +6042,13 @@
         "in": 5,
         "out": 0,
         "hours": 2326
+      },
+      {
+        "t": "2026-09-20T13:18:46.012Z",
+        "state": "dark",
+        "in": 5,
+        "out": 0,
+        "hours": 2331.26
       }
     ],
     "GARDJZ33FTTLVKGABXDS22SYNTP4VCLYARIEWKMZKYHX3RRLPMNR3HOT": [
@@ -9019,6 +9033,13 @@
         "in": 1286,
         "out": 701,
         "hours": 0.79
+      },
+      {
+        "t": "2026-09-20T13:18:46.012Z",
+        "state": "live",
+        "in": 1287,
+        "out": 701,
+        "hours": 0.81
       }
     ]
   },
