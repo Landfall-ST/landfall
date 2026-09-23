@@ -1,10 +1,10 @@
 {
   "anchorId": "centre.io",
   "name": "Centre Consortium LLC",
-  "asOf": "2026-09-23T17:34:41.965Z",
+  "asOf": "2026-09-23T20:50:52.121Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-23T17:34:41.965Z",
+    "checkedAt": "2026-09-23T20:50:52.121Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -23,8 +23,8 @@
     "slow": 0,
     "dark": 0,
     "noActivity": 0,
-    "inbound": 2688,
-    "outbound": 745
+    "inbound": 2690,
+    "outbound": 746
   },
   "accounts": [
     {
@@ -32,12 +32,12 @@
       "domain": "centre.io",
       "name": "Centre Consortium LLC",
       "state": "live",
-      "inbound": 2657,
+      "inbound": 2659,
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 0.62,
-      "topCounterpartyShare": 0.9472
+      "hoursSinceActivity": 1.8,
+      "topCounterpartyShare": 0.9473
     },
     {
       "account": "GDEWOLMOPAVRTGNJVWOE6U6LHZVAWIJZVWM6PDLCFTUTJJEKSU32TO5W",
@@ -45,10 +45,10 @@
       "name": "Centre Consortium LLC",
       "state": "live",
       "inbound": 31,
-      "outbound": 745,
+      "outbound": 746,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 0.16,
+      "hoursSinceActivity": 2.69,
       "topCounterpartyShare": 1
     }
   ],
@@ -830,6 +830,13 @@
         "in": 2657,
         "out": 0,
         "hours": 0.62
+      },
+      {
+        "t": "2026-09-23T20:50:52.121Z",
+        "state": "live",
+        "in": 2659,
+        "out": 0,
+        "hours": 1.8
       }
     ],
     "GDEWOLMOPAVRTGNJVWOE6U6LHZVAWIJZVWM6PDLCFTUTJJEKSU32TO5W": [
@@ -1609,6 +1616,13 @@
         "in": 31,
         "out": 745,
         "hours": 0.16
+      },
+      {
+        "t": "2026-09-23T20:50:52.121Z",
+        "state": "live",
+        "in": 31,
+        "out": 746,
+        "hours": 2.69
       }
     ]
   },
