@@ -1,10 +1,10 @@
 {
   "anchorId": "aps.money",
   "name": "Advanced Payment Solutions Ltd.",
-  "asOf": "2026-09-24T02:11:16.972Z",
+  "asOf": "2026-09-24T07:56:59.536Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-24T02:11:16.972Z",
+    "checkedAt": "2026-09-24T07:56:59.536Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -23,8 +23,8 @@
     "slow": 0,
     "dark": 0,
     "noActivity": 0,
-    "inbound": 13436,
-    "outbound": 46128
+    "inbound": 13513,
+    "outbound": 46549
   },
   "accounts": [
     {
@@ -33,10 +33,10 @@
       "name": "Advanced Payment Solutions Ltd.",
       "state": "live",
       "inbound": 2,
-      "outbound": 460,
+      "outbound": 461,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 5.64,
+      "hoursSinceActivity": 1.78,
       "topCounterpartyShare": 1
     },
     {
@@ -44,12 +44,12 @@
       "domain": "aps.money",
       "name": "Advanced Payment Solutions Ltd.",
       "state": "live",
-      "inbound": 13434,
-      "outbound": 45668,
-      "returns": 4415,
-      "returnRate": 0.3286,
-      "hoursSinceActivity": 0.01,
-      "topCounterpartyShare": 0.6645
+      "inbound": 13511,
+      "outbound": 46088,
+      "returns": 4467,
+      "returnRate": 0.3306,
+      "hoursSinceActivity": 0,
+      "topCounterpartyShare": 0.6641
     }
   ],
   "history": {
@@ -851,6 +851,13 @@
         "in": 2,
         "out": 460,
         "hours": 5.64
+      },
+      {
+        "t": "2026-09-24T07:56:59.536Z",
+        "state": "live",
+        "in": 2,
+        "out": 461,
+        "hours": 1.78
       }
     ],
     "GBN32NH6TMWE4ZD4G245CF3UVOQRXD4FK3FDCLZ4DE5642HWFKSLLRMB": [
@@ -1651,6 +1658,13 @@
         "in": 13434,
         "out": 45668,
         "hours": 0.01
+      },
+      {
+        "t": "2026-09-24T07:56:59.536Z",
+        "state": "live",
+        "in": 13511,
+        "out": 46088,
+        "hours": 0
       }
     ]
   },
