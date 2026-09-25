@@ -1,10 +1,10 @@
 {
   "anchorId": "anclap.com",
   "name": "Grupo Anchor S.A.",
-  "asOf": "2026-09-25T00:09:02.195Z",
+  "asOf": "2026-09-25T05:36:10.173Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-25T00:09:02.195Z",
+    "checkedAt": "2026-09-25T05:36:10.173Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -27,7 +27,7 @@
     "slow": 0,
     "dark": 1,
     "noActivity": 0,
-    "inbound": 1304,
+    "inbound": 1305,
     "outbound": 702
   },
   "accounts": [
@@ -40,7 +40,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 3.41,
+      "hoursSinceActivity": 8.87,
       "topCounterpartyShare": 0.904
     },
     {
@@ -52,7 +52,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 2438.09,
+      "hoursSinceActivity": 2443.55,
       "topCounterpartyShare": 0.9999
     },
     {
@@ -60,12 +60,12 @@
       "domain": "anclap.com",
       "name": "Grupo Anchor S.A.",
       "state": "live",
-      "inbound": 1289,
+      "inbound": 1290,
       "outbound": 702,
       "returns": 1,
       "returnRate": 0.0008,
-      "hoursSinceActivity": 14.19,
-      "topCounterpartyShare": 0.0998
+      "hoursSinceActivity": 3.29,
+      "topCounterpartyShare": 0.0996
     }
   ],
   "history": {
@@ -3233,6 +3233,13 @@
         "in": 10,
         "out": 0,
         "hours": 3.41
+      },
+      {
+        "t": "2026-09-25T05:36:10.173Z",
+        "state": "live",
+        "in": 10,
+        "out": 0,
+        "hours": 8.87
       }
     ],
     "GA4TDPNUCZPTOHB3TKUYMDCRVATXKEADH7ZEYEBWJKQKE2UBFCYNBPEN": [
@@ -6399,6 +6406,13 @@
         "in": 5,
         "out": 0,
         "hours": 2438.09
+      },
+      {
+        "t": "2026-09-25T05:36:10.173Z",
+        "state": "dark",
+        "in": 5,
+        "out": 0,
+        "hours": 2443.55
       }
     ],
     "GARDJZ33FTTLVKGABXDS22SYNTP4VCLYARIEWKMZKYHX3RRLPMNR3HOT": [
@@ -9565,6 +9579,13 @@
         "in": 1289,
         "out": 702,
         "hours": 14.19
+      },
+      {
+        "t": "2026-09-25T05:36:10.173Z",
+        "state": "live",
+        "in": 1290,
+        "out": 702,
+        "hours": 3.29
       }
     ]
   },
