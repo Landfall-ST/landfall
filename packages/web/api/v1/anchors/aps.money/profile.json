@@ -1,10 +1,10 @@
 {
   "anchorId": "aps.money",
   "name": "Advanced Payment Solutions Ltd.",
-  "asOf": "2026-09-26T15:35:00.386Z",
+  "asOf": "2026-09-26T18:51:06.410Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-26T15:35:00.386Z",
+    "checkedAt": "2026-09-26T18:51:06.410Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -23,8 +23,8 @@
     "slow": 0,
     "dark": 0,
     "noActivity": 0,
-    "inbound": 14588,
-    "outbound": 51851
+    "inbound": 14652,
+    "outbound": 52285
   },
   "accounts": [
     {
@@ -33,10 +33,10 @@
       "name": "Advanced Payment Solutions Ltd.",
       "state": "live",
       "inbound": 2,
-      "outbound": 476,
+      "outbound": 478,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 2.97,
+      "hoursSinceActivity": 0.95,
       "topCounterpartyShare": 1
     },
     {
@@ -44,12 +44,12 @@
       "domain": "aps.money",
       "name": "Advanced Payment Solutions Ltd.",
       "state": "live",
-      "inbound": 14586,
-      "outbound": 51375,
-      "returns": 5109,
-      "returnRate": 0.3503,
+      "inbound": 14650,
+      "outbound": 51807,
+      "returns": 5156,
+      "returnRate": 0.3519,
       "hoursSinceActivity": 0,
-      "topCounterpartyShare": 0.6494
+      "topCounterpartyShare": 0.6492
     }
   ],
   "history": {
@@ -949,6 +949,13 @@
         "in": 2,
         "out": 476,
         "hours": 2.97
+      },
+      {
+        "t": "2026-09-26T18:51:06.410Z",
+        "state": "live",
+        "in": 2,
+        "out": 478,
+        "hours": 0.95
       }
     ],
     "GBN32NH6TMWE4ZD4G245CF3UVOQRXD4FK3FDCLZ4DE5642HWFKSLLRMB": [
@@ -1846,6 +1853,13 @@
         "state": "live",
         "in": 14586,
         "out": 51375,
+        "hours": 0
+      },
+      {
+        "t": "2026-09-26T18:51:06.410Z",
+        "state": "live",
+        "in": 14650,
+        "out": 51807,
         "hours": 0
       }
     ]
