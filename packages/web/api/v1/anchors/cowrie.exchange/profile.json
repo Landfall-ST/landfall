@@ -1,10 +1,10 @@
 {
   "anchorId": "cowrie.exchange",
   "name": "Cowrie Integrated Systems",
-  "asOf": "2026-09-28T07:56:58.946Z",
+  "asOf": "2026-09-28T16:20:14.672Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-28T07:56:58.946Z",
+    "checkedAt": "2026-09-28T16:20:14.672Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -44,7 +44,7 @@
       "outbound": 1,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 3.62,
+      "hoursSinceActivity": 12.01,
       "topCounterpartyShare": 0.9176
     },
     {
@@ -56,7 +56,7 @@
       "outbound": 20,
       "returns": 1,
       "returnRate": 0.1667,
-      "hoursSinceActivity": 1946.38,
+      "hoursSinceActivity": 1954.77,
       "topCounterpartyShare": 0.8898
     },
     {
@@ -68,7 +68,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 13.03,
+      "hoursSinceActivity": 21.42,
       "topCounterpartyShare": null
     },
     {
@@ -80,7 +80,7 @@
       "outbound": 2,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 2489.31,
+      "hoursSinceActivity": 2497.7,
       "topCounterpartyShare": null
     }
   ],
@@ -3389,6 +3389,13 @@
         "in": 24,
         "out": 1,
         "hours": 3.62
+      },
+      {
+        "t": "2026-09-28T16:20:14.672Z",
+        "state": "live",
+        "in": 24,
+        "out": 1,
+        "hours": 12.01
       }
     ],
     "GBQZOJE2GWJU5VBT6NBLD2F3IOVOYUBDAXYUU32XMHDF4RMDOURWV3GT": [
@@ -6695,6 +6702,13 @@
         "in": 6,
         "out": 20,
         "hours": 1946.38
+      },
+      {
+        "t": "2026-09-28T16:20:14.672Z",
+        "state": "dark",
+        "in": 6,
+        "out": 20,
+        "hours": 1954.77
       }
     ],
     "GDI5EK4HNMBHJJQGP3GUXQJIIOHU2CJO3LABPWD6WYSPJZP5NP67TMNN": [
@@ -10001,6 +10015,13 @@
         "in": 0,
         "out": 0,
         "hours": 13.03
+      },
+      {
+        "t": "2026-09-28T16:20:14.672Z",
+        "state": "live",
+        "in": 0,
+        "out": 0,
+        "hours": 21.42
       }
     ],
     "GBSKKRM7RRDHC33O6KFNLUSPS3577F7GYSFFVBVV5J5PDWGY4XWERE3W": [
@@ -13307,6 +13328,13 @@
         "in": 0,
         "out": 2,
         "hours": 2489.31
+      },
+      {
+        "t": "2026-09-28T16:20:14.672Z",
+        "state": "dark",
+        "in": 0,
+        "out": 2,
+        "hours": 2497.7
       }
     ]
   },
