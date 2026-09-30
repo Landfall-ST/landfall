@@ -1,10 +1,10 @@
 {
   "anchorId": "bitbondsto.com",
   "name": "Bitbond Finance GmbH",
-  "asOf": "2026-09-30T18:42:34.526Z",
+  "asOf": "2026-09-30T22:43:58.094Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-30T18:42:34.526Z",
+    "checkedAt": "2026-09-30T22:43:58.094Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -19,8 +19,8 @@
   },
   "summary": {
     "accounts": 2,
-    "live": 2,
-    "slow": 0,
+    "live": 1,
+    "slow": 1,
     "dark": 0,
     "noActivity": 0,
     "inbound": 0,
@@ -36,19 +36,19 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 66.53,
+      "hoursSinceActivity": 70.56,
       "topCounterpartyShare": null
     },
     {
       "account": "GDDNUTFMGY4FSFD2I2WZNWGRU2WLJEA2YEY5IGNXS6ZBCZYOVOXGCZHX",
       "domain": "bitbondsto.com",
       "name": "Bitbond Finance GmbH",
-      "state": "live",
+      "state": "slow",
       "inbound": 0,
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 68.79,
+      "hoursSinceActivity": 72.81,
       "topCounterpartyShare": null
     }
   ],
@@ -1089,6 +1089,13 @@
         "in": 0,
         "out": 0,
         "hours": 66.53
+      },
+      {
+        "t": "2026-09-30T22:43:58.094Z",
+        "state": "live",
+        "in": 0,
+        "out": 0,
+        "hours": 70.56
       }
     ],
     "GDDNUTFMGY4FSFD2I2WZNWGRU2WLJEA2YEY5IGNXS6ZBCZYOVOXGCZHX": [
@@ -2127,6 +2134,13 @@
         "in": 0,
         "out": 0,
         "hours": 68.79
+      },
+      {
+        "t": "2026-09-30T22:43:58.094Z",
+        "state": "slow",
+        "in": 0,
+        "out": 0,
+        "hours": 72.81
       }
     ]
   },

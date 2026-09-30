@@ -1,10 +1,10 @@
 {
   "anchorId": "ntokens.com",
   "name": "nTokens Serviços Digitais Ltda",
-  "asOf": "2026-09-30T18:42:34.526Z",
+  "asOf": "2026-09-30T22:43:58.094Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-09-30T18:42:34.526Z",
+    "checkedAt": "2026-09-30T22:43:58.094Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -23,8 +23,8 @@
   },
   "summary": {
     "accounts": 3,
-    "live": 2,
-    "slow": 0,
+    "live": 1,
+    "slow": 1,
     "dark": 0,
     "noActivity": 1,
     "inbound": 59,
@@ -52,19 +52,19 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 32.25,
+      "hoursSinceActivity": 36.27,
       "topCounterpartyShare": 1
     },
     {
       "account": "GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP",
       "domain": "ntokens.com",
       "name": "nTokens Serviços Digitais Ltda",
-      "state": "live",
+      "state": "slow",
       "inbound": 58,
       "outbound": 474,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 69.74,
+      "hoursSinceActivity": 73.77,
       "topCounterpartyShare": 0.3213
     }
   ],
@@ -3446,6 +3446,13 @@
       },
       {
         "t": "2026-09-30T18:42:34.526Z",
+        "state": "no_activity",
+        "in": 0,
+        "out": 0,
+        "hours": null
+      },
+      {
+        "t": "2026-09-30T22:43:58.094Z",
         "state": "no_activity",
         "in": 0,
         "out": 0,
@@ -6833,6 +6840,13 @@
         "in": 1,
         "out": 0,
         "hours": 32.25
+      },
+      {
+        "t": "2026-09-30T22:43:58.094Z",
+        "state": "live",
+        "in": 1,
+        "out": 0,
+        "hours": 36.27
       }
     ],
     "GDVKY2GU2DRXWTBEYJJWSFXIGBZV6AZNBVVSUHEPZI54LIS6BA7DVVSP": [
@@ -10195,6 +10209,13 @@
         "in": 58,
         "out": 474,
         "hours": 69.74
+      },
+      {
+        "t": "2026-09-30T22:43:58.094Z",
+        "state": "slow",
+        "in": 58,
+        "out": 474,
+        "hours": 73.77
       }
     ]
   },
