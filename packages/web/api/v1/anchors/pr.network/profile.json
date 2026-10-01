@@ -1,10 +1,10 @@
 {
   "anchorId": "pr.network",
   "name": "PR.network LLC",
-  "asOf": "2026-10-01T01:41:36.303Z",
+  "asOf": "2026-10-01T08:00:39.231Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-10-01T01:41:36.303Z",
+    "checkedAt": "2026-10-01T08:00:39.231Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -31,8 +31,8 @@
   },
   "summary": {
     "accounts": 5,
-    "live": 2,
-    "slow": 3,
+    "live": 5,
+    "slow": 0,
     "dark": 0,
     "noActivity": 0,
     "inbound": 2,
@@ -48,31 +48,31 @@
       "outbound": 321,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 39.1,
+      "hoursSinceActivity": 2.34,
       "topCounterpartyShare": 1
     },
     {
       "account": "GBFZPR7KNYNZEJXWBENA5TSDG4V7SHZV4S6Z4AWURAQ6PRNUYPYZZLLP",
       "domain": "pr.network",
       "name": "PR.network LLC",
-      "state": "slow",
+      "state": "live",
       "inbound": 0,
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 87.85,
+      "hoursSinceActivity": 1.02,
       "topCounterpartyShare": null
     },
     {
       "account": "GAHQAIM35LLAJWBPGP5M2ZHQPZG3FKJS35N3WZ44EQ4NMQWCH25INJ4V",
       "domain": "pr.network",
       "name": "PR.network LLC",
-      "state": "slow",
+      "state": "live",
       "inbound": 0,
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 87.85,
+      "hoursSinceActivity": 1.02,
       "topCounterpartyShare": null
     },
     {
@@ -84,19 +84,19 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 0.81,
+      "hoursSinceActivity": 7.13,
       "topCounterpartyShare": null
     },
     {
       "account": "GB6OFQHDM5PT75DU5PTRZBCJOUKR62IQKBZ7KAA5JWJKIE45V5KXBRSL",
       "domain": "pr.network",
       "name": "PR.network LLC",
-      "state": "slow",
+      "state": "live",
       "inbound": 0,
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 87.85,
+      "hoursSinceActivity": 1.02,
       "topCounterpartyShare": null
     }
   ],
@@ -1151,6 +1151,13 @@
         "in": 2,
         "out": 321,
         "hours": 39.1
+      },
+      {
+        "t": "2026-10-01T08:00:39.231Z",
+        "state": "live",
+        "in": 2,
+        "out": 321,
+        "hours": 2.34
       }
     ],
     "GBFZPR7KNYNZEJXWBENA5TSDG4V7SHZV4S6Z4AWURAQ6PRNUYPYZZLLP": [
@@ -2203,6 +2210,13 @@
         "in": 0,
         "out": 0,
         "hours": 87.85
+      },
+      {
+        "t": "2026-10-01T08:00:39.231Z",
+        "state": "live",
+        "in": 0,
+        "out": 0,
+        "hours": 1.02
       }
     ],
     "GAHQAIM35LLAJWBPGP5M2ZHQPZG3FKJS35N3WZ44EQ4NMQWCH25INJ4V": [
@@ -3255,6 +3269,13 @@
         "in": 0,
         "out": 0,
         "hours": 87.85
+      },
+      {
+        "t": "2026-10-01T08:00:39.231Z",
+        "state": "live",
+        "in": 0,
+        "out": 0,
+        "hours": 1.02
       }
     ],
     "GCUVU7CV2KR4IGQBKOPBABJW5KFZJETRHMJFORGSOYLP66UAXGLRMMDD": [
@@ -4307,6 +4328,13 @@
         "in": 0,
         "out": 0,
         "hours": 0.81
+      },
+      {
+        "t": "2026-10-01T08:00:39.231Z",
+        "state": "live",
+        "in": 0,
+        "out": 0,
+        "hours": 7.13
       }
     ],
     "GB6OFQHDM5PT75DU5PTRZBCJOUKR62IQKBZ7KAA5JWJKIE45V5KXBRSL": [
@@ -5359,6 +5387,13 @@
         "in": 0,
         "out": 0,
         "hours": 87.85
+      },
+      {
+        "t": "2026-10-01T08:00:39.231Z",
+        "state": "live",
+        "in": 0,
+        "out": 0,
+        "hours": 1.02
       }
     ]
   },

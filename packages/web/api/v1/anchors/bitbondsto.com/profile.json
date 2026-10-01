@@ -1,10 +1,10 @@
 {
   "anchorId": "bitbondsto.com",
   "name": "Bitbond Finance GmbH",
-  "asOf": "2026-10-01T01:41:36.303Z",
+  "asOf": "2026-10-01T08:00:39.231Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-10-01T01:41:36.303Z",
+    "checkedAt": "2026-10-01T08:00:39.231Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -19,8 +19,8 @@
   },
   "summary": {
     "accounts": 2,
-    "live": 0,
-    "slow": 2,
+    "live": 2,
+    "slow": 0,
     "dark": 0,
     "noActivity": 0,
     "inbound": 0,
@@ -31,24 +31,24 @@
       "account": "GD5J6HLF5666X4AZLTFTXLY46J5SW7EXRKBLEYPJP33S33MXZGV6CWFN",
       "domain": "bitbondsto.com",
       "name": "Bitbond Finance GmbH",
-      "state": "slow",
+      "state": "live",
       "inbound": 0,
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 73.52,
+      "hoursSinceActivity": 2.4,
       "topCounterpartyShare": null
     },
     {
       "account": "GDDNUTFMGY4FSFD2I2WZNWGRU2WLJEA2YEY5IGNXS6ZBCZYOVOXGCZHX",
       "domain": "bitbondsto.com",
       "name": "Bitbond Finance GmbH",
-      "state": "slow",
+      "state": "live",
       "inbound": 0,
       "outbound": 0,
       "returns": 0,
       "returnRate": null,
-      "hoursSinceActivity": 75.77,
+      "hoursSinceActivity": 4.41,
       "topCounterpartyShare": null
     }
   ],
@@ -1103,6 +1103,13 @@
         "in": 0,
         "out": 0,
         "hours": 73.52
+      },
+      {
+        "t": "2026-10-01T08:00:39.231Z",
+        "state": "live",
+        "in": 0,
+        "out": 0,
+        "hours": 2.4
       }
     ],
     "GDDNUTFMGY4FSFD2I2WZNWGRU2WLJEA2YEY5IGNXS6ZBCZYOVOXGCZHX": [
@@ -2155,6 +2162,13 @@
         "in": 0,
         "out": 0,
         "hours": 75.77
+      },
+      {
+        "t": "2026-10-01T08:00:39.231Z",
+        "state": "live",
+        "in": 0,
+        "out": 0,
+        "hours": 4.41
       }
     ]
   },

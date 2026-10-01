@@ -1,10 +1,10 @@
 {
   "anchorId": "aps.money",
   "name": "Advanced Payment Solutions Ltd.",
-  "asOf": "2026-10-01T01:41:36.303Z",
+  "asOf": "2026-10-01T08:00:39.231Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-10-01T01:41:36.303Z",
+    "checkedAt": "2026-10-01T08:00:39.231Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -23,8 +23,8 @@
     "slow": 0,
     "dark": 0,
     "noActivity": 0,
-    "inbound": 15887,
-    "outbound": 61380
+    "inbound": 15957,
+    "outbound": 61811
   },
   "accounts": [
     {
@@ -33,10 +33,10 @@
       "name": "Advanced Payment Solutions Ltd.",
       "state": "live",
       "inbound": 2,
-      "outbound": 490,
+      "outbound": 493,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 17.92,
+      "hoursSinceActivity": 0.25,
       "topCounterpartyShare": 1
     },
     {
@@ -44,12 +44,12 @@
       "domain": "aps.money",
       "name": "Advanced Payment Solutions Ltd.",
       "state": "live",
-      "inbound": 15885,
-      "outbound": 60890,
-      "returns": 6138,
-      "returnRate": 0.3864,
-      "hoursSinceActivity": 0.01,
-      "topCounterpartyShare": 0.6218
+      "inbound": 15955,
+      "outbound": 61318,
+      "returns": 6192,
+      "returnRate": 0.3881,
+      "hoursSinceActivity": 0,
+      "topCounterpartyShare": 0.6204
     }
   ],
   "history": {
@@ -1103,6 +1103,13 @@
         "in": 2,
         "out": 490,
         "hours": 17.92
+      },
+      {
+        "t": "2026-10-01T08:00:39.231Z",
+        "state": "live",
+        "in": 2,
+        "out": 493,
+        "hours": 0.25
       }
     ],
     "GBN32NH6TMWE4ZD4G245CF3UVOQRXD4FK3FDCLZ4DE5642HWFKSLLRMB": [
@@ -2155,6 +2162,13 @@
         "in": 15885,
         "out": 60890,
         "hours": 0.01
+      },
+      {
+        "t": "2026-10-01T08:00:39.231Z",
+        "state": "live",
+        "in": 15955,
+        "out": 61318,
+        "hours": 0
       }
     ]
   },

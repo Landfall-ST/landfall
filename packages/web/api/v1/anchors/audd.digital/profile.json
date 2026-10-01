@@ -1,10 +1,10 @@
 {
   "anchorId": "audd.digital",
   "name": "AUDC PTY LTD",
-  "asOf": "2026-10-01T01:41:36.303Z",
+  "asOf": "2026-10-01T08:00:39.231Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-10-01T01:41:36.303Z",
+    "checkedAt": "2026-10-01T08:00:39.231Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
@@ -19,11 +19,11 @@
   },
   "summary": {
     "accounts": 2,
-    "live": 1,
-    "slow": 1,
+    "live": 2,
+    "slow": 0,
     "dark": 0,
     "noActivity": 0,
-    "inbound": 296,
+    "inbound": 297,
     "outbound": 11
   },
   "accounts": [
@@ -32,23 +32,23 @@
       "domain": "audd.digital",
       "name": "AUDC PTY LTD",
       "state": "live",
-      "inbound": 294,
+      "inbound": 295,
       "outbound": 9,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 1.08,
-      "topCounterpartyShare": 0.8818
+      "hoursSinceActivity": 4.96,
+      "topCounterpartyShare": 0.8817
     },
     {
       "account": "GCUIIJ6J6KIOOYOICVFOEVH6XRY3WX4NUZDYGPUCJQZM6R3OFJE2QGY2",
       "domain": "audd.digital",
       "name": "AUDC PTY LTD",
-      "state": "slow",
+      "state": "live",
       "inbound": 2,
       "outbound": 2,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 76.64,
+      "hoursSinceActivity": 5.22,
       "topCounterpartyShare": 0.6667
     }
   ],
@@ -1089,6 +1089,13 @@
         "in": 294,
         "out": 9,
         "hours": 1.08
+      },
+      {
+        "t": "2026-10-01T08:00:39.231Z",
+        "state": "live",
+        "in": 295,
+        "out": 9,
+        "hours": 4.96
       }
     ],
     "GCUIIJ6J6KIOOYOICVFOEVH6XRY3WX4NUZDYGPUCJQZM6R3OFJE2QGY2": [
@@ -2127,6 +2134,13 @@
         "in": 2,
         "out": 2,
         "hours": 76.64
+      },
+      {
+        "t": "2026-10-01T08:00:39.231Z",
+        "state": "live",
+        "in": 2,
+        "out": 2,
+        "hours": 5.22
       }
     ]
   },
