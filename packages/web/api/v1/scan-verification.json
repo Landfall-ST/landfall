@@ -1,17 +1,24 @@
 {
-  "checkedAt": "2026-10-01T20:51:11.784Z",
-  "scanFile": "scan-2026-10-01T20-40-36-674Z.json",
-  "accountsChecked": 107,
+  "checkedAt": "2026-10-02T00:36:45.877Z",
+  "scanFile": "scan-2026-10-02T00-20-29-482Z.json",
+  "accountsChecked": 104,
   "comparedAgainst": {
-    "publishedAccounts": 104
+    "publishedAccounts": 107
   },
-  "outcome": "clean",
+  "outcome": "published-with-warnings",
   "published": true,
   "counts": {
     "errors": 0,
-    "warnings": 0
+    "warnings": 1
   },
-  "findings": [],
-  "note": "Published. Every invariant held.",
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "account-dropped",
+      "message": "3 account(s) were published last scan and are absent now, while their anchor is still covered.",
+      "detail": "ultracapital.xyz:GANESLOXBZWPLB5ZM2KFUTBGSBGISB7JTWFXO67G4TGQINWRMI6766GV, vnx.io:GAYTNWDWDIKMN7JXSSO4MXDLQTVJ4A7UZVW7XWECAPBUNXRMEA2SGX74, vnx.io:GDYKVJVWRTERUUOU6Z4ZN3LFMNOI7YGJNATNLPGF6R5YFYGMCRKXSEVA"
+    }
+  ],
+  "note": "Published. Warnings are real changes worth a human look, but they are visible on the site itself, so withholding the whole update would trade a visible change for silent staleness.",
   "checksApplied": "See packages/indexer/src/invariants.ts — one on-chain account claimed by two anchors, rows attributed to no anchor, duplicate rows that double-count, and payment counts moving implausibly in either direction between scans."
 }

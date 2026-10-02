@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T20:51:12.060Z",
+  "generatedAt": "2026-10-02T00:36:46.178Z",
   "note": "Which on-chain accounts each tracked anchor declares as its own, and how that was established. Attribution comes from the anchor's own SEP-1 stellar.toml — the permissionless standard the operator controls — and any account cited there only as a currency issuer is included solely when the issuer account's own home_domain confirms the claim. Every published scan is checked for an account claimed by two anchors before it can go out; see packages/indexer/src/invariants.ts.",
   "anchors": [
     {
@@ -173,14 +173,14 @@
     {
       "anchorId": "ultracapital.xyz",
       "resolved": true,
-      "accounts": 13,
+      "accounts": 12,
       "profile": "/api/v1/anchors/ultracapital.xyz/profile.json",
       "page": "/anchor/ultracapital.xyz"
     },
     {
       "anchorId": "vnx.io",
       "resolved": true,
-      "accounts": 4,
+      "accounts": 2,
       "profile": "/api/v1/anchors/vnx.io/profile.json",
       "page": "/anchor/vnx.io"
     },

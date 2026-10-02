@@ -1,22 +1,14 @@
 {
   "anchorId": "vnx.io",
   "name": "VNX Global Ltd.",
-  "asOf": "2026-10-01T20:40:36.674Z",
+  "asOf": "2026-10-02T00:20:29.482Z",
   "verification": {
     "resolved": true,
-    "checkedAt": "2026-10-01T20:40:36.674Z",
+    "checkedAt": "2026-10-02T00:20:29.482Z",
     "source": "SEP-1 stellar.toml, resolved live; issuer attribution confirmed against each issuer account's own on-chain home_domain",
     "accounts": [
       {
         "account": "GDXLSLCOPPHTWOQXLLKSVN4VN3G67WD2ENU7UMVAROEYVJLSPSEWXIZN",
-        "role": "declared"
-      },
-      {
-        "account": "GAYTNWDWDIKMN7JXSSO4MXDLQTVJ4A7UZVW7XWECAPBUNXRMEA2SGX74",
-        "role": "declared"
-      },
-      {
-        "account": "GDYKVJVWRTERUUOU6Z4ZN3LFMNOI7YGJNATNLPGF6R5YFYGMCRKXSEVA",
         "role": "declared"
       },
       {
@@ -26,13 +18,13 @@
     ]
   },
   "summary": {
-    "accounts": 4,
-    "live": 1,
+    "accounts": 2,
+    "live": 0,
     "slow": 0,
-    "dark": 3,
+    "dark": 2,
     "noActivity": 0,
-    "inbound": 70,
-    "outbound": 29
+    "inbound": 58,
+    "outbound": 18
   },
   "accounts": [
     {
@@ -44,31 +36,7 @@
       "outbound": 18,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 1930.82,
-      "topCounterpartyShare": 1
-    },
-    {
-      "account": "GAYTNWDWDIKMN7JXSSO4MXDLQTVJ4A7UZVW7XWECAPBUNXRMEA2SGX74",
-      "domain": "vnx.io",
-      "name": "VNX Global Ltd.",
-      "state": "dark",
-      "inbound": 11,
-      "outbound": 11,
-      "returns": 0,
-      "returnRate": 0,
-      "hoursSinceActivity": 2379.7,
-      "topCounterpartyShare": 1
-    },
-    {
-      "account": "GDYKVJVWRTERUUOU6Z4ZN3LFMNOI7YGJNATNLPGF6R5YFYGMCRKXSEVA",
-      "domain": "vnx.io",
-      "name": "VNX Global Ltd.",
-      "state": "live",
-      "inbound": 1,
-      "outbound": 0,
-      "returns": 0,
-      "returnRate": 0,
-      "hoursSinceActivity": 18.54,
+      "hoursSinceActivity": 1934.49,
       "topCounterpartyShare": 1
     },
     {
@@ -80,7 +48,7 @@
       "outbound": 0,
       "returns": 0,
       "returnRate": 0,
-      "hoursSinceActivity": 1738.57,
+      "hoursSinceActivity": 1742.24,
       "topCounterpartyShare": 0.9963
     }
   ],
@@ -1156,6 +1124,13 @@
         "in": 56,
         "out": 18,
         "hours": 1930.82
+      },
+      {
+        "t": "2026-10-02T00:20:29.482Z",
+        "state": "dark",
+        "in": 56,
+        "out": 18,
+        "hours": 1934.49
       }
     ],
     "GAYTNWDWDIKMN7JXSSO4MXDLQTVJ4A7UZVW7XWECAPBUNXRMEA2SGX74": [
@@ -4375,6 +4350,13 @@
         "in": 2,
         "out": 0,
         "hours": 1738.57
+      },
+      {
+        "t": "2026-10-02T00:20:29.482Z",
+        "state": "dark",
+        "in": 2,
+        "out": 0,
+        "hours": 1742.24
       }
     ]
   },
