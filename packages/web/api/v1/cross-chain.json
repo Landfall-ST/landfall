@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-05T23:04:06.841Z",
+  "generatedAt": "2026-10-06T02:48:11.845Z",
   "stpVersion": "1",
   "window": {
-    "since": "2026-09-05T23:03:45.643Z",
+    "since": "2026-09-06T02:48:00.557Z",
     "days": 30,
     "maxRecordsPerAccount": 200
   },
@@ -55,7 +55,7 @@
     }
   ],
   "totals": {
-    "PROVEN": 2987,
+    "PROVEN": 2989,
     "ATTESTED": 0,
     "DERIVED": 0
   },
@@ -123,12 +123,12 @@
     {
       "anchorId": "audd.digital",
       "evidence": {
-        "PROVEN": 139,
+        "PROVEN": 140,
         "ATTESTED": 0,
         "DERIVED": 0
       },
-      "tierMix": "PROVEN 139 · ATTESTED 0 · DERIVED 0",
-      "rationale": "Ranked on 139 ledger-proven settlement(s)."
+      "tierMix": "PROVEN 140 · ATTESTED 0 · DERIVED 0",
+      "rationale": "Ranked on 140 ledger-proven settlement(s)."
     },
     {
       "anchorId": "afreum.com",
@@ -201,7 +201,7 @@
       "rationale": "Ranked on 50 ledger-proven settlement(s)."
     },
     {
-      "anchorId": "ntokens.com",
+      "anchorId": "cowrie.exchange",
       "evidence": {
         "PROVEN": 38,
         "ATTESTED": 0,
@@ -211,14 +211,14 @@
       "rationale": "Ranked on 38 ledger-proven settlement(s)."
     },
     {
-      "anchorId": "cowrie.exchange",
+      "anchorId": "ntokens.com",
       "evidence": {
-        "PROVEN": 37,
+        "PROVEN": 38,
         "ATTESTED": 0,
         "DERIVED": 0
       },
-      "tierMix": "PROVEN 37 · ATTESTED 0 · DERIVED 0",
-      "rationale": "Ranked on 37 ledger-proven settlement(s)."
+      "tierMix": "PROVEN 38 · ATTESTED 0 · DERIVED 0",
+      "rationale": "Ranked on 38 ledger-proven settlement(s)."
     },
     {
       "anchorId": "mobius.network",
@@ -959,18 +959,23 @@
             "byAsset": [
               {
                 "asset": "APSUSDM",
-                "count": 110,
-                "volume": "10273229.84"
-              },
-              {
-                "asset": "APSEURM",
-                "count": 95,
-                "volume": "1718196.26"
+                "count": 128,
+                "volume": "10303530.8"
               },
               {
                 "asset": "APSBPIUSD",
-                "count": 54,
-                "volume": "3716.69"
+                "count": 68,
+                "volume": "41264.76"
+              },
+              {
+                "asset": "APSEURM",
+                "count": 58,
+                "volume": "1717287.57"
+              },
+              {
+                "asset": "APSBPOUSD",
+                "count": 24,
+                "volume": "3117.4"
               },
               {
                 "asset": "XLM",
@@ -978,24 +983,14 @@
                 "volume": "0.0000014"
               },
               {
-                "asset": "APSBPOUSD",
-                "count": 14,
-                "volume": "6772.19"
-              },
-              {
                 "asset": "APSSARM",
-                "count": 9,
-                "volume": "9443971.58"
-              },
-              {
-                "asset": "APSBPIEUR",
-                "count": 4,
-                "volume": "134"
+                "count": 7,
+                "volume": "9420796.4"
               },
               {
                 "asset": "APSBPOEUR",
-                "count": 1,
-                "volume": "88.2300000"
+                "count": 2,
+                "volume": "154.5"
               }
             ]
           },
@@ -1168,28 +1163,28 @@
               },
               {
                 "asset": "upvoteICE",
-                "count": 47,
-                "volume": "260512536.3032367"
+                "count": 48,
+                "volume": "211573295.4696878"
               },
               {
                 "asset": "governICE",
-                "count": 47,
-                "volume": "260512536.3032367"
+                "count": 48,
+                "volume": "211573295.4696878"
               },
               {
                 "asset": "ICE",
-                "count": 47,
-                "volume": "260512536.3032367"
+                "count": 48,
+                "volume": "211573295.4696878"
               },
               {
                 "asset": "gdICE",
-                "count": 31,
-                "volume": "775951579.6966886"
+                "count": 28,
+                "volume": "767402398.4334289"
               },
               {
                 "asset": "dICE",
                 "count": 28,
-                "volume": "785706573.8102548"
+                "volume": "786793002.815059"
               },
               {
                 "asset": "XLM",
@@ -1358,12 +1353,12 @@
         "tiers": [
           {
             "tier": "PROVEN",
-            "events": 139,
+            "events": 140,
             "byAsset": [
               {
                 "asset": "AUDD",
-                "count": 90,
-                "volume": "22596469.8081202"
+                "count": 91,
+                "volume": "22596470.8081202"
               },
               {
                 "asset": "XLM",
@@ -1388,7 +1383,7 @@
             "chain": "stellar",
             "maxTier": "PROVEN",
             "state": "observed",
-            "events": 139,
+            "events": 140,
             "sourcesScanned": 2,
             "sourcesFailed": 0
           },
@@ -1456,11 +1451,30 @@
             "note": "no solana address curated for this anchor in registry/anchors.registry.json"
           }
         ],
-        "totalEvents": 139,
-        "tierMix": "PROVEN 139 · ATTESTED 0 · DERIVED 0"
+        "totalEvents": 140,
+        "tierMix": "PROVEN 140 · ATTESTED 0 · DERIVED 0"
       },
       "failures": [],
       "sampleAttestations": [
+        {
+          "attestation": {
+            "stp_version": "1",
+            "anchor_id": "audd.digital",
+            "chain": "stellar",
+            "asset": "AUDD",
+            "direction": "deposit",
+            "amount": "1.0000000",
+            "onchain_ref": "ed625a166c167bc7a627be77ccbf46582fa071c164e445c651e4dfb03ae3630a",
+            "fiat_leg_ref": null,
+            "evidence_tier": "PROVEN",
+            "evidence_detail": "stellar_ledger",
+            "keystone_ref": null,
+            "observed_at": "2026-10-05T23:29:52Z",
+            "signer": "landfall-attester-dev"
+          },
+          "digest": "ee27902661543f894e59f711ab212df4759769becceafeefe1ff404e72d5a737",
+          "signed": false
+        },
         {
           "attestation": {
             "stp_version": "1",
@@ -1497,25 +1511,6 @@
             "signer": "landfall-attester-dev"
           },
           "digest": "953f0ce6171716f798ddef6c344d276981237670a8182cff8f9d11f952a070cc",
-          "signed": false
-        },
-        {
-          "attestation": {
-            "stp_version": "1",
-            "anchor_id": "audd.digital",
-            "chain": "stellar",
-            "asset": "AUDD",
-            "direction": "deposit",
-            "amount": "149905.0200000",
-            "onchain_ref": "88d790d5622b53ce9133ac49c139da27b6ed629f972aa61d148198585e46c780",
-            "fiat_leg_ref": null,
-            "evidence_tier": "PROVEN",
-            "evidence_detail": "stellar_ledger",
-            "keystone_ref": null,
-            "observed_at": "2026-10-05T10:31:02Z",
-            "signer": "landfall-attester-dev"
-          },
-          "digest": "44b928f4946002582a1cbfdcd361d36990c5f471a796e7ea12ea10beda0c6e3d",
           "signed": false
         }
       ]
@@ -2012,7 +2007,7 @@
         "tiers": [
           {
             "tier": "PROVEN",
-            "events": 37,
+            "events": 38,
             "byAsset": [
               {
                 "asset": "XLM",
@@ -2021,8 +2016,8 @@
               },
               {
                 "asset": "NGNT",
-                "count": 3,
-                "volume": "3.9571385"
+                "count": 4,
+                "volume": "3.9571386"
               }
             ]
           },
@@ -2042,7 +2037,7 @@
             "chain": "stellar",
             "maxTier": "PROVEN",
             "state": "observed",
-            "events": 37,
+            "events": 38,
             "sourcesScanned": 4,
             "sourcesFailed": 0
           },
@@ -2110,11 +2105,30 @@
             "note": "no solana address curated for this anchor in registry/anchors.registry.json"
           }
         ],
-        "totalEvents": 37,
-        "tierMix": "PROVEN 37 · ATTESTED 0 · DERIVED 0"
+        "totalEvents": 38,
+        "tierMix": "PROVEN 38 · ATTESTED 0 · DERIVED 0"
       },
       "failures": [],
       "sampleAttestations": [
+        {
+          "attestation": {
+            "stp_version": "1",
+            "anchor_id": "cowrie.exchange",
+            "chain": "stellar",
+            "asset": "NGNT",
+            "direction": "deposit",
+            "amount": "0.0000001",
+            "onchain_ref": "ee3ba16c1cacf6ff2586bbe6549841f8e096cdd10bd9cad068b88adaf03e4aa1",
+            "fiat_leg_ref": null,
+            "evidence_tier": "PROVEN",
+            "evidence_detail": "stellar_ledger",
+            "keystone_ref": null,
+            "observed_at": "2026-10-06T01:19:32Z",
+            "signer": "landfall-attester-dev"
+          },
+          "digest": "5711ec9a71f17530af78d921b928379b284905084940d80654377a99469242e5",
+          "signed": false
+        },
         {
           "attestation": {
             "stp_version": "1",
@@ -2151,25 +2165,6 @@
             "signer": "landfall-attester-dev"
           },
           "digest": "6f2791729ddb390f758d0696da0e4c715b0bd7ca502d5c646f07bae82df7f1ec",
-          "signed": false
-        },
-        {
-          "attestation": {
-            "stp_version": "1",
-            "anchor_id": "cowrie.exchange",
-            "chain": "stellar",
-            "asset": "NGNT",
-            "direction": "deposit",
-            "amount": "3.1193870",
-            "onchain_ref": "9ba78cad0861eeab261aab744890761a616e37b71c90a28a9ee7add8f65ac94c",
-            "fiat_leg_ref": null,
-            "evidence_tier": "PROVEN",
-            "evidence_detail": "stellar_ledger",
-            "keystone_ref": null,
-            "observed_at": "2026-10-02T13:48:57Z",
-            "signer": "landfall-attester-dev"
-          },
-          "digest": "b971f652f1a0c473ae365064d352e1ab34f046564c7f9bee7a511c7a6506bae3",
           "signed": false
         }
       ]
