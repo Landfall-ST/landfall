@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T16:26:23.016Z",
+  "generatedAt": "2026-10-06T21:26:13.445Z",
   "source": "each anchor's own SEP-24 /info endpoint, reached via its stellar.toml",
   "note": "Withdrawal terms as the operator publishes them, not as we estimate them. `pricing` is \"published\" when the anchor states fee_fixed/fee_percent, \"dynamic\" when it says fees exist but are quoted per transaction, and the anchor is omitted entirely when /info could not be reached — which is not the same as free, and not the same as declining to say.",
   "caveat": "These are the fees the anchor advertises. The binding number is the one quoted inside its own withdrawal flow, which may differ; nothing here is a quote.",
@@ -14,7 +14,7 @@
       "domain": "anclap.com",
       "status": "ok",
       "endpoint": "https://api.anclap.com/transfer24",
-      "fetchedAt": "2026-10-06T16:26:11.126Z",
+      "fetchedAt": "2026-10-06T21:26:01.654Z",
       "withdraw": {
         "ARS": {
           "enabled": true,
@@ -39,7 +39,7 @@
       "domain": "clpx.finance",
       "status": "ok",
       "endpoint": "https://kbtrading.org/sep24",
-      "fetchedAt": "2026-10-06T16:26:12.354Z",
+      "fetchedAt": "2026-10-06T21:26:03.032Z",
       "withdraw": {
         "CLPX": {
           "enabled": false
@@ -59,7 +59,7 @@
       "domain": "ntokens.com",
       "status": "ok",
       "endpoint": "https://ntokens-box.bpventures.us/sep24",
-      "fetchedAt": "2026-10-06T16:26:11.951Z",
+      "fetchedAt": "2026-10-06T21:26:02.612Z",
       "withdraw": {
         "BRL": {
           "enabled": true,
@@ -76,7 +76,7 @@
       "domain": "stellar.moneygram.com",
       "status": "ok",
       "endpoint": "https://stellar.moneygram.com/stellaradapterservice/sep24",
-      "fetchedAt": "2026-10-06T16:26:11.108Z",
+      "fetchedAt": "2026-10-06T21:26:01.464Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
@@ -93,7 +93,7 @@
       "domain": "ultracapital.xyz",
       "status": "ok",
       "endpoint": "https://ultracapital.xyz/sep24",
-      "fetchedAt": "2026-10-06T16:26:13.478Z",
+      "fetchedAt": "2026-10-06T21:26:04.348Z",
       "withdraw": {
         "ETH": {
           "enabled": true,
@@ -145,7 +145,7 @@
       "domain": "zeam.money",
       "status": "ok",
       "endpoint": "https://anchor.zeam.money/sep24",
-      "fetchedAt": "2026-10-06T16:26:13.366Z",
+      "fetchedAt": "2026-10-06T21:26:03.864Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
