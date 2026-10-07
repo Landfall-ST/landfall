@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T01:11:01.840Z",
+  "generatedAt": "2026-10-07T07:57:26.855Z",
   "source": "each anchor's own SEP-24 /info endpoint, reached via its stellar.toml",
   "note": "Withdrawal terms as the operator publishes them, not as we estimate them. `pricing` is \"published\" when the anchor states fee_fixed/fee_percent, \"dynamic\" when it says fees exist but are quoted per transaction, and the anchor is omitted entirely when /info could not be reached — which is not the same as free, and not the same as declining to say.",
   "caveat": "These are the fees the anchor advertises. The binding number is the one quoted inside its own withdrawal flow, which may differ; nothing here is a quote.",
@@ -14,7 +14,7 @@
       "domain": "anclap.com",
       "status": "ok",
       "endpoint": "https://api.anclap.com/transfer24",
-      "fetchedAt": "2026-10-07T01:10:49.922Z",
+      "fetchedAt": "2026-10-07T07:57:14.928Z",
       "withdraw": {
         "ARS": {
           "enabled": true,
@@ -39,7 +39,7 @@
       "domain": "clpx.finance",
       "status": "ok",
       "endpoint": "https://kbtrading.org/sep24",
-      "fetchedAt": "2026-10-07T01:10:51.355Z",
+      "fetchedAt": "2026-10-07T07:57:16.423Z",
       "withdraw": {
         "CLPX": {
           "enabled": false
@@ -59,7 +59,7 @@
       "domain": "ntokens.com",
       "status": "ok",
       "endpoint": "https://ntokens-box.bpventures.us/sep24",
-      "fetchedAt": "2026-10-07T01:10:51.010Z",
+      "fetchedAt": "2026-10-07T07:57:15.907Z",
       "withdraw": {
         "BRL": {
           "enabled": true,
@@ -76,7 +76,7 @@
       "domain": "stellar.moneygram.com",
       "status": "ok",
       "endpoint": "https://stellar.moneygram.com/stellaradapterservice/sep24",
-      "fetchedAt": "2026-10-07T01:10:49.833Z",
+      "fetchedAt": "2026-10-07T07:57:14.846Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
@@ -93,7 +93,7 @@
       "domain": "ultracapital.xyz",
       "status": "ok",
       "endpoint": "https://ultracapital.xyz/sep24",
-      "fetchedAt": "2026-10-07T01:10:53.363Z",
+      "fetchedAt": "2026-10-07T07:57:18.845Z",
       "withdraw": {
         "ETH": {
           "enabled": true,
@@ -111,9 +111,6 @@
           "minAmount": 0.005,
           "maxAmount": 20
         },
-        "BTC": {
-          "enabled": false
-        },
         "yUSDC": {
           "enabled": true,
           "pricing": "published",
@@ -122,13 +119,8 @@
           "minAmount": 50,
           "maxAmount": 20000
         },
-        "yXLM": {
-          "enabled": true,
-          "pricing": "published",
-          "feeFixed": 0.5,
-          "feePercent": 0,
-          "minAmount": 20,
-          "maxAmount": 100000
+        "BTC": {
+          "enabled": false
         },
         "yBTC": {
           "enabled": true,
@@ -137,6 +129,14 @@
           "feePercent": 0,
           "minAmount": 0.005,
           "maxAmount": 1
+        },
+        "yXLM": {
+          "enabled": true,
+          "pricing": "published",
+          "feeFixed": 0.5,
+          "feePercent": 0,
+          "minAmount": 20,
+          "maxAmount": 100000
         }
       },
       "pricing": "published"
@@ -145,7 +145,7 @@
       "domain": "zeam.money",
       "status": "ok",
       "endpoint": "https://anchor.zeam.money/sep24",
-      "fetchedAt": "2026-10-07T01:10:52.485Z",
+      "fetchedAt": "2026-10-07T07:57:17.110Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
