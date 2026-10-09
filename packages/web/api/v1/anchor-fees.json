@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-09T07:00:35.996Z",
+  "generatedAt": "2026-10-09T14:07:12.593Z",
   "source": "each anchor's own SEP-24 /info endpoint, reached via its stellar.toml",
   "note": "Withdrawal terms as the operator publishes them, not as we estimate them. `pricing` is \"published\" when the anchor states fee_fixed/fee_percent, \"dynamic\" when it says fees exist but are quoted per transaction, and the anchor is omitted entirely when /info could not be reached — which is not the same as free, and not the same as declining to say.",
   "caveat": "These are the fees the anchor advertises. The binding number is the one quoted inside its own withdrawal flow, which may differ; nothing here is a quote.",
   "counts": {
     "asked": 32,
-    "answered": 6,
-    "published": 6,
+    "answered": 5,
+    "published": 5,
     "dynamic": 0
   },
   "anchors": {
@@ -14,7 +14,7 @@
       "domain": "anclap.com",
       "status": "ok",
       "endpoint": "https://api.anclap.com/transfer24",
-      "fetchedAt": "2026-10-09T07:00:23.986Z",
+      "fetchedAt": "2026-10-09T14:06:58.910Z",
       "withdraw": {
         "ARS": {
           "enabled": true,
@@ -39,7 +39,7 @@
       "domain": "clpx.finance",
       "status": "ok",
       "endpoint": "https://kbtrading.org/sep24",
-      "fetchedAt": "2026-10-09T07:00:25.279Z",
+      "fetchedAt": "2026-10-09T14:07:07.080Z",
       "withdraw": {
         "CLPX": {
           "enabled": false
@@ -55,28 +55,11 @@
       },
       "pricing": "published"
     },
-    "ntokens.com": {
-      "domain": "ntokens.com",
-      "status": "ok",
-      "endpoint": "https://ntokens-box.bpventures.us/sep24",
-      "fetchedAt": "2026-10-09T07:00:24.679Z",
-      "withdraw": {
-        "BRL": {
-          "enabled": true,
-          "pricing": "published",
-          "feeFixed": 0,
-          "feePercent": 20,
-          "minAmount": 0.01,
-          "maxAmount": 4000
-        }
-      },
-      "pricing": "published"
-    },
     "stellar.moneygram.com": {
       "domain": "stellar.moneygram.com",
       "status": "ok",
       "endpoint": "https://stellar.moneygram.com/stellaradapterservice/sep24",
-      "fetchedAt": "2026-10-09T07:00:24.074Z",
+      "fetchedAt": "2026-10-09T14:06:58.768Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
@@ -93,7 +76,7 @@
       "domain": "ultracapital.xyz",
       "status": "ok",
       "endpoint": "https://ultracapital.xyz/sep24",
-      "fetchedAt": "2026-10-09T07:00:26.140Z",
+      "fetchedAt": "2026-10-09T14:07:08.510Z",
       "withdraw": {
         "ETH": {
           "enabled": true,
@@ -145,7 +128,7 @@
       "domain": "zeam.money",
       "status": "ok",
       "endpoint": "https://anchor.zeam.money/sep24",
-      "fetchedAt": "2026-10-09T07:00:25.851Z",
+      "fetchedAt": "2026-10-09T14:07:11.754Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
@@ -267,6 +250,11 @@
       "domain": "ngnc.online",
       "status": "unreachable",
       "reason": "/info: HTTP 403"
+    },
+    {
+      "domain": "ntokens.com",
+      "status": "unreachable",
+      "reason": "/info: fetch failed"
     },
     {
       "domain": "pr.network",
