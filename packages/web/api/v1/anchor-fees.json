@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T10:17:21.569Z",
+  "generatedAt": "2026-10-10T16:04:02.726Z",
   "source": "each anchor's own SEP-24 /info endpoint, reached via its stellar.toml",
   "note": "Withdrawal terms as the operator publishes them, not as we estimate them. `pricing` is \"published\" when the anchor states fee_fixed/fee_percent, \"dynamic\" when it says fees exist but are quoted per transaction, and the anchor is omitted entirely when /info could not be reached — which is not the same as free, and not the same as declining to say.",
   "caveat": "These are the fees the anchor advertises. The binding number is the one quoted inside its own withdrawal flow, which may differ; nothing here is a quote.",
@@ -14,7 +14,7 @@
       "domain": "anclap.com",
       "status": "ok",
       "endpoint": "https://api.anclap.com/transfer24",
-      "fetchedAt": "2026-10-10T10:17:09.779Z",
+      "fetchedAt": "2026-10-10T16:03:50.858Z",
       "withdraw": {
         "ARS": {
           "enabled": true,
@@ -39,7 +39,7 @@
       "domain": "clpx.finance",
       "status": "ok",
       "endpoint": "https://kbtrading.org/sep24",
-      "fetchedAt": "2026-10-10T10:17:11.029Z",
+      "fetchedAt": "2026-10-10T16:03:52.219Z",
       "withdraw": {
         "CLPX": {
           "enabled": false
@@ -59,7 +59,7 @@
       "domain": "stellar.moneygram.com",
       "status": "ok",
       "endpoint": "https://stellar.moneygram.com/stellaradapterservice/sep24",
-      "fetchedAt": "2026-10-10T10:17:09.627Z",
+      "fetchedAt": "2026-10-10T16:03:51.881Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
@@ -76,7 +76,7 @@
       "domain": "ultracapital.xyz",
       "status": "ok",
       "endpoint": "https://ultracapital.xyz/sep24",
-      "fetchedAt": "2026-10-10T10:17:11.554Z",
+      "fetchedAt": "2026-10-10T16:03:53.497Z",
       "withdraw": {
         "ETH": {
           "enabled": true,
@@ -102,6 +102,9 @@
           "minAmount": 50,
           "maxAmount": 20000
         },
+        "BTC": {
+          "enabled": false
+        },
         "yBTC": {
           "enabled": true,
           "pricing": "published",
@@ -117,9 +120,6 @@
           "feePercent": 0,
           "minAmount": 20,
           "maxAmount": 100000
-        },
-        "BTC": {
-          "enabled": false
         }
       },
       "pricing": "published"
@@ -128,7 +128,7 @@
       "domain": "zeam.money",
       "status": "ok",
       "endpoint": "https://anchor.zeam.money/sep24",
-      "fetchedAt": "2026-10-10T10:17:11.176Z",
+      "fetchedAt": "2026-10-10T16:03:53.133Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
