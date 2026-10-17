@@ -1,15 +1,15 @@
 {
-  "checkedAt": "2026-10-17T07:21:22.070Z",
-  "scanFile": "scan-2026-10-17T07-20-07-313Z.json",
-  "accountsChecked": 101,
+  "checkedAt": "2026-10-17T11:52:03.332Z",
+  "scanFile": "scan-2026-10-17T11-51-29-456Z.json",
+  "accountsChecked": 47,
   "comparedAgainst": {
     "publishedAccounts": 104
   },
   "outcome": "blocked",
   "published": false,
   "counts": {
-    "errors": 8,
-    "warnings": 0
+    "errors": 5,
+    "warnings": 1
   },
   "findings": [
     {
@@ -39,26 +39,14 @@
     {
       "severity": "error",
       "code": "implausible-shrink",
-      "message": "aps.money account GBN32NH6TMWE4ZD4G245CF3UVOQRXD4FK3FDCLZ4DE5642HWFKSLLRMB fell from 78728 to 500 payments in one scan.",
-      "detail": "Published counts do not normally collapse — a drop this size means the scan lost records rather than that the ledger did, and publishing it would report an outage as an anchor going quiet. Most likely cause in this pipeline: the run had no DATABASE_URL, so it re-paged the most recent --max-records payments statelessly instead of accumulating via mergeWithHistory, and the published figures it is being compared against were built with that history. Expected when running locally; if it happens in CI, the database is unreachable and the scan is not publishable until it is back."
-    },
-    {
-      "severity": "error",
-      "code": "implausible-shrink",
       "message": "aqua.network account GAXSGZ2JM3LNWOO4WRGADISNMWO4HQLG4QBGUZRKH5ZHL3EQBGX73ICE fell from 4543 to 497 payments in one scan.",
       "detail": "Published counts do not normally collapse — a drop this size means the scan lost records rather than that the ledger did, and publishing it would report an outage as an anchor going quiet. Most likely cause in this pipeline: the run had no DATABASE_URL, so it re-paged the most recent --max-records payments statelessly instead of accumulating via mergeWithHistory, and the published figures it is being compared against were built with that history. Expected when running locally; if it happens in CI, the database is unreachable and the scan is not publishable until it is back."
     },
     {
-      "severity": "error",
-      "code": "implausible-shrink",
-      "message": "centre.io account GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN fell from 2870 to 444 payments in one scan.",
-      "detail": "Published counts do not normally collapse — a drop this size means the scan lost records rather than that the ledger did, and publishing it would report an outage as an anchor going quiet. Most likely cause in this pipeline: the run had no DATABASE_URL, so it re-paged the most recent --max-records payments statelessly instead of accumulating via mergeWithHistory, and the published figures it is being compared against were built with that history. Expected when running locally; if it happens in CI, the database is unreachable and the scan is not publishable until it is back."
-    },
-    {
-      "severity": "error",
-      "code": "implausible-shrink",
-      "message": "luxpayband.io account GDIU57QSVCGU7MTRC53RUWAADKIE75GFNG27C26URMU7CKHNXOQ5RDME fell from 34 to 10 payments in one scan.",
-      "detail": "Published counts do not normally collapse — a drop this size means the scan lost records rather than that the ledger did, and publishing it would report an outage as an anchor going quiet. Most likely cause in this pipeline: the run had no DATABASE_URL, so it re-paged the most recent --max-records payments statelessly instead of accumulating via mergeWithHistory, and the published figures it is being compared against were built with that history. Expected when running locally; if it happens in CI, the database is unreachable and the scan is not publishable until it is back."
+      "severity": "warning",
+      "code": "coverage-loss",
+      "message": "13 of 27 anchors resolved last scan but not this one.",
+      "detail": "Missing: aps.money, centre.io, clpx.finance, funtracker.site, gratz.io, ixinium.io, luxpayband.io, mgusd.moneygram.com, mobius.network, nafuloo.com, ngnc.online, pr.network, zeam.money. Confirm this is a real change (a domain that stopped declaring accounts) rather than a transient resolution failure."
     }
   ],
   "note": "This scan was NOT published. One or more invariants failed at error severity, and the site is still serving the previous scan's figures. Stale data is visible to a reader; an incoherent figure is not, so the update was withheld rather than shipped.",
