@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T18:02:15.054Z",
+  "generatedAt": "2026-10-25T20:27:27.626Z",
   "note": "Declared capability versus observed capability. A stellar.toml entry is a claim that an anchor supports a SEP; this records whether that endpoint actually answered when asked. Directories publish the claim and nothing checks it, which is the gap this measures.",
   "method": "One unauthenticated GET per declared endpoint, to the public /info path each SEP defines. SEP-10 is judged on answering a bare challenge request at all, since HTTP 400 is the correct response there and scoring it as failure would punish correct behaviour. Nothing is written and no transaction is created.",
   "limits": "A failed probe means this endpoint did not answer correctly from one vantage point at one moment. It does not mean the anchor is broken, dishonest or unsafe — geo-blocking, rate limiting, a deploy in progress, or auth on a path the SEP says should be open all look identical from here. One probe is an observation, not a verdict. Repeated failures across runs are worth more than any single one, and this file records a single run.",
@@ -262,8 +262,8 @@
         "ALYD",
         "AERN"
       ],
-      "tomlLatencyMs": 226,
-      "checkedAt": "2026-10-25T18:02:03.762Z",
+      "tomlLatencyMs": 258,
+      "checkedAt": "2026-10-25T20:27:16.139Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -311,8 +311,8 @@
         "PEN",
         "ARS"
       ],
-      "tomlLatencyMs": 186,
-      "checkedAt": "2026-10-25T18:02:03.291Z",
+      "tomlLatencyMs": 188,
+      "checkedAt": "2026-10-25T20:27:15.617Z",
       "counts": {
         "declared": 4,
         "observedWorking": 3,
@@ -325,7 +325,7 @@
           "declared": true,
           "endpoint": "https://api.anclap.com/transfer6",
           "observed": "yes",
-          "latencyMs": 230,
+          "latencyMs": 157,
           "httpStatus": 200,
           "assets": {
             "deposit": [
@@ -344,7 +344,7 @@
           "declared": true,
           "endpoint": "https://api.anclap.com/transfer24",
           "observed": "yes",
-          "latencyMs": 194,
+          "latencyMs": 104,
           "httpStatus": 200,
           "assets": {
             "deposit": [
@@ -380,7 +380,7 @@
           "declared": true,
           "endpoint": "https://api.anclap.com/auth",
           "observed": "yes",
-          "latencyMs": 58,
+          "latencyMs": 22,
           "httpStatus": 400,
           "note": "Answered a bare challenge request, which is the expected behaviour."
         }
@@ -393,8 +393,8 @@
       "declaredCurrencies": [
         "PHO"
       ],
-      "tomlLatencyMs": 221,
-      "checkedAt": "2026-10-25T18:02:03.983Z",
+      "tomlLatencyMs": 207,
+      "checkedAt": "2026-10-25T20:27:16.346Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -453,8 +453,8 @@
         "APSUSDM",
         "APSVNDM"
       ],
-      "tomlLatencyMs": 97,
-      "checkedAt": "2026-10-25T18:02:04.051Z",
+      "tomlLatencyMs": 197,
+      "checkedAt": "2026-10-25T20:27:16.483Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -507,8 +507,8 @@
         "DOWNVOTEICE",
         "GDICE"
       ],
-      "tomlLatencyMs": 89,
-      "checkedAt": "2026-10-25T18:02:04.072Z",
+      "tomlLatencyMs": 113,
+      "checkedAt": "2026-10-25T20:27:16.460Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -556,8 +556,8 @@
         "AUDD",
         "NZDSC"
       ],
-      "tomlLatencyMs": 613,
-      "checkedAt": "2026-10-25T18:02:06.348Z",
+      "tomlLatencyMs": 782,
+      "checkedAt": "2026-10-25T20:27:18.876Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -604,8 +604,8 @@
       "declaredCurrencies": [
         "BB1"
       ],
-      "tomlLatencyMs": 742,
-      "checkedAt": "2026-10-25T18:02:04.793Z",
+      "tomlLatencyMs": 611,
+      "checkedAt": "2026-10-25T20:27:17.071Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -652,8 +652,8 @@
       "declaredCurrencies": [
         "USDC"
       ],
-      "tomlLatencyMs": 149,
-      "checkedAt": "2026-10-25T18:02:04.221Z",
+      "tomlLatencyMs": 157,
+      "checkedAt": "2026-10-25T20:27:16.640Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -706,8 +706,8 @@
       "declaredCurrencies": [
         "CLPX"
       ],
-      "tomlLatencyMs": 914,
-      "checkedAt": "2026-10-25T18:02:05.518Z",
+      "tomlLatencyMs": 600,
+      "checkedAt": "2026-10-25T20:27:17.721Z",
       "counts": {
         "declared": 5,
         "observedWorking": 4,
@@ -720,7 +720,7 @@
           "declared": true,
           "endpoint": "https://kbtrading.org/sep6",
           "observed": "yes",
-          "latencyMs": 683,
+          "latencyMs": 642,
           "httpStatus": 200,
           "assets": {
             "deposit": [
@@ -739,7 +739,7 @@
           "declared": true,
           "endpoint": "https://kbtrading.org/sep24",
           "observed": "yes",
-          "latencyMs": 257,
+          "latencyMs": 251,
           "httpStatus": 200,
           "assets": {
             "deposit": [
@@ -758,7 +758,7 @@
           "declared": true,
           "endpoint": "https://kbtrading.org/sep31",
           "observed": "yes",
-          "latencyMs": 203,
+          "latencyMs": 196,
           "httpStatus": 200,
           "assets": {
             "send": [
@@ -784,7 +784,7 @@
           "declared": true,
           "endpoint": "https://kbtrading.org/auth",
           "observed": "yes",
-          "latencyMs": 167,
+          "latencyMs": 160,
           "httpStatus": 400,
           "note": "Answered a bare challenge request, which is the expected behaviour."
         }
@@ -797,8 +797,8 @@
       "declaredCurrencies": [
         "NGNT"
       ],
-      "tomlLatencyMs": 489,
-      "checkedAt": "2026-10-25T18:02:03.532Z",
+      "tomlLatencyMs": 457,
+      "checkedAt": "2026-10-25T20:27:16.286Z",
       "counts": {
         "declared": 4,
         "observedWorking": 3,
@@ -811,7 +811,7 @@
           "declared": true,
           "endpoint": "https://api.cowrie.exchange/transfer",
           "observed": "yes",
-          "latencyMs": 252,
+          "latencyMs": 327,
           "httpStatus": 200,
           "assets": {
             "deposit": [
@@ -833,7 +833,7 @@
           "declared": true,
           "endpoint": "https://api.cowrie.exchange/sep31/direct",
           "observed": "yes",
-          "latencyMs": 159,
+          "latencyMs": 387,
           "httpStatus": 200,
           "assets": {
             "send": [
@@ -860,7 +860,7 @@
           "declared": true,
           "endpoint": "https://api.cowrie.exchange/web_auth",
           "observed": "yes",
-          "latencyMs": 53,
+          "latencyMs": 31,
           "httpStatus": 400,
           "note": "Answered a bare challenge request, which is the expected behaviour."
         }
@@ -873,8 +873,8 @@
       "declaredCurrencies": [
         "UAH"
       ],
-      "tomlLatencyMs": 523,
-      "checkedAt": "2026-10-25T18:02:06.332Z",
+      "tomlLatencyMs": 431,
+      "checkedAt": "2026-10-25T20:27:18.601Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -922,8 +922,8 @@
         "XLM",
         "USDC"
       ],
-      "tomlLatencyMs": 251,
-      "checkedAt": "2026-10-25T18:02:03.953Z",
+      "tomlLatencyMs": 189,
+      "checkedAt": "2026-10-25T20:27:15.876Z",
       "counts": {
         "declared": 5,
         "observedWorking": 0,
@@ -936,7 +936,7 @@
           "declared": true,
           "endpoint": "https://api.finclusive.com/stellar/transfer",
           "observed": "no",
-          "latencyMs": 220,
+          "latencyMs": 21,
           "note": "fetch failed"
         },
         "SEP-24": {
@@ -944,7 +944,7 @@
           "declared": true,
           "endpoint": "https://api.finclusive.com/stellar/transfer",
           "observed": "no",
-          "latencyMs": 134,
+          "latencyMs": 16,
           "note": "fetch failed"
         },
         "SEP-31": {
@@ -952,7 +952,7 @@
           "declared": true,
           "endpoint": "https://api.finclusive.com/stellar/directpayment",
           "observed": "no",
-          "latencyMs": 137,
+          "latencyMs": 13,
           "note": "fetch failed"
         },
         "SEP-38": {
@@ -972,7 +972,7 @@
           "declared": true,
           "endpoint": "https://api.finclusive.com/stellar/authentication",
           "observed": "no",
-          "latencyMs": 134,
+          "latencyMs": 18,
           "note": "fetch failed"
         }
       }
@@ -990,8 +990,8 @@
         "BEER",
         "INR"
       ],
-      "tomlLatencyMs": 568,
-      "checkedAt": "2026-10-25T18:02:04.789Z",
+      "tomlLatencyMs": 621,
+      "checkedAt": "2026-10-25T20:27:17.262Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -1038,8 +1038,8 @@
       "declaredCurrencies": [
         "GRAT"
       ],
-      "tomlLatencyMs": 59,
-      "checkedAt": "2026-10-25T18:02:04.849Z",
+      "tomlLatencyMs": 73,
+      "checkedAt": "2026-10-25T20:27:17.145Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -1087,8 +1087,8 @@
         "XXA",
         "IXAT"
       ],
-      "tomlLatencyMs": 443,
-      "checkedAt": "2026-10-25T18:02:05.236Z",
+      "tomlLatencyMs": 420,
+      "checkedAt": "2026-10-25T20:27:17.500Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -1140,8 +1140,8 @@
         "DRINKS",
         "TICKETS"
       ],
-      "tomlLatencyMs": 81,
-      "checkedAt": "2026-10-25T18:02:04.931Z",
+      "tomlLatencyMs": 123,
+      "checkedAt": "2026-10-25T20:27:17.268Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -1188,8 +1188,8 @@
       "declaredCurrencies": [
         "MGUSD"
       ],
-      "tomlLatencyMs": 195,
-      "checkedAt": "2026-10-25T18:02:05.126Z",
+      "tomlLatencyMs": 101,
+      "checkedAt": "2026-10-25T20:27:17.363Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -1236,8 +1236,8 @@
       "declaredCurrencies": [
         "MOBI"
       ],
-      "tomlLatencyMs": 203,
-      "checkedAt": "2026-10-25T18:02:05.181Z",
+      "tomlLatencyMs": 189,
+      "checkedAt": "2026-10-25T20:27:17.458Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -1284,8 +1284,8 @@
       "declaredCurrencies": [
         "EURC"
       ],
-      "tomlLatencyMs": 191,
-      "checkedAt": "2026-10-25T18:02:02.942Z",
+      "tomlLatencyMs": 258,
+      "checkedAt": "2026-10-25T20:27:15.619Z",
       "counts": {
         "declared": 5,
         "observedWorking": 0,
@@ -1298,7 +1298,7 @@
           "declared": true,
           "endpoint": "https://stellar.mykobo.co/sep6",
           "observed": "no",
-          "latencyMs": 64,
+          "latencyMs": 65,
           "note": "fetch failed"
         },
         "SEP-24": {
@@ -1306,7 +1306,7 @@
           "declared": true,
           "endpoint": "https://stellar.mykobo.co/sep24",
           "observed": "no",
-          "latencyMs": 26,
+          "latencyMs": 47,
           "note": "fetch failed"
         },
         "SEP-31": {
@@ -1314,7 +1314,7 @@
           "declared": true,
           "endpoint": "https://stellar.mykobo.co/sep31",
           "observed": "no",
-          "latencyMs": 25,
+          "latencyMs": 73,
           "note": "fetch failed"
         },
         "SEP-38": {
@@ -1334,7 +1334,7 @@
           "declared": true,
           "endpoint": "https://stellar.mykobo.co/auth",
           "observed": "no",
-          "latencyMs": 13,
+          "latencyMs": 34,
           "note": "fetch failed"
         }
       }
@@ -1347,8 +1347,8 @@
         "NAFU",
         "NFIUM"
       ],
-      "tomlLatencyMs": 102,
-      "checkedAt": "2026-10-25T18:02:05.228Z",
+      "tomlLatencyMs": 140,
+      "checkedAt": "2026-10-25T20:27:17.503Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -1397,8 +1397,8 @@
         "GHSC",
         "KESC"
       ],
-      "tomlLatencyMs": 174,
-      "checkedAt": "2026-10-25T18:02:05.474Z",
+      "tomlLatencyMs": 133,
+      "checkedAt": "2026-10-25T20:27:17.697Z",
       "counts": {
         "declared": 2,
         "observedWorking": 0,
@@ -1416,7 +1416,7 @@
           "declared": true,
           "endpoint": "https://anchor.ngnc.online/sep24",
           "observed": "no",
-          "latencyMs": 54,
+          "latencyMs": 61,
           "httpStatus": 403,
           "note": "Returned HTTP 403."
         },
@@ -1440,7 +1440,7 @@
           "declared": true,
           "endpoint": "https://anchor.ngnc.online/auth",
           "observed": "no",
-          "latencyMs": 64,
+          "latencyMs": 45,
           "httpStatus": 403,
           "note": "Returned HTTP 403."
         }
@@ -1453,8 +1453,8 @@
       "declaredCurrencies": [
         "BRL"
       ],
-      "tomlLatencyMs": 559,
-      "checkedAt": "2026-10-25T18:02:04.978Z",
+      "tomlLatencyMs": 508,
+      "checkedAt": "2026-10-25T20:27:17.080Z",
       "counts": {
         "declared": 5,
         "observedWorking": 4,
@@ -1467,7 +1467,7 @@
           "declared": true,
           "endpoint": "https://ntokens-box.bpventures.us/sep6",
           "observed": "yes",
-          "latencyMs": 666,
+          "latencyMs": 284,
           "httpStatus": 200,
           "assets": {
             "deposit": [
@@ -1484,7 +1484,7 @@
           "declared": true,
           "endpoint": "https://ntokens-box.bpventures.us/sep24",
           "observed": "yes",
-          "latencyMs": 283,
+          "latencyMs": 253,
           "httpStatus": 200,
           "assets": {
             "deposit": [
@@ -1501,7 +1501,7 @@
           "declared": true,
           "endpoint": "https://ntokens-box.bpventures.us/sep31",
           "observed": "yes",
-          "latencyMs": 327,
+          "latencyMs": 287,
           "httpStatus": 200,
           "assets": {
             "send": [
@@ -1527,7 +1527,7 @@
           "declared": true,
           "endpoint": "https://ntokens-box.bpventures.us/auth",
           "observed": "yes",
-          "latencyMs": 201,
+          "latencyMs": 173,
           "httpStatus": 400,
           "note": "Answered a bare challenge request, which is the expected behaviour."
         }
@@ -1553,8 +1553,8 @@
         "GYEN",
         "ZUSD"
       ],
-      "tomlLatencyMs": 116,
-      "checkedAt": "2026-10-25T18:02:05.809Z",
+      "tomlLatencyMs": 123,
+      "checkedAt": "2026-10-25T20:27:18.094Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -1601,8 +1601,8 @@
       "declaredCurrencies": [
         "USDC"
       ],
-      "tomlLatencyMs": 146,
-      "checkedAt": "2026-10-25T18:02:03.046Z",
+      "tomlLatencyMs": 235,
+      "checkedAt": "2026-10-25T20:27:15.573Z",
       "counts": {
         "declared": 2,
         "observedWorking": 1,
@@ -1620,7 +1620,7 @@
           "declared": true,
           "endpoint": "https://stellar.moneygram.com/stellaradapterservice/sep24",
           "observed": "yes",
-          "latencyMs": 129,
+          "latencyMs": 109,
           "httpStatus": 200,
           "assets": {
             "deposit": [
@@ -1652,7 +1652,7 @@
           "declared": true,
           "endpoint": "https://stellar.moneygram.com/stellaradapterservice/auth",
           "observed": "no",
-          "latencyMs": 144,
+          "latencyMs": 80,
           "httpStatus": 500,
           "note": "Returned HTTP 500."
         }
@@ -1668,8 +1668,8 @@
         "XRP",
         "LTC"
       ],
-      "tomlLatencyMs": 87,
-      "checkedAt": "2026-10-25T18:02:05.693Z",
+      "tomlLatencyMs": 132,
+      "checkedAt": "2026-10-25T20:27:18.170Z",
       "counts": {
         "declared": 2,
         "observedWorking": 1,
@@ -1682,7 +1682,7 @@
           "declared": true,
           "endpoint": "https://a3s.api.stellarport.io/v3/GBVOL67TMUQBGL4TZYNMY3ZQ5WGQYFPFD5VJRWXR72VA33VFNL225PL5",
           "observed": "no",
-          "latencyMs": 50,
+          "latencyMs": 81,
           "note": "fetch failed"
         },
         "SEP-24": {
@@ -1710,7 +1710,7 @@
           "declared": true,
           "endpoint": "https://api.stellarport.io/Authentication",
           "observed": "yes",
-          "latencyMs": 320,
+          "latencyMs": 454,
           "httpStatus": 400,
           "note": "Answered a bare challenge request, which is the expected behaviour."
         }
@@ -1728,8 +1728,8 @@
         "ETH",
         "BTC"
       ],
-      "tomlLatencyMs": 727,
-      "checkedAt": "2026-10-25T18:02:06.853Z",
+      "tomlLatencyMs": 492,
+      "checkedAt": "2026-10-25T20:27:18.778Z",
       "counts": {
         "declared": 3,
         "observedWorking": 3,
@@ -1742,16 +1742,16 @@
           "declared": true,
           "endpoint": "https://ultracapital.xyz/sep6",
           "observed": "yes",
-          "latencyMs": 242,
+          "latencyMs": 223,
           "httpStatus": 200,
           "assets": {
             "deposit": [
-              "BTC",
-              "ETH"
+              "ETH",
+              "BTC"
             ],
             "withdraw": [
-              "BTC",
-              "ETH"
+              "ETH",
+              "BTC"
             ]
           },
           "note": "2 depositable, 2 withdrawable asset(s)."
@@ -1761,22 +1761,22 @@
           "declared": true,
           "endpoint": "https://ultracapital.xyz/sep24",
           "observed": "yes",
-          "latencyMs": 501,
+          "latencyMs": 471,
           "httpStatus": 200,
           "assets": {
             "deposit": [
-              "BTC",
               "ETH",
               "yETH",
               "yUSDC",
+              "BTC",
               "yXLM",
               "yBTC"
             ],
             "withdraw": [
-              "BTC",
               "ETH",
               "yETH",
               "yUSDC",
+              "BTC",
               "yXLM",
               "yBTC"
             ]
@@ -1803,7 +1803,7 @@
           "declared": true,
           "endpoint": "https://ultracapital.xyz/auth",
           "observed": "yes",
-          "latencyMs": 99,
+          "latencyMs": 43,
           "httpStatus": 400,
           "note": "Answered a bare challenge request, which is the expected behaviour."
         }
@@ -1814,8 +1814,8 @@
       "orgName": null,
       "reachable": true,
       "declaredCurrencies": [],
-      "tomlLatencyMs": 94,
-      "checkedAt": "2026-10-25T18:02:02.719Z",
+      "tomlLatencyMs": 195,
+      "checkedAt": "2026-10-25T20:27:15.340Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -1862,8 +1862,8 @@
       "declaredCurrencies": [
         "VCHF"
       ],
-      "tomlLatencyMs": 260,
-      "checkedAt": "2026-10-25T18:02:05.734Z",
+      "tomlLatencyMs": 274,
+      "checkedAt": "2026-10-25T20:27:17.971Z",
       "counts": {
         "declared": 0,
         "observedWorking": 0,
@@ -1917,8 +1917,8 @@
         "GBPZ",
         "RCAPS"
       ],
-      "tomlLatencyMs": 102,
-      "checkedAt": "2026-10-25T18:02:06.354Z",
+      "tomlLatencyMs": 196,
+      "checkedAt": "2026-10-25T20:27:18.612Z",
       "counts": {
         "declared": 5,
         "observedWorking": 4,
@@ -1936,7 +1936,7 @@
           "declared": true,
           "endpoint": "https://anchor.zeam.money/sep24",
           "observed": "yes",
-          "latencyMs": 188,
+          "latencyMs": 199,
           "httpStatus": 200,
           "assets": {
             "deposit": [
@@ -1955,7 +1955,7 @@
           "declared": true,
           "endpoint": "https://anchor.zeam.money/sep31",
           "observed": "yes",
-          "latencyMs": 187,
+          "latencyMs": 171,
           "httpStatus": 200,
           "assets": {
             "send": [
@@ -1969,7 +1969,7 @@
           "declared": true,
           "endpoint": "https://anchor.zeam.money/sep38",
           "observed": "yes",
-          "latencyMs": 182,
+          "latencyMs": 159,
           "httpStatus": 200,
           "note": "Quote server answered."
         },
@@ -1985,7 +1985,7 @@
           "declared": true,
           "endpoint": "https://anchor.zeam.money/auth",
           "observed": "yes",
-          "latencyMs": 177,
+          "latencyMs": 165,
           "httpStatus": 400,
           "note": "Answered a bare challenge request, which is the expected behaviour."
         }
