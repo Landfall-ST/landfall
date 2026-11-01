@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-01T20:02:55.463Z",
+  "generatedAt": "2026-11-01T23:26:21.451Z",
   "stpVersion": "1",
   "window": {
-    "since": "2026-10-02T20:02:29.529Z",
+    "since": "2026-10-02T23:25:58.012Z",
     "days": 30,
     "maxRecordsPerAccount": 200
   },
@@ -55,7 +55,7 @@
     }
   ],
   "totals": {
-    "PROVEN": 2878,
+    "PROVEN": 2877,
     "ATTESTED": 0,
     "DERIVED": 0
   },
@@ -63,12 +63,12 @@
     {
       "anchorId": "ultracapital.xyz",
       "evidence": {
-        "PROVEN": 475,
+        "PROVEN": 474,
         "ATTESTED": 0,
         "DERIVED": 0
       },
-      "tierMix": "PROVEN 475 · ATTESTED 0 · DERIVED 0",
-      "rationale": "Ranked on 475 ledger-proven settlement(s)."
+      "tierMix": "PROVEN 474 · ATTESTED 0 · DERIVED 0",
+      "rationale": "Ranked on 474 ledger-proven settlement(s)."
     },
     {
       "anchorId": "centre.io",
@@ -1108,19 +1108,19 @@
             "events": 301,
             "byAsset": [
               {
-                "asset": "APSEURM",
-                "count": 122,
-                "volume": "2151263.64"
+                "asset": "APSUSDM",
+                "count": 110,
+                "volume": "2437608.12"
               },
               {
-                "asset": "APSUSDM",
-                "count": 89,
-                "volume": "2423740.62"
+                "asset": "APSEURM",
+                "count": 83,
+                "volume": "2150284.29"
               },
               {
                 "asset": "APSBPIUSD",
-                "count": 54,
-                "volume": "23293.66"
+                "count": 76,
+                "volume": "26186.05"
               },
               {
                 "asset": "XLM",
@@ -1129,18 +1129,28 @@
               },
               {
                 "asset": "APSBPOUSD",
-                "count": 9,
-                "volume": "741.06"
-              },
-              {
-                "asset": "APSBPIEUR",
-                "count": 7,
-                "volume": "433.98"
+                "count": 10,
+                "volume": "11393.06"
               },
               {
                 "asset": "APSSARM",
-                "count": 6,
-                "volume": "6706540.61"
+                "count": 5,
+                "volume": "6706361.25"
+              },
+              {
+                "asset": "APSBPOEUR",
+                "count": 1,
+                "volume": "53.2500000"
+              },
+              {
+                "asset": "APSBPIEUR",
+                "count": 1,
+                "volume": "25.0000000"
+              },
+              {
+                "asset": "APSBPIGBP",
+                "count": 1,
+                "volume": "26.6700000"
               }
             ]
           },
@@ -1313,28 +1323,28 @@
               },
               {
                 "asset": "upvoteICE",
-                "count": 45,
-                "volume": "353196893.6124629"
+                "count": 43,
+                "volume": "46533355.4490824"
               },
               {
                 "asset": "governICE",
-                "count": 45,
-                "volume": "353196893.6124629"
+                "count": 43,
+                "volume": "46533355.4490824"
               },
               {
                 "asset": "ICE",
-                "count": 45,
-                "volume": "353196893.6124629"
+                "count": 43,
+                "volume": "46533355.4490824"
               },
               {
                 "asset": "gdICE",
-                "count": 33,
-                "volume": "487956427.1987917"
+                "count": 36,
+                "volume": "740499413.7080684"
               },
               {
                 "asset": "dICE",
-                "count": 32,
-                "volume": "484895891.1502669"
+                "count": 35,
+                "volume": "737438877.6595436"
               },
               {
                 "asset": "XLM",
@@ -3027,7 +3037,7 @@
               {
                 "asset": "XTAR",
                 "count": 180,
-                "volume": "0.0211143"
+                "volume": "0.021108"
               },
               {
                 "asset": "XLM",
@@ -4844,8 +4854,13 @@
         "tiers": [
           {
             "tier": "PROVEN",
-            "events": 475,
+            "events": 474,
             "byAsset": [
+              {
+                "asset": "yXLM",
+                "count": 272,
+                "volume": "1464025.6210458"
+              },
               {
                 "asset": "XLM",
                 "count": 166,
@@ -4853,18 +4868,8 @@
               },
               {
                 "asset": "yUSDC",
-                "count": 118,
-                "volume": "143580.2233166"
-              },
-              {
-                "asset": "yETH",
-                "count": 111,
-                "volume": "1.5011443"
-              },
-              {
-                "asset": "yXLM",
-                "count": 72,
-                "volume": "1430539.659201"
+                "count": 27,
+                "volume": "143415.0002031"
               },
               {
                 "asset": "ETH",
@@ -4875,6 +4880,11 @@
                 "asset": "yBTC",
                 "count": 2,
                 "volume": "0.8110755"
+              },
+              {
+                "asset": "yETH",
+                "count": 1,
+                "volume": "1.5000000"
               },
               {
                 "asset": "BTC",
@@ -4899,7 +4909,7 @@
             "chain": "stellar",
             "maxTier": "PROVEN",
             "state": "observed",
-            "events": 475,
+            "events": 474,
             "sourcesScanned": 13,
             "sourcesFailed": 0
           },
@@ -4967,8 +4977,8 @@
             "note": "no solana address curated for this anchor in registry/anchors.registry.json"
           }
         ],
-        "totalEvents": 475,
-        "tierMix": "PROVEN 475 · ATTESTED 0 · DERIVED 0"
+        "totalEvents": 474,
+        "tierMix": "PROVEN 474 · ATTESTED 0 · DERIVED 0"
       },
       "failures": [],
       "sampleAttestations": [
