@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T13:30:27.548Z",
+  "generatedAt": "2026-11-12T21:18:16.193Z",
   "source": "each anchor's own SEP-24 /info endpoint, reached via its stellar.toml",
   "note": "Withdrawal terms as the operator publishes them, not as we estimate them. `pricing` is \"published\" when the anchor states fee_fixed/fee_percent, \"dynamic\" when it says fees exist but are quoted per transaction, and the anchor is omitted entirely when /info could not be reached — which is not the same as free, and not the same as declining to say.",
   "caveat": "These are the fees the anchor advertises. The binding number is the one quoted inside its own withdrawal flow, which may differ; nothing here is a quote.",
@@ -14,7 +14,7 @@
       "domain": "anclap.com",
       "status": "ok",
       "endpoint": "https://api.anclap.com/transfer24",
-      "fetchedAt": "2026-11-12T13:30:10.328Z",
+      "fetchedAt": "2026-11-12T21:18:04.184Z",
       "withdraw": {
         "ARS": {
           "enabled": true,
@@ -39,7 +39,7 @@
       "domain": "clpx.finance",
       "status": "ok",
       "endpoint": "https://kbtrading.org/sep24",
-      "fetchedAt": "2026-11-12T13:30:11.738Z",
+      "fetchedAt": "2026-11-12T21:18:05.508Z",
       "withdraw": {
         "CLPX": {
           "enabled": false
@@ -59,7 +59,7 @@
       "domain": "ntokens.com",
       "status": "ok",
       "endpoint": "https://ntokens-box.bpventures.us/sep24",
-      "fetchedAt": "2026-11-12T13:30:11.211Z",
+      "fetchedAt": "2026-11-12T21:18:05.037Z",
       "withdraw": {
         "BRL": {
           "enabled": true,
@@ -76,7 +76,7 @@
       "domain": "stellar.moneygram.com",
       "status": "ok",
       "endpoint": "https://stellar.moneygram.com/stellaradapterservice/sep24",
-      "fetchedAt": "2026-11-12T13:30:10.279Z",
+      "fetchedAt": "2026-11-12T21:18:04.257Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
@@ -93,15 +93,15 @@
       "domain": "ultracapital.xyz",
       "status": "ok",
       "endpoint": "https://ultracapital.xyz/sep24",
-      "fetchedAt": "2026-11-12T13:30:27.540Z",
+      "fetchedAt": "2026-11-12T21:18:07.589Z",
       "withdraw": {
-        "yBTC": {
+        "BTC": {
           "enabled": false
         },
         "ETH": {
           "enabled": false
         },
-        "BTC": {
+        "yBTC": {
           "enabled": false
         },
         "yXLM": {
@@ -129,7 +129,7 @@
       "domain": "zeam.money",
       "status": "ok",
       "endpoint": "https://anchor.zeam.money/sep24",
-      "fetchedAt": "2026-11-12T13:30:12.412Z",
+      "fetchedAt": "2026-11-12T21:18:06.096Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
@@ -154,8 +154,8 @@
   "unavailable": [
     {
       "domain": "afreum.com",
-      "status": "unreachable",
-      "reason": "stellar.toml: HTTP 523"
+      "status": "no-sep24",
+      "reason": "stellar.toml declares no TRANSFER_SERVER_SEP0024"
     },
     {
       "domain": "app.phoenix-hub.io",
@@ -190,7 +190,7 @@
     {
       "domain": "clickpesa.com",
       "status": "unreachable",
-      "reason": "stellar.toml: HTTP 404"
+      "reason": "stellar.toml: fetch failed"
     },
     {
       "domain": "cowrie.exchange",
