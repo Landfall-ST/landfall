@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-17T14:01:23.594Z",
-  "scanFile": "scan-2026-11-17T14-00-09-235Z.json",
-  "accountsChecked": 108,
+  "checkedAt": "2026-11-17T22:04:16.057Z",
+  "scanFile": "scan-2026-11-17T22-03-05-522Z.json",
+  "accountsChecked": 107,
   "comparedAgainst": {
     "publishedAccounts": 104
   },
   "outcome": "blocked",
   "published": false,
   "counts": {
-    "errors": 9,
+    "errors": 8,
     "warnings": 0
   },
   "findings": [
@@ -45,19 +45,13 @@
     {
       "severity": "error",
       "code": "implausible-shrink",
-      "message": "aqua.network account GAXSGZ2JM3LNWOO4WRGADISNMWO4HQLG4QBGUZRKH5ZHL3EQBGX73ICE fell from 4543 to 494 payments in one scan.",
-      "detail": "Published counts do not normally collapse — a drop this size means the scan lost records rather than that the ledger did, and publishing it would report an outage as an anchor going quiet. Most likely cause in this pipeline: the run had no DATABASE_URL, so it re-paged the most recent --max-records payments statelessly instead of accumulating via mergeWithHistory, and the published figures it is being compared against were built with that history. Expected when running locally; if it happens in CI, the database is unreachable and the scan is not publishable until it is back."
-    },
-    {
-      "severity": "error",
-      "code": "implausible-shrink",
       "message": "centre.io account GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN fell from 2870 to 494 payments in one scan.",
       "detail": "Published counts do not normally collapse — a drop this size means the scan lost records rather than that the ledger did, and publishing it would report an outage as an anchor going quiet. Most likely cause in this pipeline: the run had no DATABASE_URL, so it re-paged the most recent --max-records payments statelessly instead of accumulating via mergeWithHistory, and the published figures it is being compared against were built with that history. Expected when running locally; if it happens in CI, the database is unreachable and the scan is not publishable until it is back."
     },
     {
       "severity": "error",
       "code": "implausible-shrink",
-      "message": "luxpayband.io account GDIU57QSVCGU7MTRC53RUWAADKIE75GFNG27C26URMU7CKHNXOQ5RDME fell from 34 to 13 payments in one scan.",
+      "message": "luxpayband.io account GDIU57QSVCGU7MTRC53RUWAADKIE75GFNG27C26URMU7CKHNXOQ5RDME fell from 34 to 12 payments in one scan.",
       "detail": "Published counts do not normally collapse — a drop this size means the scan lost records rather than that the ledger did, and publishing it would report an outage as an anchor going quiet. Most likely cause in this pipeline: the run had no DATABASE_URL, so it re-paged the most recent --max-records payments statelessly instead of accumulating via mergeWithHistory, and the published figures it is being compared against were built with that history. Expected when running locally; if it happens in CI, the database is unreachable and the scan is not publishable until it is back."
     },
     {
