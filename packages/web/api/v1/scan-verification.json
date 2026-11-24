@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-24T01:25:26.963Z",
-  "scanFile": "scan-2026-11-24T01-24-06-769Z.json",
+  "checkedAt": "2026-11-24T11:51:09.912Z",
+  "scanFile": "scan-2026-11-24T11-49-51-607Z.json",
   "accountsChecked": 105,
   "comparedAgainst": {
     "publishedAccounts": 104
@@ -51,13 +51,13 @@
     {
       "severity": "error",
       "code": "implausible-shrink",
-      "message": "luxpayband.io account GDIU57QSVCGU7MTRC53RUWAADKIE75GFNG27C26URMU7CKHNXOQ5RDME fell from 34 to 12 payments in one scan.",
+      "message": "luxpayband.io account GDIU57QSVCGU7MTRC53RUWAADKIE75GFNG27C26URMU7CKHNXOQ5RDME fell from 34 to 10 payments in one scan.",
       "detail": "Published counts do not normally collapse — a drop this size means the scan lost records rather than that the ledger did, and publishing it would report an outage as an anchor going quiet. Most likely cause in this pipeline: the run had no DATABASE_URL, so it re-paged the most recent --max-records payments statelessly instead of accumulating via mergeWithHistory, and the published figures it is being compared against were built with that history. Expected when running locally; if it happens in CI, the database is unreachable and the scan is not publishable until it is back."
     },
     {
       "severity": "error",
       "code": "implausible-shrink",
-      "message": "ultracapital.xyz account GARDNV3Q7YGT4AKSDF25LT32YSCCW4EV22Y2TV3I2PU2MMXJTEDL5T55 fell from 140 to 56 payments in one scan.",
+      "message": "ultracapital.xyz account GARDNV3Q7YGT4AKSDF25LT32YSCCW4EV22Y2TV3I2PU2MMXJTEDL5T55 fell from 140 to 54 payments in one scan.",
       "detail": "Published counts do not normally collapse — a drop this size means the scan lost records rather than that the ledger did, and publishing it would report an outage as an anchor going quiet. Most likely cause in this pipeline: the run had no DATABASE_URL, so it re-paged the most recent --max-records payments statelessly instead of accumulating via mergeWithHistory, and the published figures it is being compared against were built with that history. Expected when running locally; if it happens in CI, the database is unreachable and the scan is not publishable until it is back."
     }
   ],
