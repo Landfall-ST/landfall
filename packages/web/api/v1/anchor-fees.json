@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T04:44:39.914Z",
+  "generatedAt": "2026-11-25T15:11:42.394Z",
   "source": "each anchor's own SEP-24 /info endpoint, reached via its stellar.toml",
   "note": "Withdrawal terms as the operator publishes them, not as we estimate them. `pricing` is \"published\" when the anchor states fee_fixed/fee_percent, \"dynamic\" when it says fees exist but are quoted per transaction, and the anchor is omitted entirely when /info could not be reached — which is not the same as free, and not the same as declining to say.",
   "caveat": "These are the fees the anchor advertises. The binding number is the one quoted inside its own withdrawal flow, which may differ; nothing here is a quote.",
@@ -14,7 +14,7 @@
       "domain": "clpx.finance",
       "status": "ok",
       "endpoint": "https://kbtrading.org/sep24",
-      "fetchedAt": "2026-11-25T04:44:29.483Z",
+      "fetchedAt": "2026-11-25T15:11:31.577Z",
       "withdraw": {
         "CLPX": {
           "enabled": false
@@ -34,7 +34,7 @@
       "domain": "ntokens.com",
       "status": "ok",
       "endpoint": "https://ntokens-box.bpventures.us/sep24",
-      "fetchedAt": "2026-11-25T04:44:28.751Z",
+      "fetchedAt": "2026-11-25T15:11:31.494Z",
       "withdraw": {
         "BRL": {
           "enabled": true,
@@ -51,7 +51,7 @@
       "domain": "stellar.moneygram.com",
       "status": "ok",
       "endpoint": "https://stellar.moneygram.com/stellaradapterservice/sep24",
-      "fetchedAt": "2026-11-25T04:44:28.033Z",
+      "fetchedAt": "2026-11-25T15:11:30.454Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
@@ -68,7 +68,7 @@
       "domain": "ultracapital.xyz",
       "status": "ok",
       "endpoint": "https://ultracapital.xyz/sep24",
-      "fetchedAt": "2026-11-25T04:44:30.639Z",
+      "fetchedAt": "2026-11-25T15:11:33.561Z",
       "withdraw": {
         "ETH": {
           "enabled": true,
@@ -76,13 +76,13 @@
           "minAmount": 0.005,
           "maxAmount": 20
         },
+        "BTC": {
+          "enabled": false
+        },
         "yBTC": {
           "enabled": false
         },
         "yXLM": {
-          "enabled": false
-        },
-        "BTC": {
           "enabled": false
         },
         "yUSDC": {
@@ -104,7 +104,7 @@
       "domain": "zeam.money",
       "status": "ok",
       "endpoint": "https://anchor.zeam.money/sep24",
-      "fetchedAt": "2026-11-25T04:44:30.138Z",
+      "fetchedAt": "2026-11-25T15:11:32.362Z",
       "withdraw": {
         "USDC": {
           "enabled": true,
